@@ -1,0 +1,63 @@
+name: Deploy LINCA (manual)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build (LINCA)
+        run: npm run build
+        env:
+          NODE_ENV: production
+          NEXT_PUBLIC_BASE_PATH: /song-list-linca-tojou
+          SITE_ID: linca
+
+      # 出力先が out/ でも build/ でも吸収して out_linca/ に統一する（設定変更最小）
+      - name: Normalize output dir -> out_linca and write marker
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -d "out" ]; then
+            EXPORT_DIR="out"
+          elif [ -d "build" ]; then
+            EXPORT_DIR="build"
+          else
+            echo "No export dir found. Expected ./out or ./build"
+            ls -la
+            exit 1
+          fi
+
+          rm -rf out_linca
+          mv "${EXPORT_DIR}" out_linca
+
+          echo "linca" > out_linca/site-id.txt
+
+      - name: Guard (prevent wrong deploy)
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f out_linca/site-id.txt
+          grep -qx "linca" out_linca/site-id.txt
+
+      - name: Publish to song-list-linca-tojou (gh-pages)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          external_repository: katsu1101/song-list-linca-tojou
+          publish_branch: gh-pages
+          publish_dir: ./out_linca
+          enable_jekyll: false
+          force_orphan: true

@@ -3,7 +3,10 @@ import fs from "fs";
 import path from "path";
 
 const isProd = process.env.NODE_ENV === "production";
-const repoName = "song-list-linca-tojou";
+const fallbackRepoName  = "song-list-linca-tojou";
+
+const basePath =
+  isProd ? (process.env.NEXT_PUBLIC_BASE_PATH ?? `/${fallbackRepoName}`) : "";
 
 // 🔽 追加: ビルドバージョンを更新する関数
 const updateBuildVersion = () => {
@@ -21,10 +24,9 @@ const nextConfig: NextConfig = {
   output: "export", // ✅ 静的サイト化
   images: { unoptimized: true }, // ✅ GitHub Pages は画像最適化ができないため無効化
   trailingSlash: true, // ✅ URL の末尾に `/` を追加（GitHub Pages 互換）
-  basePath: isProd ? `/${repoName}` : "", // ✅ 本番のみ basePath 設定
-  assetPrefix: isProd ? `/${repoName}/` : "", // ✅ CSS/JS のパスを修正
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : "",
   reactStrictMode: true,
-  distDir: "build", // ビルドファイルの出力ディレクトリを変更（オプション）
   pwa: {
     dest: "public",
     register: true,

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env NODE_ENV=production NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou next build",
+    "build:linca": "cross-env NODE_ENV=production SITE_ID=linca NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou next build",
+    "build:reshra": "cross-env NODE_ENV=production SITE_ID=reshra NEXT_PUBLIC_BASE_PATH=/song-list-reshra-hanamaki next build",
     "start": "next start",
     "lint": "next lint",
     "fetch:json": "powershell -Command \"Invoke-WebRequest -Uri 'http://localhost:3000/api/generate' -OutFile 'public/songs.json'\"",
