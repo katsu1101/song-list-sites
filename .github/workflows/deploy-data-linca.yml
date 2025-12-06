@@ -1,0 +1,58 @@
+name: Deploy LINCA data (manual)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  deploy-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source (song-list-sites)
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # ここはあなたの実態に合わせて：
+      # - songs.json を生成しているなら生成コマンドを呼ぶ
+      # - songinfo.csv は既に public にあるなら不要
+      - name: Generate data if needed
+        run: |
+          # 例: 生成スクリプトがあるなら
+          # npm run generate:json
+          # npm run generate:csv
+          node -e "const fs=require('fs'); fs.writeFileSync('public/data-version.json', JSON.stringify({version:new Date().toISOString()}, null, 2));"
+
+      - name: Verify files
+        run: |
+          test -f public/data-version.json
+          test -f public/songinfo.csv
+          test -f public/songs.json
+
+      # 外部repoの gh-pages を別フォルダにチェックアウト
+      - name: Checkout target repo (gh-pages)
+        uses: actions/checkout@v4
+        with:
+          repository: katsu1101/song-list-linca-tojou
+          ref: gh-pages
+          path: target
+          token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+
+      - name: Copy data files
+        run: |
+          cp public/data-version.json target/data-version.json
+          cp public/songinfo.csv      target/songinfo.csv
+          cp public/songs.json        target/songs.json
+
+      - name: Commit & push
+        working-directory: target
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data-version.json songinfo.csv songs.json
+          git commit -m "Update LINCA data" || echo "No changes"
+          git push
