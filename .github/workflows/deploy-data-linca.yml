@@ -27,10 +27,14 @@ jobs:
           # npm run generate:csv
           node -e "const fs=require('fs'); fs.writeFileSync('public/data-version.json', JSON.stringify({version:new Date().toISOString()}, null, 2));"
 
-      - name: Verify files
+      - name: Verify files (with debug)
         run: |
+          set -euxo pipefail
+          ls -la public
+          ls -la public/linca
+
           test -f public/linca/data-version.json
-          test -f public/linca/songinfo.csv
+          test -f public/songinfo.csv
           test -f public/linca/songs.json
 
       # 外部repoの gh-pages を別フォルダにチェックアウト
@@ -45,7 +49,7 @@ jobs:
       - name: Copy data files
         run: |
           cp public/linca/data-version.json target/data-version.json
-          cp public/linca/songinfo.csv      target/songinfo.csv
+          cp public/songinfo.csv      target/songinfo.csv
           cp public/linca/songs.json        target/songs.json
 
       - name: Commit & push
