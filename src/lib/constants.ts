@@ -1,14 +1,11 @@
+import {siteConfig}         from "@/site";
 import {Song, YouTubeVideo} from "@/types";
 
 /**
  * X投稿用定数
  */
 const context = {
-  currentUrl: "https://katsu1101.github.io/song-list-linca-tojou",
   xShareBaseUrl: "https://www.addtoany.com/add_to/x",
-  linkNote: `#戸定梨香ちゃんの歌リスト の検索結果\nキーワード: `,
-  linkNote2: `#戸定梨香ちゃんの歌リスト`,
-  tagSuffix: `\n#戸定梨香 #とじょりん \n　\n　`,
 }
 
 /**
@@ -26,7 +23,7 @@ export const linkUrl = (searchQuery: string) => {
   const normalizedQuery = searchQuery.trim();
 
   // 共有する「URL」はURLとして正しい形だけにする
-  const targetUrl = new URL(context.currentUrl);
+  const targetUrl = new URL(siteConfig.siteUrl);
   if (normalizedQuery !== "") {
     targetUrl.searchParams.set("s", normalizedQuery);
   }
@@ -34,8 +31,8 @@ export const linkUrl = (searchQuery: string) => {
   // 共有する「本文」はここだけに寄せる
   const tweetText =
     normalizedQuery !== ""
-      ? `${context.linkNote}${normalizedQuery}${context.tagSuffix}`
-      : `${context.linkNote2}${context.tagSuffix}`;
+      ? `${siteConfig.linkNote}${normalizedQuery}${siteConfig.tagSuffix}`
+      : `${siteConfig.linkNote2}${siteConfig.tagSuffix}`;
 
   // AddToAny共有URLを正しく組み立てる（エンコードはURLSearchParamsに任せる）
   const shareUrl = new URL(context.xShareBaseUrl);

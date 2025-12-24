@@ -6,13 +6,14 @@ import Menu                           from "@/components/Menu";
 import {SessionVideos}                from "@/components/SessionVideos";
 import {filterSongs, linkUrl}         from "@/lib/constants";
 import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
+import {siteConfig}                   from "@/site";
 import {Song, SongInfo, YouTubeVideo} from "@/types";
 
 import {useSearchParams}     from "next/navigation";
 import Papa                  from "papaparse";
 import {useEffect, useState} from "react";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = siteConfig.basePath;
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -87,7 +88,7 @@ export default function Home() {
     const fetchSongs = async () => {
 
       try {
-        const res = await fetch(`${basePath}/songs.json`);
+        const res = await fetch(`${basePath}/${siteConfig.assetDir}/songs.json`);
         const data = await res.json();
 
         const sortedSongs = [...data.songs].sort((a: Song, b: Song) => {
@@ -155,7 +156,7 @@ export default function Home() {
             isScrolled ? "opacity-0 h-0" : "opacity-100 h-auto"
           }`}>
             <h1 className="text-2xl md:text-4xl font-bold whitespace-nowrap">
-              戸定梨香ちゃんの歌リスト
+              {siteConfig.title}{/*戸定梨香ちゃんの歌リスト*/}
             </h1>
             {/* メニューアイコン */}
             <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}/>

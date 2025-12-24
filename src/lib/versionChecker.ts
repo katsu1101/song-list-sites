@@ -1,14 +1,16 @@
+import {siteConfig} from "@/site";
+import { basePath } from "@/site/runtime";
+
 export const checkVersionAndUpdateCache = async (): Promise<void> => {
   const currentBuildVersion = localStorage.getItem("build-version");
   const currentDataVersion = localStorage.getItem("data-version");
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   try {
     const [buildRes, dataRes] = await Promise.all([
       fetch(`${basePath}/build-version.json`, {
         cache: "no-cache", // ✅ ブラウザキャッシュを無効化
       }),
-      fetch(`${basePath}/data-version.json`, {
+      fetch(`${basePath}/${siteConfig.assetDir}/data-version.json`, {
         cache: "no-cache", // ✅ ブラウザキャッシュを無効化
       }),
     ]);

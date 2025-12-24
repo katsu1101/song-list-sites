@@ -29,9 +29,9 @@ jobs:
 
       - name: Verify files
         run: |
-          test -f public/data-version.json
-          test -f public/songinfo.csv
-          test -f public/songs.json
+          test -f public/linca/data-version.json
+          test -f public/linca/songinfo.csv
+          test -f public/linca/songs.json
 
       # 外部repoの gh-pages を別フォルダにチェックアウト
       - name: Checkout target repo (gh-pages)
@@ -44,9 +44,9 @@ jobs:
 
       - name: Copy data files
         run: |
-          cp public/data-version.json target/data-version.json
-          cp public/songinfo.csv      target/songinfo.csv
-          cp public/songs.json        target/songs.json
+          cp public/linca/data-version.json target/data-version.json
+          cp public/linca/songinfo.csv      target/songinfo.csv
+          cp public/linca/songs.json        target/songs.json
 
       - name: Commit & push
         working-directory: target

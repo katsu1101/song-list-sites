@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Allow: /
-Sitemap: https://katsu1101.github.io/song-list-linca-tojou/sitemap.xml

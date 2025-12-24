@@ -36,8 +36,9 @@ async function generateJson() {
 
   const data = { songs: songs, videos: videos };
 
+  const site = "linca";
   // ✅ `public/songs.json` に保存
-  const filePath = path.join(process.cwd(), "public", "songs.json");
+  const filePath = path.join(process.cwd(), `public/${site}`, "songs.json");
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 
   // Link List
@@ -45,7 +46,7 @@ async function generateJson() {
 
   // const res = await fetch();
   // const csvText = await res.text();
-  const filePath2 = path.join(process.cwd(), "public", "linkList.json");
+  const filePath2 = path.join(process.cwd(), `public/${site}`, "linkList.json");
   fs.writeFileSync(filePath2, JSON.stringify(linkList, null, 2));
 
   console.log("✅ songs.json has been generated!");

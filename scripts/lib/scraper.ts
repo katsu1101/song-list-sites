@@ -1,5 +1,5 @@
-import {YouTubeVideo} from "../../src/types";
-import axios          from "axios";
+import {Song, YouTubeVideo} from "../../src/types";
+import axios                from "axios";
 import { chromium }   from 'playwright';
 import dotenv         from "dotenv";
 
@@ -192,4 +192,70 @@ export async function scrapeLinkList(url: string) {
 
   await browser.close();
   return data;
+}
+
+
+function extractVideoId(url: string): string | null {
+  try {
+    const u = new URL(url);
+
+    // 1) https://youtu.be/VIDEOID
+    if (u.hostname === "youtu.be") {
+      return u.pathname.slice(1); // "/mdstYm6pCIo" → "mdstYm6pCIo"
+    }
+
+    // 2) https://www.youtube.com/watch?v=VIDEOID
+    if (u.searchParams.has("v")) {
+      return u.searchParams.get("v");
+    }
+
+    // 3) /embed/VIDEOID
+    const embedMatch = u.pathname.match(/\/embed\/([a-zA-Z0-9_-]{11})/);
+    if (embedMatch) {
+      return embedMatch[1];
+    }
+
+    // 4) その他のパターン fallback
+    const idMatch = u.pathname.match(/\/([a-zA-Z0-9_-]{11})/);
+    return idMatch ? idMatch[1] : null;
+
+  } catch {
+    return null;
+  }
+}
+
+export function scrapeSongListFromText(text: string, source: number): Song[] {
+  const lines = text.split(/\r?\n/).map(l => l.trim());
+  const songs: Song[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const line2 = lines[i + 1];
+    const line3 = lines[i + 2];
+
+    // ✅ 曲構造（タイトル → ♪アーティスト → URL）の検出
+    if (line.length > 0 && line2.length > 0 && line3.length > 0 &&
+      line2?.startsWith("♪") && line3?.startsWith("https://")) {
+      const title = line;
+      const artist = line2.replace(/^♪/, "").trim();
+      const url = line3;
+
+      // YouTube videoId 抽出
+      const videoId = extractVideoId(url) ?? "";
+      const timestampMatch = url.match(/[?&]t=(\d+)/);
+      const timestamp = timestampMatch ? parseInt(timestampMatch[1], 10) : 0;
+
+      songs.push({
+        source,
+        title,
+        artist,
+        url,
+        videoId,
+        timestamp,
+        date: "", note: "", work: ""
+      });
+    }
+  }
+
+  return songs;
 }
