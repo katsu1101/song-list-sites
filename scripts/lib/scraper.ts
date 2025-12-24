@@ -1,4 +1,4 @@
-import {Song, YouTubeVideo} from "../../src/types";
+import {Song, YouTubeVideo} from "@/types";
 import axios                from "axios";
 import { chromium }   from 'playwright';
 import dotenv         from "dotenv";
