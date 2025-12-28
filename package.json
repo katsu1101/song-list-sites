@@ -5,14 +5,12 @@
   "scripts": {
     "dev:linca": "cross-env NEXT_PUBLIC_SITE_ID=linca next dev --webpack",
     "dev:reshra": "cross-env NEXT_PUBLIC_SITE_ID=reshra next dev --webpack",
+
+    "generate:json": "pnpm exec ts-node -P tsconfig.scripts.json scripts/generateJson.ts",
+
     "build:linca": "cross-env NODE_ENV=production SITE_ID=linca NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou next build --webpack",
     "build:reshra": "cross-env NODE_ENV=production SITE_ID=reshra NEXT_PUBLIC_BASE_PATH=/song-list-reshra-hanamaki next build --webpack",
-    "start": "next start",
-    "lint": "next lint",
-    "fetch:json": "powershell -Command \"Invoke-WebRequest -Uri 'http://localhost:3000/api/generate' -OutFile 'public/linca/songs.json'\"",
-    "deploy:linca": "cross-env NEXT_PUBLIC_SITE_ID=linca npm run build:linca && gh-pages -d out",
-    "generate:csv": "npx ts-node -P tsconfig.scripts.json scripts/generateCsv.ts",
-    "generate:json": "npx ts-node -P tsconfig.scripts.json scripts/generateJson.ts",
+
     "test": "jest"
   },
   "dependencies": {

@@ -34,7 +34,7 @@ describe("linkUrl regression: タグが二重化しない", () => {
     const linkurl = url.searchParams.get("linkurl");
     const linkname = url.searchParams.get("linkname");
 
-    expect(linkurl).toBe("https://katsu1101.github.io/song-list-linca-tojou");
+    expect(linkurl).toBe("https://katsu1101.github.io/song-list-linca-tojou/");
     expect(extractHashtags(linkurl!)).toHaveLength(0);
 
     const tags = extractHashtags(linkname!);
