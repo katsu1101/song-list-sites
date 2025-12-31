@@ -15,7 +15,7 @@ jobs:
           node-version: 20
           # cache: npm
 
-      - run: npm ci
+      #- run: npm ci
 
       # ここはあなたの実態に合わせて：
       # - songs.json を生成しているなら生成コマンドを呼ぶ
