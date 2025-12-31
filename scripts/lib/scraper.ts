@@ -1,7 +1,7 @@
-import {Song, YouTubeVideo} from "@/types";
 import axios                from "axios";
-import { chromium }   from 'playwright';
-import dotenv         from "dotenv";
+import dotenv               from "dotenv";
+import {chromium}           from 'playwright';
+import {Song, YouTubeVideo} from "../../src/types";
 
 // 配列を指定したサイズごとに分割する関数
 const chunkArray = <T>(arr: T[], size: number): T[][] =>
@@ -35,10 +35,10 @@ export const fetchVideos = async (videoIds: string[]): Promise<Record<string, Yo
 };
 
 export async function scrapeSongList(url: string, source: number) {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({headless: true});
   const page = await browser.newPage();
 
-  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await page.goto(url, {waitUntil: "domcontentloaded"});
 
   // ブラウザの console.log を Node.js 側でキャッチ
   page.on("console", (msg) => {
@@ -78,7 +78,7 @@ export async function scrapeSongList(url: string, source: number) {
         if (child.nodeType === Node.TEXT_NODE) {
           // テキストノードの処理
           const text = (child as Element).textContent?.trim();
-          if (! text) return;
+          if (!text) return;
 
           if (text.startsWith("♪")) {
             artist = text.replace("♪", "").trim();
@@ -89,7 +89,7 @@ export async function scrapeSongList(url: string, source: number) {
           } else {
             title = text;
           }
-        } else if (! (node instanceof Element)) {
+        } else if (!(node instanceof Element)) {
           return
         } else if (child.nodeType === Node.ELEMENT_NODE) {
           if ((child as Element).tagName === "BR") {
@@ -121,16 +121,16 @@ export async function scrapeSongList(url: string, source: number) {
       });
 
       results.push({
-          date: currentDate, // 直前に取得した日付を適用
-          title,
-          artist,
-          work,
-          note,
-          url: videoUrl,
-          videoId,
-          timestamp,
-          source,
-        })
+        date: currentDate, // 直前に取得した日付を適用
+        title,
+        artist,
+        work,
+        note,
+        url: videoUrl,
+        videoId,
+        timestamp,
+        source,
+      })
     }, source);
 
     return results;
@@ -142,10 +142,10 @@ export async function scrapeSongList(url: string, source: number) {
 }
 
 export async function scrapeLinkList(url: string) {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({headless: true});
   const page = await browser.newPage();
 
-  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await page.goto(url, {waitUntil: "domcontentloaded"});
 
   // ブラウザの console.log を Node.js 側でキャッチ
   page.on("console", (msg) => {
@@ -171,7 +171,7 @@ export async function scrapeLinkList(url: string) {
         if (child.nodeType === Node.TEXT_NODE) {
           // テキストノードの処理
           const text = (child as Element).textContent?.trim();
-          if (! text) return;
+          if (!text) return;
           title = text;
         } else if (child.nodeType === Node.ELEMENT_NODE) {
           if ((child as Element).tagName === "A") {
@@ -181,7 +181,7 @@ export async function scrapeLinkList(url: string) {
           }
         }
       });
-      if (title==="") return
+      if (title === "") return
       results.push({
         title,
         url
