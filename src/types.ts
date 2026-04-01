@@ -55,6 +55,8 @@ export interface YouTubeVideo {
     publishedAt: string;
     title: string;
     description: string;
+    channelId: string; // チャンネルID
+    channelTitle: string; // チャンネル名
     tags: string[];
     thumbnails: {
       default: { url: string };

@@ -51,9 +51,11 @@ const YTVideoInfoModal: React.FC<{
             <h3 className="text-lg font-semibold text-blue-600 dark:text-blue-400">
               {video?.snippet.title}
             </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              チャンネル: {video?.snippet.title}
-            </p>
+            チャンネル：
+            <a href={`https://www.youtube.com/channel/${video?.snippet.channelId}`} target="_blank"
+               rel="noopener noreferrer" className="hover:underline">
+              {video?.snippet.channelTitle}
+            </a>
           </div>
 
           <table className="w-full text-left text-sm mb-4">
