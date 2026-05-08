@@ -551,6 +551,50 @@
       "source": 1
     },
     {
+      "date": "2026/05/08",
+      "title": "Merry Merry Fantasia!",
+      "artist": "メルティックスター(cv.芹澤優、若井友希、森嶋優花)",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=Yoj1GiL5N0k&t=1600s",
+      "videoId": "Yoj1GiL5N0k",
+      "timestamp": 1600,
+      "source": 2
+    },
+    {
+      "date": "2026/05/08",
+      "title": "ニュースタージョーカー",
+      "artist": "ダークカルテットスター (cv.日比優理香、鈴木杏奈、徳井青空、和多田美咲)",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=Yoj1GiL5N0k&t=1809s",
+      "videoId": "Yoj1GiL5N0k",
+      "timestamp": 1809,
+      "source": 2
+    },
+    {
+      "date": "2026/05/08",
+      "title": "DIVE TO WORLD",
+      "artist": "CHERRYBLOSSOM",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=Yoj1GiL5N0k&t=1939s",
+      "videoId": "Yoj1GiL5N0k",
+      "timestamp": 1939,
+      "source": 2
+    },
+    {
+      "date": "2026/05/08",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 2
+    },
+    {
       "date": "2026/04/22",
       "title": "にゃん酷なにゃんこのテーゼ",
       "artist": "高橋洋子",
@@ -5196,7 +5240,7 @@
   "videos": {
     "dnSX757pr2c": {
       "kind": "youtube#video",
-      "etag": "wyNDVsZuv5G7oIwTHT9ze1q7UFU",
+      "etag": "podXzxTPSN-i_WDEbD1VwAxUiDk",
       "id": "dnSX757pr2c",
       "snippet": {
         "publishedAt": "2026-03-30T11:00:06Z",
@@ -5250,7 +5294,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1142",
+        "viewCount": "1163",
         "likeCount": "103",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -5258,7 +5302,7 @@
     },
     "arR0sX8muTU": {
       "kind": "youtube#video",
-      "etag": "qfa1284FoUxh_vdz-XLN4hNfE6o",
+      "etag": "Kf6paJalCC-z-xKSHfI0biHbPaw",
       "id": "arR0sX8muTU",
       "snippet": {
         "publishedAt": "2025-11-01T12:00:06Z",
@@ -5312,7 +5356,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "18481",
+        "viewCount": "18512",
         "likeCount": "226",
         "favoriteCount": "0",
         "commentCount": "26"
@@ -5320,7 +5364,7 @@
     },
     "S4pC89svKic": {
       "kind": "youtube#video",
-      "etag": "Bw0JOdbNw_Mg9FLSn32F6bcfWpk",
+      "etag": "603ITu5qXq1y7RVPkawZJ5sitfw",
       "id": "S4pC89svKic",
       "snippet": {
         "publishedAt": "2025-09-14T02:00:35Z",
@@ -5396,7 +5440,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8475",
+        "viewCount": "8484",
         "likeCount": "49",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -5404,7 +5448,7 @@
     },
     "g2WQIfTREfM": {
       "kind": "youtube#video",
-      "etag": "i2a8EdldW9K3ABERFkS10VBRcu4",
+      "etag": "WuaWoO9mqjrEYdfHGFMWWPaPOEM",
       "id": "g2WQIfTREfM",
       "snippet": {
         "publishedAt": "2025-03-18T11:30:07Z",
@@ -5438,7 +5482,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "アンインストール",
           "歌ってみた",
@@ -5468,7 +5512,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1673",
+        "viewCount": "1676",
         "likeCount": "249",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -5476,7 +5520,7 @@
     },
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "OXA5D0kyOfbnkYNktGy1HVMoEOk",
+      "etag": "W4bZ686Jb82BiV0nCp3ZyBc2L2Q",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -5510,7 +5554,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -5530,7 +5574,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2602",
+        "viewCount": "2610",
         "likeCount": "224",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -5538,7 +5582,7 @@
     },
     "lQd7OfNER5E": {
       "kind": "youtube#video",
-      "etag": "bm8x9KeEwU5gNBnrNoTRhv0Rqms",
+      "etag": "F7VFbBviCvcd7G6QNYuB9c0nCXQ",
       "id": "lQd7OfNER5E",
       "snippet": {
         "publishedAt": "2024-07-04T12:00:07Z",
@@ -5572,7 +5616,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "とじょりん",
@@ -5612,7 +5656,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2616",
+        "viewCount": "2639",
         "likeCount": "306",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -5620,7 +5664,7 @@
     },
     "5nHXLuFuVv4": {
       "kind": "youtube#video",
-      "etag": "tXU9fJDhTsac4OAZZ_Kaga-8KCs",
+      "etag": "q9io4NtCUglFi6oFyl_84oY84fI",
       "id": "5nHXLuFuVv4",
       "snippet": {
         "publishedAt": "2024-04-14T11:45:07Z",
@@ -5654,7 +5698,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "さすけ",
           "サスケ",
@@ -5699,7 +5743,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3477",
+        "viewCount": "3481",
         "likeCount": "278",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -5707,7 +5751,7 @@
     },
     "XtUs6qTZzqg": {
       "kind": "youtube#video",
-      "etag": "hzo1qe_nhP-dFNvpKCEffHGeFzY",
+      "etag": "8I1_csh9ctNKHJTiClhi2Xr9P0A",
       "id": "XtUs6qTZzqg",
       "snippet": {
         "publishedAt": "2024-04-14T11:30:07Z",
@@ -5741,7 +5785,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "サスケ",
           "さすけ",
@@ -5777,15 +5821,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2073",
-        "likeCount": "249",
+        "viewCount": "2075",
+        "likeCount": "250",
         "favoriteCount": "0",
         "commentCount": "9"
       }
     },
     "bnbAYjUAkqo": {
       "kind": "youtube#video",
-      "etag": "aOo_mkRqvwtZHD4sz4tllMJgWQU",
+      "etag": "VTIoI_w08AclQllQx3TyJoEU-r0",
       "id": "bnbAYjUAkqo",
       "snippet": {
         "publishedAt": "2023-06-06T14:08:20Z",
@@ -5819,7 +5863,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -5846,7 +5890,7 @@
     },
     "1DLndvFhPsY": {
       "kind": "youtube#video",
-      "etag": "_mhaPuh9QUORZRoG7pEXsKltK0o",
+      "etag": "zGEpvzy9qwINrxSh_VCQIZ1euQA",
       "id": "1DLndvFhPsY",
       "snippet": {
         "publishedAt": "2023-04-29T15:30:09Z",
@@ -5880,7 +5924,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "水星の魔女",
           "がんだむ",
@@ -5920,7 +5964,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3583",
+        "viewCount": "3593",
         "likeCount": "254",
         "favoriteCount": "0",
         "commentCount": "21"
@@ -5928,7 +5972,7 @@
     },
     "oqLbaRa190A": {
       "kind": "youtube#video",
-      "etag": "hrv9IGLUuVKM4xzOZm7sPf2CcN4",
+      "etag": "xkbw2fjzkFntz2EtzT08hNEub_0",
       "id": "oqLbaRa190A",
       "snippet": {
         "publishedAt": "2023-04-22T07:45:35Z",
@@ -5991,7 +6035,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1319",
+        "viewCount": "1320",
         "likeCount": "81",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -5999,7 +6043,7 @@
     },
     "LI2WwrPNHFU": {
       "kind": "youtube#video",
-      "etag": "3bZSVFrj_2rabb1_Z2qF5YGD_RQ",
+      "etag": "9jaTLYLqegoSQbAdGf80b5qo7eo",
       "id": "LI2WwrPNHFU",
       "snippet": {
         "publishedAt": "2023-04-15T03:05:07Z",
@@ -6062,7 +6106,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8086",
+        "viewCount": "8102",
         "likeCount": "425",
         "favoriteCount": "0",
         "commentCount": "26"
@@ -6070,7 +6114,7 @@
     },
     "U8N6UH53Dds": {
       "kind": "youtube#video",
-      "etag": "CKE4X7OiYiozuQFL5itob_4Y9ac",
+      "etag": "PNUdWIo5UqbO5c1GvS6GDkz8ykM",
       "id": "U8N6UH53Dds",
       "snippet": {
         "publishedAt": "2023-04-14T10:00:09Z",
@@ -6104,7 +6148,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "忘れてやらない",
           "ぼっちざろっく",
@@ -6135,7 +6179,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2742",
+        "viewCount": "2750",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "24"
@@ -6143,7 +6187,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "OiR28YO0-1L9RsopN-90yT6Yqrg",
+      "etag": "SHnOYJmWzN1_pYlBR6AjIDf1rJU",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -6167,7 +6211,7 @@
             "height": 360
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "英語物語",
           "英語",
@@ -6198,15 +6242,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "47054",
-        "likeCount": "486",
+        "viewCount": "47510",
+        "likeCount": "488",
         "favoriteCount": "0",
         "commentCount": "41"
       }
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "OowFgKuD-MqP5wcMXlwszX1dXos",
+      "etag": "eMMWuYUIML1g1h3ZmfmvJltvxWU",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -6240,7 +6284,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "ガラスのくつ",
           "いとうかなこ",
@@ -6266,15 +6310,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7186",
-        "likeCount": "360",
+        "viewCount": "7220",
+        "likeCount": "362",
         "favoriteCount": "0",
         "commentCount": "27"
       }
     },
     "fgZLWMUz6eM": {
       "kind": "youtube#video",
-      "etag": "GcQPnbATyS1et3Jz2xdwh-_fPeQ",
+      "etag": "7XyxtwezXrjmZJKIuwV6DxDQJFc",
       "id": "fgZLWMUz6eM",
       "snippet": {
         "publishedAt": "2022-09-14T17:51:36Z",
@@ -6303,7 +6347,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6323,7 +6367,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1340",
+        "viewCount": "1341",
         "likeCount": "186",
         "favoriteCount": "0",
         "commentCount": "13"
@@ -6331,7 +6375,7 @@
     },
     "E6c6JrjJqbY": {
       "kind": "youtube#video",
-      "etag": "WDxzbgWgEPZDDHAb_AUwmkrgOt0",
+      "etag": "csDM3OSVS7E0rFi7uQsD3iS-9EQ",
       "id": "E6c6JrjJqbY",
       "snippet": {
         "publishedAt": "2022-09-12T08:31:34Z",
@@ -6365,7 +6409,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "式浦。",
           "しきうら",
@@ -6400,7 +6444,7 @@
     },
     "tvqdUG5OE2I": {
       "kind": "youtube#video",
-      "etag": "x1dRggwK0Hx3nre9G582gTwbaK0",
+      "etag": "YdTcl9axyuPOufEkuGD7nt1Sz_U",
       "id": "tvqdUG5OE2I",
       "snippet": {
         "publishedAt": "2022-09-07T12:00:48Z",
@@ -6434,7 +6478,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "20",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6454,15 +6498,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7284",
-        "likeCount": "410",
+        "viewCount": "7291",
+        "likeCount": "409",
         "favoriteCount": "0",
         "commentCount": "30"
       }
     },
     "XV_4Iu50XFI": {
       "kind": "youtube#video",
-      "etag": "ybHgl7TzYdw1Ypgao59rpEIkxKQ",
+      "etag": "CO103W0bSElLKsPEtT7gJiyKYCw",
       "id": "XV_4Iu50XFI",
       "snippet": {
         "publishedAt": "2022-07-24T11:00:13Z",
@@ -6496,7 +6540,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6516,7 +6560,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2571",
+        "viewCount": "2578",
         "likeCount": "209",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -6524,7 +6568,7 @@
     },
     "9ElTZFM3txw": {
       "kind": "youtube#video",
-      "etag": "hvKtooAZEc86rLqYUpkx4PgVMRU",
+      "etag": "WuIpDuBlKQ4m0IkKU-KDu-O-OVU",
       "id": "9ElTZFM3txw",
       "snippet": {
         "publishedAt": "2022-07-04T11:45:14Z",
@@ -6558,7 +6602,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6578,7 +6622,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "9926",
+        "viewCount": "9928",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -6586,7 +6630,7 @@
     },
     "56JL0PpekUo": {
       "kind": "youtube#video",
-      "etag": "ddHJ59-R_JA8zmLTeZItN3NFnrI",
+      "etag": "oefIR4Qp_ips9gwYz1Vg3wdOTKI",
       "id": "56JL0PpekUo",
       "snippet": {
         "publishedAt": "2022-06-24T11:00:14Z",
@@ -6620,7 +6664,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6640,7 +6684,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5589",
+        "viewCount": "5590",
         "likeCount": "216",
         "favoriteCount": "0",
         "commentCount": "21"
@@ -6648,7 +6692,7 @@
     },
     "b0mVX1XFD_g": {
       "kind": "youtube#video",
-      "etag": "cblyi5wpXPvQxztPZUfGGUHu0HM",
+      "etag": "MDgzflS5uPFJhjGO37BT9e3jghc",
       "id": "b0mVX1XFD_g",
       "snippet": {
         "publishedAt": "2022-06-15T11:30:12Z",
@@ -6710,7 +6754,7 @@
     },
     "-SQ_lnWr33M": {
       "kind": "youtube#video",
-      "etag": "Uw-ypuSi7cnsbwZSoefqh77LaZo",
+      "etag": "XDNbRN2l4h7bxPwK8bNvPwGyN5o",
       "id": "-SQ_lnWr33M",
       "snippet": {
         "publishedAt": "2022-06-06T14:23:58Z",
@@ -6744,7 +6788,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -6771,7 +6815,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "ieVzGIKdsw4v5dxXOaWyWR-gdIk",
+      "etag": "ixxojqs4TVZPfRpxMo0A45Q4TUw",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -6825,14 +6869,14 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "272947",
+        "viewCount": "273586",
         "favoriteCount": "0",
         "commentCount": "372"
       }
     },
     "bkQ_UtHdX2U": {
       "kind": "youtube#video",
-      "etag": "KaAC4d25_vkH2xh65dh_X1gYSJU",
+      "etag": "qYa8K071DIK7t6ra4zokY-q3Ago",
       "id": "bkQ_UtHdX2U",
       "snippet": {
         "publishedAt": "2022-03-18T12:00:50Z",
@@ -6886,7 +6930,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2246",
+        "viewCount": "2250",
         "likeCount": "172",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -6894,7 +6938,7 @@
     },
     "tW6lIBpI-94": {
       "kind": "youtube#video",
-      "etag": "Ka5g_CifY-OuEDfNczMtIUEmloE",
+      "etag": "V-Gq0Kcezye4P8xolojCf9Lepkg",
       "id": "tW6lIBpI-94",
       "snippet": {
         "publishedAt": "2022-03-14T11:30:15Z",
@@ -6928,7 +6972,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "🎅",
           "🎅さん",
@@ -6955,7 +6999,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1932",
+        "viewCount": "1934",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -6963,7 +7007,7 @@
     },
     "3s8X3lSS940": {
       "kind": "youtube#video",
-      "etag": "OHxW8wE4nTen-IG-EP_riCvBu2Y",
+      "etag": "rQpDsWKoQm9suzwih8d_ccl4ODs",
       "id": "3s8X3lSS940",
       "snippet": {
         "publishedAt": "2022-03-13T18:15:07Z",
@@ -6997,7 +7041,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "人生リセットボタン",
           "歌ってみた",
@@ -7022,7 +7066,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1956",
+        "viewCount": "1958",
         "likeCount": "147",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -7030,7 +7074,7 @@
     },
     "hEA3JvnOvFQ": {
       "kind": "youtube#video",
-      "etag": "AsNDlkX6RAKydapdtINgUiDzxcg",
+      "etag": "1HauDD3DE4FyvzAbmoQxD6eXGag",
       "id": "hEA3JvnOvFQ",
       "snippet": {
         "publishedAt": "2022-03-06T11:00:19Z",
@@ -7064,7 +7108,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "モアナと伝説の海",
           "歌ってみた",
@@ -7091,7 +7135,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1528",
+        "viewCount": "1529",
         "likeCount": "188",
         "favoriteCount": "0",
         "commentCount": "29"
@@ -7099,7 +7143,7 @@
     },
     "ql3Z-T7frgw": {
       "kind": "youtube#video",
-      "etag": "szmeJIb5RZZXoOlqjCdrkO5BQXk",
+      "etag": "bIHydq5KJeBRJTyP1Icqa9xwVWc",
       "id": "ql3Z-T7frgw",
       "snippet": {
         "publishedAt": "2022-01-04T14:24:42Z",
@@ -7133,7 +7177,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "アナと雪の女王",
           "ディズニー",
@@ -7172,7 +7216,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3231",
+        "viewCount": "3236",
         "likeCount": "378",
         "favoriteCount": "0",
         "commentCount": "36"
@@ -7180,7 +7224,7 @@
     },
     "w9xYUVXxsYM": {
       "kind": "youtube#video",
-      "etag": "giF_N3Z7KCFjbiappKzOHH3Nnk0",
+      "etag": "vJHw6PeEOv7evQH6dhV5aJEDxjA",
       "id": "w9xYUVXxsYM",
       "snippet": {
         "publishedAt": "2021-12-17T11:00:13Z",
@@ -7209,7 +7253,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "ファンサ",
           "歌ってみた",
@@ -7240,15 +7284,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "22185",
-        "likeCount": "750",
+        "viewCount": "22197",
+        "likeCount": "751",
         "favoriteCount": "0",
         "commentCount": "56"
       }
     },
     "i7Blu0Sc_a4": {
       "kind": "youtube#video",
-      "etag": "JL_G5nx4DXX9rdMVsSkU7UB8jDQ",
+      "etag": "Eojr3891nfoAOnVpqbDY2_NTxnM",
       "id": "i7Blu0Sc_a4",
       "snippet": {
         "publishedAt": "2021-04-16T20:03:17Z",
@@ -7282,7 +7326,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "平野綾",
           "涼宮ハルヒの憂鬱",
@@ -7337,7 +7381,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3121",
+        "viewCount": "3126",
         "likeCount": "242",
         "favoriteCount": "0",
         "commentCount": "15"
@@ -7345,7 +7389,7 @@
     },
     "7Qa2D8oubMY": {
       "kind": "youtube#video",
-      "etag": "tjZ1tXyd-bHrZxy4cIvpVl7TO5c",
+      "etag": "nVWtWcmlQQXd4HnQSgequrUT65k",
       "id": "7Qa2D8oubMY",
       "snippet": {
         "publishedAt": "2021-04-15T15:41:14Z",
@@ -7379,7 +7423,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "うま",
           "うまぴょい",
@@ -7423,7 +7467,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7208",
+        "viewCount": "7215",
         "likeCount": "383",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -7431,7 +7475,7 @@
     },
     "XPYQJo2v_r0": {
       "kind": "youtube#video",
-      "etag": "BHzc6Vk4pIkyVGk33ZV4JBjcls4",
+      "etag": "K0OujclvUrIt2t52GUlsX83ZKfQ",
       "id": "XPYQJo2v_r0",
       "snippet": {
         "publishedAt": "2021-02-15T22:31:17Z",
@@ -7465,7 +7509,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "アイドルマスター",
           "アイマス",
@@ -7512,7 +7556,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8874",
+        "viewCount": "8875",
         "likeCount": "374",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -7520,7 +7564,7 @@
     },
     "I91fiV7iXAU": {
       "kind": "youtube#video",
-      "etag": "UIw_m49yd22Q7U43RyqyDQHzS2E",
+      "etag": "znqK4AyVeNL_x5IKbRYYpXzN6KI",
       "id": "I91fiV7iXAU",
       "snippet": {
         "publishedAt": "2020-12-31T15:00:11Z",
@@ -7587,7 +7631,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3001",
+        "viewCount": "3004",
         "likeCount": "138",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7595,7 +7639,7 @@
     },
     "c421y_seuJ0": {
       "kind": "youtube#video",
-      "etag": "kY-diAW_xw6u6ZxI1Q9-e0j-ayE",
+      "etag": "GHT-0TLTYpA_yWtdoexrSq0Nnng",
       "id": "c421y_seuJ0",
       "snippet": {
         "publishedAt": "2020-11-06T20:23:53Z",
@@ -7629,7 +7673,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "暗殺プリンセス",
           "歌ってみた",
@@ -7669,7 +7713,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6612",
+        "viewCount": "6618",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -7749,7 +7793,7 @@
     },
     "7SCdNaOGoSM": {
       "kind": "youtube#video",
-      "etag": "B4XfVqiq8H-7HkBVxWayfrElg7U",
+      "etag": "y1X0gE1m7P9ODVf5_w-eoc5gUbs",
       "id": "7SCdNaOGoSM",
       "snippet": {
         "publishedAt": "2020-10-20T19:31:48Z",
@@ -7778,7 +7822,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "164 feat.MAYU",
           "203soundworks",
@@ -7816,7 +7860,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5099",
+        "viewCount": "5115",
         "likeCount": "175",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -7824,7 +7868,7 @@
     },
     "UGeQtPbp6bc": {
       "kind": "youtube#video",
-      "etag": "nR4APcU6lOYLZHHrNVsoogVaCi8",
+      "etag": "_HQL072jYfNlCo8VzOHjsrGEX0s",
       "id": "UGeQtPbp6bc",
       "snippet": {
         "publishedAt": "2020-09-30T12:00:19Z",
@@ -7887,7 +7931,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3138",
+        "viewCount": "3140",
         "likeCount": "150",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -7895,7 +7939,7 @@
     },
     "x41mLZYsUkA": {
       "kind": "youtube#video",
-      "etag": "dTerRIVydu5m2P1_RH8UwXNVygY",
+      "etag": "UyjOKTkRaU_VBMYUoxumcFV5IDQ",
       "id": "x41mLZYsUkA",
       "snippet": {
         "publishedAt": "2020-09-22T01:00:01Z",
@@ -7924,7 +7968,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "Believeinyourself",
           "歌ってみた",
@@ -7974,15 +8018,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6831",
-        "likeCount": "260",
+        "viewCount": "6847",
+        "likeCount": "261",
         "favoriteCount": "0",
         "commentCount": "14"
       }
     },
     "ON2eStO7YXc": {
       "kind": "youtube#video",
-      "etag": "MeNJEQE0qyB2VDrQKsiRY4ayiwU",
+      "etag": "of5A3X4YoBU6LsQCqKL05nltU2k",
       "id": "ON2eStO7YXc",
       "snippet": {
         "publishedAt": "2020-05-29T22:01:52Z",
@@ -8016,7 +8060,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "幽霊東京",
           "ayase",
@@ -8058,7 +8102,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8442",
+        "viewCount": "8446",
         "likeCount": "333",
         "favoriteCount": "0",
         "commentCount": "23"
@@ -8066,7 +8110,7 @@
     },
     "tPwXqrts61w": {
       "kind": "youtube#video",
-      "etag": "Pz7xBVNbcnMWR4Vw3cVDEG2XYds",
+      "etag": "3YLDSrigIeO0xxNg46aT1hdQ7N8",
       "id": "tPwXqrts61w",
       "snippet": {
         "publishedAt": "2020-04-26T19:06:56Z",
@@ -8100,7 +8144,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定邸",
           "戸定梨香",
@@ -8156,7 +8200,7 @@
     },
     "U9zhM2xgH78": {
       "kind": "youtube#video",
-      "etag": "xlZGVfCM43MP2WrOFNrMLUDIGH8",
+      "etag": "B_7c_NAEExY_Vyctmxd6-oA2A9Y",
       "id": "U9zhM2xgH78",
       "snippet": {
         "publishedAt": "2020-04-24T21:19:41Z",
@@ -8190,7 +8234,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "くじら",
           "VTuber",
@@ -8232,15 +8276,86 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1779",
+        "viewCount": "1781",
         "likeCount": "80",
         "favoriteCount": "0",
         "commentCount": "8"
       }
     },
+    "Yoj1GiL5N0k": {
+      "kind": "youtube#video",
+      "etag": "tUldyUTckInb13YKd0xMYv9HkEs",
+      "id": "Yoj1GiL5N0k",
+      "snippet": {
+        "publishedAt": "2026-05-04T04:59:21Z",
+        "channelId": "UCAPMlEk86If5sp6dCnXEa2g",
+        "title": "【シンデレラステージLIVE】君と約束した夢の舞台へ！一夜限りの結成ユニットも披露！【ヘルツ・イグナイト/戸定梨香/なっつぐるめ】",
+        "description": "#約束のシンデレラステージ\n\n｡✩☪︎⋆˚｡ 夢のステージ、開幕！ ｡✩☪︎⋆˚｡\n\n前半：シンデレラユニットライブ\n後半：シンデレラ1位のソロステージ\n\n~ VASE劇場公演 2st season でステージを掴んだプリンセスたち ~\n\n🥇1位：ヘルツ・イグナイト\nシンデレラステージで、最高に輝くソロライブを披露！\n&ユニットメンバーとしてライブを披露！\n&〇〇を見に〇〇への旅を叶える！\nX ➤ https://x.com/Herz_Ignite\nYouTube ➤ http://www.youtube.com/@Herz_Ignite\n\n🥈2位：戸定梨香\nシンデレラステージで、ユニットメンバーとしてライブを披露！\nX ➤ https://x.com/Tojou_Linca\nYouTube ➤ http://www.youtube.com/@Linca_Tojou\n\n🥉3位：なっつぐるめ\nシンデレラステージで、ユニットメンバーとしてライブを披露！\nX ➤ https://x.com/nut_gurume\nYouTube ➤ http://www.youtube.com/@nut_gurume\n\n⋆˚𖥔 ݁. ⋆ .✶ ݁˖ ⋆ ˙ ✧ ˖ ⋆\n\n🎁さらに抽選会も開催！\n\n💎3名様に\n3人の直筆サイン入りシンデレラチェキをプレゼント📸✨\n\nユニットライブ終了後のルーレットで、当選者が決定します🎡\n\n【参加方法】\n本配信内で\n・コメント付きSuper Chat\n・メンバーシップギフト\nを送っていただくことで、抽選ルーレットにご参加いただけます。\n\nルーレット内のお名前表示割合は、\n配信内で送っていただいた応援の合計に応じて変動いたします。\n\n※複数回のご参加も可能です。\n※複数回送っていただいた場合は、すべて合計して反映されます。\n\n⋆˚𖥔 ݁. ⋆ .✶ ݁˖ ⋆ ˙ ✧ ˖ ⋆\n\n🎉 メンバーシップ登録で、配信がもっと楽しく！\nオリジナルスタンプやバッジで配信を盛り上げよう✨\n\n今夜は、シンデレラステージ限定絵文字も追加！\nhttps://www.youtube.com/channel/UCAPMlEk86If5sp6dCnXEa2g/join\n\n✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩\n\n☑️VASE Ch. 見逃しチェック！\n\n🌸🎬ティザーPV\nhttps://youtu.be/tu6vgb5he5Q\n🗓️VASE学園オリエンテーション（4/2）\nhttps://www.youtube.com/live/tb6zqJpJ_xA?si=LXAGF7jFBGi5OhtQ\n🗓️VASE学園入学式（4/10）\nhttps://www.youtube.com/live/bZyGkDj0iQA?si=WL4EwtEeWFAJjOy9\n🗓️VASE学園~実写ロケ！特訓登山（4/19）\nhttps://youtube.com/live/rEzvv3mAM4Y\n\n━━━━━━━━━━━━━━━━━━\n\n🆕戸定梨香6周年記念グッズ発売中🐨🎀\nhttps://ase-store.com/items/69dce70df27b522734bf477d\n\n🆕VASE学園 入学ボイス発売中❤️‍🔥🥜\nhttps://ase-store.com/items/69d7709a243a75abece632f3\n\n━━━━━━━━━━━━━━━━━━\n\n🎀VASE学園 スクールライブ始動！ #VASE学園スクライ\n\n夢の舞台「シンデレラステージ」を目指す\n新企画がいよいよスタート✨\n\n応援のカギは――“ステラ”⭐\n\nご来場・オンライン視聴予約時の投票で、\n推しにステラを届けることができます！\n\n⭐ステラとは？\n\nご来場・オンライン視聴予約時に、\n応援したい生徒を選択して投票できます。\n\n各公演ごとに\n投票数上位3名がステラを獲得✨\n\n【ステラ獲得数】\n🥇1位：★★★\n🥈2位：★★\n🥉3位：★\n\n※1日2公演の場合、各部ごとに獲得可能！\n➡️最大【1日6ステラ】のチャンス🌟\n\n🎤スクールライブのその先は…？\n\n4月〜9月のスクールライブを通して\n最も多くステラを獲得した生徒が――\n\n🥇 オリジナルソロ曲を制作！\n\nさらに…\n\n👑 上位3名でユニットを結成！\n🎶 アニマイドル新ユニット曲を先行披露！\n\n推しとともに、\n夢のシンデレラステージへ！\n\n🎓第2回 VASE学園 スクールライブ\n\n記念すべき\nVASE6周年を記念したライブを開催いたします✨\nぜひ一緒に見届けてください！\n\n📅 開催日：5月23日（土）\n\n▷ ご来場予約はこちら🎟️\nhttps://docs.google.com/forms/d/e/1FAIpQLSdJqjP8nZpTeAjD7Krxh_GtAXuLij-tb8_GFaxKiHRpxyjexw/viewform\n\n▷ オンライン視聴＆ステラ投票はこちら📺\nhttps://ase-store.com/?category_id=67888d2ab2940f0463545ea6\n\n━━━━━━━━━━━━━━━━━━\n\n📻 #VASE学園放送部\n\n市川うららFM 83.0MHz にて放送中！\n毎週火曜日 13:00～13:30\n（第2・第4週は再放送）\n\n▼番組公式サイト\nhttp://fmu.co.jp\n\n▼聴き逃しアーカイブはこちら\nhttp://fmu.co.jp/vase.html\n\n💌おたより募集中！\n次回テーマ：「？？？」\n\n▼メールはこちら\nvase@fmu.co.jp\n\n提供：(一財)里見ねこうらら\n━━━━━━━━━━━━━━━━━━\n\n【VASE学園】 #VASE学園ニコテス\n\nVASE公式ニコニコ生放送📖\n4月からのニコ生は、生徒たちがニコニコテストに挑戦✏️\n\n📅次回テスト実施日は、公式Xをチェック！\n\n番組前半は無料でご視聴いただけます。\n後半は「ニコニコVASE公式チャンネル」会員限定放送となります。\n\n▼チャンネル入会はこちら\nhttps://ch.nicovideo.jp/vase/join\n━━━━━━━━━━━━━━━━━━\n\n【Favop. 無料1on1トークイベント＆チェキ会】\n\n📍新宿マルイアネックス2F「Favop.」にて開催！\n🗓️ 5/10(日)\n🎟️ 参加無料・整理券制（予約不要）\n\n📲 詳細はこちら\nhttps://x.com/vase_ase/status/2039306075691004304?s=20\n\n🌐会場情報\nhttps://www.0101.co.jp/005/\n━━━━━━━━━━━━━━━━━━\n\n★ virtual production VASE\n✼••┈バーチャルとリアル、二つの世界を繋ぐ場所┈••✼\nofficial X（@vase_ase）：https://x.com/vase_ase\nofficial store：https://ase-store.com/\nfan club：https://fantia.jp/fanclubs/511646?loc=fanclubs\nofficial site：https://www.vase.tokyo/\n\n＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿\n\n#vtuber #初見歓迎 #コメント歓迎 #VASE",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Yoj1GiL5N0k/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Yoj1GiL5N0k/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Yoj1GiL5N0k/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Yoj1GiL5N0k/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Yoj1GiL5N0k/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "VASE",
+        "tags": [
+          "vtuber",
+          "新人vtuber",
+          "vsinger",
+          "streamer",
+          "vase",
+          "コメント歓迎",
+          "初見歓迎"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ja",
+        "localized": {
+          "title": "【シンデレラステージLIVE】君と約束した夢の舞台へ！一夜限りの結成ユニットも披露！【ヘルツ・イグナイト/戸定梨香/なっつぐるめ】",
+          "description": "#約束のシンデレラステージ\n\n｡✩☪︎⋆˚｡ 夢のステージ、開幕！ ｡✩☪︎⋆˚｡\n\n前半：シンデレラユニットライブ\n後半：シンデレラ1位のソロステージ\n\n~ VASE劇場公演 2st season でステージを掴んだプリンセスたち ~\n\n🥇1位：ヘルツ・イグナイト\nシンデレラステージで、最高に輝くソロライブを披露！\n&ユニットメンバーとしてライブを披露！\n&〇〇を見に〇〇への旅を叶える！\nX ➤ https://x.com/Herz_Ignite\nYouTube ➤ http://www.youtube.com/@Herz_Ignite\n\n🥈2位：戸定梨香\nシンデレラステージで、ユニットメンバーとしてライブを披露！\nX ➤ https://x.com/Tojou_Linca\nYouTube ➤ http://www.youtube.com/@Linca_Tojou\n\n🥉3位：なっつぐるめ\nシンデレラステージで、ユニットメンバーとしてライブを披露！\nX ➤ https://x.com/nut_gurume\nYouTube ➤ http://www.youtube.com/@nut_gurume\n\n⋆˚𖥔 ݁. ⋆ .✶ ݁˖ ⋆ ˙ ✧ ˖ ⋆\n\n🎁さらに抽選会も開催！\n\n💎3名様に\n3人の直筆サイン入りシンデレラチェキをプレゼント📸✨\n\nユニットライブ終了後のルーレットで、当選者が決定します🎡\n\n【参加方法】\n本配信内で\n・コメント付きSuper Chat\n・メンバーシップギフト\nを送っていただくことで、抽選ルーレットにご参加いただけます。\n\nルーレット内のお名前表示割合は、\n配信内で送っていただいた応援の合計に応じて変動いたします。\n\n※複数回のご参加も可能です。\n※複数回送っていただいた場合は、すべて合計して反映されます。\n\n⋆˚𖥔 ݁. ⋆ .✶ ݁˖ ⋆ ˙ ✧ ˖ ⋆\n\n🎉 メンバーシップ登録で、配信がもっと楽しく！\nオリジナルスタンプやバッジで配信を盛り上げよう✨\n\n今夜は、シンデレラステージ限定絵文字も追加！\nhttps://www.youtube.com/channel/UCAPMlEk86If5sp6dCnXEa2g/join\n\n✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩˖°⌖.꙳✩\n\n☑️VASE Ch. 見逃しチェック！\n\n🌸🎬ティザーPV\nhttps://youtu.be/tu6vgb5he5Q\n🗓️VASE学園オリエンテーション（4/2）\nhttps://www.youtube.com/live/tb6zqJpJ_xA?si=LXAGF7jFBGi5OhtQ\n🗓️VASE学園入学式（4/10）\nhttps://www.youtube.com/live/bZyGkDj0iQA?si=WL4EwtEeWFAJjOy9\n🗓️VASE学園~実写ロケ！特訓登山（4/19）\nhttps://youtube.com/live/rEzvv3mAM4Y\n\n━━━━━━━━━━━━━━━━━━\n\n🆕戸定梨香6周年記念グッズ発売中🐨🎀\nhttps://ase-store.com/items/69dce70df27b522734bf477d\n\n🆕VASE学園 入学ボイス発売中❤️‍🔥🥜\nhttps://ase-store.com/items/69d7709a243a75abece632f3\n\n━━━━━━━━━━━━━━━━━━\n\n🎀VASE学園 スクールライブ始動！ #VASE学園スクライ\n\n夢の舞台「シンデレラステージ」を目指す\n新企画がいよいよスタート✨\n\n応援のカギは――“ステラ”⭐\n\nご来場・オンライン視聴予約時の投票で、\n推しにステラを届けることができます！\n\n⭐ステラとは？\n\nご来場・オンライン視聴予約時に、\n応援したい生徒を選択して投票できます。\n\n各公演ごとに\n投票数上位3名がステラを獲得✨\n\n【ステラ獲得数】\n🥇1位：★★★\n🥈2位：★★\n🥉3位：★\n\n※1日2公演の場合、各部ごとに獲得可能！\n➡️最大【1日6ステラ】のチャンス🌟\n\n🎤スクールライブのその先は…？\n\n4月〜9月のスクールライブを通して\n最も多くステラを獲得した生徒が――\n\n🥇 オリジナルソロ曲を制作！\n\nさらに…\n\n👑 上位3名でユニットを結成！\n🎶 アニマイドル新ユニット曲を先行披露！\n\n推しとともに、\n夢のシンデレラステージへ！\n\n🎓第2回 VASE学園 スクールライブ\n\n記念すべき\nVASE6周年を記念したライブを開催いたします✨\nぜひ一緒に見届けてください！\n\n📅 開催日：5月23日（土）\n\n▷ ご来場予約はこちら🎟️\nhttps://docs.google.com/forms/d/e/1FAIpQLSdJqjP8nZpTeAjD7Krxh_GtAXuLij-tb8_GFaxKiHRpxyjexw/viewform\n\n▷ オンライン視聴＆ステラ投票はこちら📺\nhttps://ase-store.com/?category_id=67888d2ab2940f0463545ea6\n\n━━━━━━━━━━━━━━━━━━\n\n📻 #VASE学園放送部\n\n市川うららFM 83.0MHz にて放送中！\n毎週火曜日 13:00～13:30\n（第2・第4週は再放送）\n\n▼番組公式サイト\nhttp://fmu.co.jp\n\n▼聴き逃しアーカイブはこちら\nhttp://fmu.co.jp/vase.html\n\n💌おたより募集中！\n次回テーマ：「？？？」\n\n▼メールはこちら\nvase@fmu.co.jp\n\n提供：(一財)里見ねこうらら\n━━━━━━━━━━━━━━━━━━\n\n【VASE学園】 #VASE学園ニコテス\n\nVASE公式ニコニコ生放送📖\n4月からのニコ生は、生徒たちがニコニコテストに挑戦✏️\n\n📅次回テスト実施日は、公式Xをチェック！\n\n番組前半は無料でご視聴いただけます。\n後半は「ニコニコVASE公式チャンネル」会員限定放送となります。\n\n▼チャンネル入会はこちら\nhttps://ch.nicovideo.jp/vase/join\n━━━━━━━━━━━━━━━━━━\n\n【Favop. 無料1on1トークイベント＆チェキ会】\n\n📍新宿マルイアネックス2F「Favop.」にて開催！\n🗓️ 5/10(日)\n🎟️ 参加無料・整理券制（予約不要）\n\n📲 詳細はこちら\nhttps://x.com/vase_ase/status/2039306075691004304?s=20\n\n🌐会場情報\nhttps://www.0101.co.jp/005/\n━━━━━━━━━━━━━━━━━━\n\n★ virtual production VASE\n✼••┈バーチャルとリアル、二つの世界を繋ぐ場所┈••✼\nofficial X（@vase_ase）：https://x.com/vase_ase\nofficial store：https://ase-store.com/\nfan club：https://fantia.jp/fanclubs/511646?loc=fanclubs\nofficial site：https://www.vase.tokyo/\n\n＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿\n\n#vtuber #初見歓迎 #コメント歓迎 #VASE"
+        },
+        "defaultAudioLanguage": "ja"
+      },
+      "contentDetails": {
+        "duration": "PT1H54M34S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "230",
+        "likeCount": "56",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
     "pveRmCOSAYI": {
       "kind": "youtube#video",
-      "etag": "oMgBrM8kNnHXN9tY43Fz3DCrU7M",
+      "etag": "qtNZnZsZMIHhBeErfOAfxde5GaM",
       "id": "pveRmCOSAYI",
       "snippet": {
         "publishedAt": "2026-04-22T13:30:06Z",
@@ -8274,7 +8389,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "うた",
           "歌",
@@ -8309,15 +8424,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "112",
-        "likeCount": "44",
+        "viewCount": "306",
+        "likeCount": "62",
         "favoriteCount": "0",
-        "commentCount": "2"
+        "commentCount": "6"
       }
     },
     "YvryxRx8Mdg": {
       "kind": "youtube#video",
-      "etag": "pt7fP4MbN3ZMfUznmgtGSauy7mY",
+      "etag": "afjMpdBO_X7UlktXI1BuJ79oRfo",
       "id": "YvryxRx8Mdg",
       "snippet": {
         "publishedAt": "2026-04-16T13:00:06Z",
@@ -8351,7 +8466,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌",
           "karaoke",
@@ -8408,15 +8523,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "350",
-        "likeCount": "97",
+        "viewCount": "521",
+        "likeCount": "104",
         "favoriteCount": "0",
         "commentCount": "8"
       }
     },
     "mCuwZ6xmsC4": {
       "kind": "youtube#video",
-      "etag": "z-1g0DGQXE3tXxyPT0oNN57Ju8c",
+      "etag": "RlxismbyxmIr7vApHcWup5iCZ2M",
       "id": "mCuwZ6xmsC4",
       "snippet": {
         "publishedAt": "2026-04-15T02:26:30Z",
@@ -8450,7 +8565,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -8475,15 +8590,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "648",
-        "likeCount": "141",
+        "viewCount": "687",
+        "likeCount": "143",
         "favoriteCount": "0",
         "commentCount": "7"
       }
     },
     "2iWqe2tOz7w": {
       "kind": "youtube#video",
-      "etag": "bLcXyj3AATVcYzawVT23IcZGkis",
+      "etag": "CpdsC_8mzJ60bqidnPRMvA55WZY",
       "id": "2iWqe2tOz7w",
       "snippet": {
         "publishedAt": "2026-04-13T17:25:32Z",
@@ -8517,7 +8632,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "とじょりん",
           "戸定梨香",
@@ -8547,15 +8662,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "397",
-        "likeCount": "120",
+        "viewCount": "405",
+        "likeCount": "121",
         "favoriteCount": "0",
         "commentCount": "3"
       }
     },
     "rRZ2UbyetRQ": {
       "kind": "youtube#video",
-      "etag": "ui9GAHKJgFVDb2iEPUww4vvAOtQ",
+      "etag": "PzhIr7KOCD3tPhpvQJIF9dxTkAs",
       "id": "rRZ2UbyetRQ",
       "snippet": {
         "publishedAt": "2026-03-12T12:00:06Z",
@@ -8589,7 +8704,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "温泉シャーク",
           "🦈",
@@ -8625,7 +8740,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1458",
+        "viewCount": "1468",
         "likeCount": "89",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -8633,7 +8748,7 @@
     },
     "ynBLLT_eC7Q": {
       "kind": "youtube#video",
-      "etag": "Cg1fHmUkZRC32KxK1sGMlVB5PQw",
+      "etag": "3Igj4so4cY5v9nvjHveUOZKjoOk",
       "id": "ynBLLT_eC7Q",
       "snippet": {
         "publishedAt": "2025-12-31T16:22:01Z",
@@ -8667,7 +8782,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "カウントダウン",
           "2025",
@@ -8705,7 +8820,7 @@
     },
     "OwQ38Lz8jo8": {
       "kind": "youtube#video",
-      "etag": "2_VxIPHVDQYk30PJNb56_2HEI7g",
+      "etag": "1U5icspsEBCUSyPflk42SU3WNCo",
       "id": "OwQ38Lz8jo8",
       "snippet": {
         "publishedAt": "2025-12-24T14:25:57Z",
@@ -8739,7 +8854,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -8759,7 +8874,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "458",
+        "viewCount": "460",
         "likeCount": "104",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -8767,7 +8882,7 @@
     },
     "HVGO4cru-AY": {
       "kind": "youtube#video",
-      "etag": "n9tPHZij8wJXicj6NYnmP2O_dZI",
+      "etag": "SRBKb9kbs4yvAA9WAuRxFZS7aT0",
       "id": "HVGO4cru-AY",
       "snippet": {
         "publishedAt": "2025-10-21T12:30:06Z",
@@ -8801,7 +8916,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌",
           "ライブ",
@@ -8832,7 +8947,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "959",
+        "viewCount": "968",
         "likeCount": "115",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -8840,7 +8955,7 @@
     },
     "qwqVkM9vl9Y": {
       "kind": "youtube#video",
-      "etag": "YbJA_P-zSf2gRNUUGCHVEpSovjk",
+      "etag": "TJaPdQRufuMAAiVSYbRMr2HQxZY",
       "id": "qwqVkM9vl9Y",
       "snippet": {
         "publishedAt": "2025-10-17T14:31:38Z",
@@ -8922,7 +9037,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "584",
+        "viewCount": "599",
         "likeCount": "72",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -8930,7 +9045,7 @@
     },
     "hQg8GcmPBcw": {
       "kind": "youtube#video",
-      "etag": "lsuuyL_YZyVoKjVk5rxZ9EVLyTo",
+      "etag": "_Ip1BNFaS48Rb7rAGjGW7wF91ks",
       "id": "hQg8GcmPBcw",
       "snippet": {
         "publishedAt": "2025-09-23T20:14:23Z",
@@ -8964,7 +9079,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -8984,7 +9099,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "370",
+        "viewCount": "371",
         "likeCount": "98",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -9087,7 +9202,7 @@
     },
     "u1EtGFtC9lk": {
       "kind": "youtube#video",
-      "etag": "IkeALQz6wKp1MWhi6cNrrijEDto",
+      "etag": "iuiqVWOlBg--qjv7rvpLpm-D1tw",
       "id": "u1EtGFtC9lk",
       "snippet": {
         "publishedAt": "2025-07-05T13:00:06Z",
@@ -9121,7 +9236,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "高画質",
           "生誕祭",
@@ -9156,7 +9271,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1680",
+        "viewCount": "1682",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -9164,7 +9279,7 @@
     },
     "hmbNPSmFcqs": {
       "kind": "youtube#video",
-      "etag": "MCikPtIju6E6Nxhh0By_ZR1u-mc",
+      "etag": "T4U4KTVOtIbXKE9mCIl075NeSCA",
       "id": "hmbNPSmFcqs",
       "snippet": {
         "publishedAt": "2025-07-05T02:12:20Z",
@@ -9198,7 +9313,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "生誕祭",
@@ -9240,7 +9355,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "707",
+        "viewCount": "708",
         "likeCount": "243",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -9248,7 +9363,7 @@
     },
     "3Q5-cZX0Dxs": {
       "kind": "youtube#video",
-      "etag": "WU5z0xnzPFLp9p9lhNtkLe_XRH4",
+      "etag": "NGf7KaVIgbZBsZw97KAMDOFUf8c",
       "id": "3Q5-cZX0Dxs",
       "snippet": {
         "publishedAt": "2025-07-04T04:31:32Z",
@@ -9282,7 +9397,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "カウントダウン",
           "誕生日",
@@ -9315,7 +9430,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "451",
+        "viewCount": "452",
         "likeCount": "143",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -9323,7 +9438,7 @@
     },
     "Vx1pdB1FFYc": {
       "kind": "youtube#video",
-      "etag": "oOYza1KmRPc0xG1M9ifff1RdSoU",
+      "etag": "TjU362LV1iMDa-s6tTu4WbYe6V0",
       "id": "Vx1pdB1FFYc",
       "snippet": {
         "publishedAt": "2025-06-07T03:08:20Z",
@@ -9357,7 +9472,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "むぅむぅ",
           "生誕",
@@ -9398,7 +9513,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "403",
+        "viewCount": "404",
         "likeCount": "123",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -9406,7 +9521,7 @@
     },
     "X6KvHpuzOa4": {
       "kind": "youtube#video",
-      "etag": "GNwgdof_FZuOLRp_k2kb_LG61aw",
+      "etag": "MlOnwMFPXucaaoTCxJRbGvIumMI",
       "id": "X6KvHpuzOa4",
       "snippet": {
         "publishedAt": "2025-04-27T07:27:58Z",
@@ -9440,7 +9555,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -9467,7 +9582,7 @@
     },
     "Ov0uQA-ux0c": {
       "kind": "youtube#video",
-      "etag": "lf0FBha_WFH8OqxZSfWH0TDdFEM",
+      "etag": "UpmLswJy9CkLPhEWJ-cUpweTJiE",
       "id": "Ov0uQA-ux0c",
       "snippet": {
         "publishedAt": "2025-04-15T01:52:44Z",
@@ -9501,7 +9616,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "とじょりん",
@@ -9540,15 +9655,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "13456",
-        "likeCount": "333",
+        "viewCount": "13722",
+        "likeCount": "332",
         "favoriteCount": "0",
         "commentCount": "15"
       }
     },
     "EAGDdlBZjGE": {
       "kind": "youtube#video",
-      "etag": "7xqscUVILf4i84KGFNYwb6azEnQ",
+      "etag": "CoynUWNyZYSIeklYgsY7oIfkiwI",
       "id": "EAGDdlBZjGE",
       "snippet": {
         "publishedAt": "2025-03-16T14:40:06Z",
@@ -9582,7 +9697,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -9609,7 +9724,7 @@
     },
     "qa0PSEJS10M": {
       "kind": "youtube#video",
-      "etag": "9SFONx4NmekrEONOuAa8qdRU64M",
+      "etag": "JJaaHDl43Js80nWcC861n9VD8DY",
       "id": "qa0PSEJS10M",
       "snippet": {
         "publishedAt": "2025-02-23T12:39:47Z",
@@ -9643,7 +9758,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌枠",
           "ご当地",
@@ -9674,7 +9789,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "893",
+        "viewCount": "894",
         "likeCount": "200",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -9682,7 +9797,7 @@
     },
     "9Fw2quqkiEM": {
       "kind": "youtube#video",
-      "etag": "K6FhiycA_dxO5kFtufGDL4khR-0",
+      "etag": "GvjjjQkqxmA3_ptK1pMqhtBUT4c",
       "id": "9Fw2quqkiEM",
       "snippet": {
         "publishedAt": "2024-12-31T16:50:14Z",
@@ -9716,7 +9831,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "カウントダウン",
           "年越し",
@@ -9746,7 +9861,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "622",
+        "viewCount": "623",
         "likeCount": "160",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -9754,7 +9869,7 @@
     },
     "BE9vzRfX7Q4": {
       "kind": "youtube#video",
-      "etag": "Afbydysg7r5cSHt7dDVPOKedGTs",
+      "etag": "iSqulSnQ3MYGc5bgwKARW9CvFwU",
       "id": "BE9vzRfX7Q4",
       "snippet": {
         "publishedAt": "2024-12-24T15:12:45Z",
@@ -9788,7 +9903,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "🎄",
           "クリスマス",
@@ -9824,7 +9939,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "520",
+        "viewCount": "521",
         "likeCount": "129",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -9832,7 +9947,7 @@
     },
     "DSzcS9UJWP8": {
       "kind": "youtube#video",
-      "etag": "EI_dbzR30xwQBoE99WWkbibBCZw",
+      "etag": "QoqNrDSQBYFAjqYVph2zA3nzMIY",
       "id": "DSzcS9UJWP8",
       "snippet": {
         "publishedAt": "2024-12-08T14:22:57Z",
@@ -9866,7 +9981,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "祝い",
           "祝",
@@ -9906,7 +10021,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "504",
+        "viewCount": "505",
         "likeCount": "165",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -9914,7 +10029,7 @@
     },
     "mhMt_vJPWk0": {
       "kind": "youtube#video",
-      "etag": "o7zS_gOrB76u_Lb0DWEXOEYyx9E",
+      "etag": "XUYRO8CrqnAYXq4XDSFcW6JLBF8",
       "id": "mhMt_vJPWk0",
       "snippet": {
         "publishedAt": "2024-11-24T06:14:36Z",
@@ -9948,7 +10063,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -9975,7 +10090,7 @@
     },
     "rFQC20uH9Ag": {
       "kind": "youtube#video",
-      "etag": "lH1K1WnWXOpx-q9aZeqGVIihlnQ",
+      "etag": "ZgzjCQ6M78BIV-pNAWa7NzA-1vo",
       "id": "rFQC20uH9Ag",
       "snippet": {
         "publishedAt": "2024-11-24T02:44:06Z",
@@ -10009,7 +10124,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌",
           "ダンス",
@@ -10049,7 +10164,7 @@
     },
     "3AVnWTBf72w": {
       "kind": "youtube#video",
-      "etag": "u0GuLELWrh37el2_NAFOYfo1oLc",
+      "etag": "dZJeYVLRDL5gvLp3wTSlyzyOQjI",
       "id": "3AVnWTBf72w",
       "snippet": {
         "publishedAt": "2024-08-19T03:53:21Z",
@@ -10083,7 +10198,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌",
           "ソング",
@@ -10122,7 +10237,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "306",
+        "viewCount": "308",
         "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -10130,7 +10245,7 @@
     },
     "hsgO2LN9CFQ": {
       "kind": "youtube#video",
-      "etag": "n8klU1F4bpMxzcYrGk9KOynYopg",
+      "etag": "9O26t48CUnE2KDxJ5QHb2Dfkvso",
       "id": "hsgO2LN9CFQ",
       "snippet": {
         "publishedAt": "2024-07-27T15:24:50Z",
@@ -10213,7 +10328,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1779",
+        "viewCount": "1781",
         "likeCount": "140",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -10221,7 +10336,7 @@
     },
     "6-sHRAIXec4": {
       "kind": "youtube#video",
-      "etag": "n2v4UFcma-b8HqWhI_dX4Ra5yV0",
+      "etag": "3OQm0_Qn_JNqvp3bT0GH1A3kRxA",
       "id": "6-sHRAIXec4",
       "snippet": {
         "publishedAt": "2024-11-24T08:32:28Z",
@@ -10255,7 +10370,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -10282,7 +10397,7 @@
     },
     "Kp3fODfTZuA": {
       "kind": "youtube#video",
-      "etag": "PpBwi3ITQ6a4tQ5t5DxrqbphE0M",
+      "etag": "lQhcWffP-nLAg5iD0jRibjCMar4",
       "id": "Kp3fODfTZuA",
       "snippet": {
         "publishedAt": "2024-07-05T03:06:47Z",
@@ -10316,7 +10431,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "とじょりん",
@@ -10354,14 +10469,14 @@
       },
       "statistics": {
         "viewCount": "4038",
-        "likeCount": "949",
+        "likeCount": "947",
         "favoriteCount": "0",
         "commentCount": "6"
       }
     },
     "qnA48zK-8zU": {
       "kind": "youtube#video",
-      "etag": "_jLN7eq_WknLiUKihvAZi_byzqA",
+      "etag": "Uw40hGe6ANnySMO_Avmy6d-lwhU",
       "id": "qnA48zK-8zU",
       "snippet": {
         "publishedAt": "2024-07-04T14:11:04Z",
@@ -10395,7 +10510,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "生誕祭",
@@ -10421,7 +10536,7 @@
         "defaultAudioLanguage": "ja"
       },
       "contentDetails": {
-        "duration": "PT1H29M39S",
+        "duration": "PT1H29M40S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
@@ -10443,7 +10558,7 @@
     },
     "ghnta1lK2OQ": {
       "kind": "youtube#video",
-      "etag": "QQCuzQAibCxQE-Mha5ofwt3G2TU",
+      "etag": "a0Aqc6So9iPI4YOvH2jPlMWItHs",
       "id": "ghnta1lK2OQ",
       "snippet": {
         "publishedAt": "2024-06-29T13:33:58Z",
@@ -10477,7 +10592,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "とじょりん",
@@ -10509,7 +10624,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1230",
+        "viewCount": "1231",
         "likeCount": "316",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -10517,7 +10632,7 @@
     },
     "rESqPkLPjuA": {
       "kind": "youtube#video",
-      "etag": "jo_GAjOG1QbEVzbdl6nmbbzzQ4M",
+      "etag": "ewd9-qHfRNd2gEIisW8Q-AC_szE",
       "id": "rESqPkLPjuA",
       "snippet": {
         "publishedAt": "2024-06-15T01:09:20Z",
@@ -10576,7 +10691,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "365",
+        "viewCount": "366",
         "likeCount": "59",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -10584,7 +10699,7 @@
     },
     "C1h1ml2QteI": {
       "kind": "youtube#video",
-      "etag": "L_4GhoQUq7dz-lGTpV-2SKL0Izg",
+      "etag": "DO4pfcnUZrjo7xQ95ZH0FqdYAa4",
       "id": "C1h1ml2QteI",
       "snippet": {
         "publishedAt": "2024-06-07T02:16:28Z",
@@ -10618,7 +10733,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "千葉県",
           "ご当地",
@@ -10670,7 +10785,7 @@
     },
     "qvdksXZxgCQ": {
       "kind": "youtube#video",
-      "etag": "QubjT38dJUd6BX_YZbCZgDSE4Sg",
+      "etag": "ovtlIvPUVvNszxAa9VwteiLJSUI",
       "id": "qvdksXZxgCQ",
       "snippet": {
         "publishedAt": "2024-05-23T03:15:07Z",
@@ -10704,7 +10819,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "お祝い",
           "歌枠",
@@ -10745,7 +10860,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "502",
+        "viewCount": "503",
         "likeCount": "108",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -10753,7 +10868,7 @@
     },
     "rCN36eYptjk": {
       "kind": "youtube#video",
-      "etag": "xOUCj_M0cO71AJVAbyBS4M9Cx7M",
+      "etag": "cckDjTZRcMdAiA4Pr54-Cnscma4",
       "id": "rCN36eYptjk",
       "snippet": {
         "publishedAt": "2024-05-22T04:09:18Z",
@@ -10787,7 +10902,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "お祝い",
           "歌枠",
@@ -10814,7 +10929,7 @@
         "defaultAudioLanguage": "ja"
       },
       "contentDetails": {
-        "duration": "PT1H36M40S",
+        "duration": "PT1H36M41S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
@@ -10823,7 +10938,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "595",
+        "viewCount": "596",
         "likeCount": "164",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -10831,7 +10946,7 @@
     },
     "OcZKdH4I0C8": {
       "kind": "youtube#video",
-      "etag": "QOO8DTY9meP1VobHISV6PHDpn-k",
+      "etag": "Nu1UdyL-aVCA8YUPVlzmppydv5Y",
       "id": "OcZKdH4I0C8",
       "snippet": {
         "publishedAt": "2024-04-29T13:32:24Z",
@@ -10865,7 +10980,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌",
           "歌枠",
@@ -10904,7 +11019,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1027",
+        "viewCount": "1029",
         "likeCount": "213",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -10912,7 +11027,7 @@
     },
     "iEThgKK2HO4": {
       "kind": "youtube#video",
-      "etag": "m8YLd4WbmgUW9MzvO6_PAueDaLw",
+      "etag": "LZamKc4C0HnX2rnDvBWk5Uh8a5o",
       "id": "iEThgKK2HO4",
       "snippet": {
         "publishedAt": "2024-04-14T15:47:22Z",
@@ -10941,7 +11056,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "4周年",
@@ -10993,7 +11108,7 @@
     },
     "v-wZB12ExNU": {
       "kind": "youtube#video",
-      "etag": "_bWVJVzJ9i7N_0JRIcpc_esdf-8",
+      "etag": "xbV0dhomVuPNqWz4xTlWJ2Tp8RQ",
       "id": "v-wZB12ExNU",
       "snippet": {
         "publishedAt": "2024-03-31T14:47:14Z",
@@ -11022,7 +11137,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "お祝い",
           "歌枠",
@@ -11072,7 +11187,7 @@
     },
     "fjTGIIBTLWY": {
       "kind": "youtube#video",
-      "etag": "YOhjDvGmvYrjaS6NVepXqE3gr1c",
+      "etag": "WCWi8nT1EzPGHaCifYsLopXyA00",
       "id": "fjTGIIBTLWY",
       "snippet": {
         "publishedAt": "2024-03-09T15:21:02Z",
@@ -11145,7 +11260,7 @@
     },
     "QbfZgNR06O8": {
       "kind": "youtube#video",
-      "etag": "jHcPHZJexUJGFOlvGe-haK2Hhu0",
+      "etag": "uZQQwkGTHZM7YPKG9bSJZrBdLyU",
       "id": "QbfZgNR06O8",
       "snippet": {
         "publishedAt": "2023-12-31T16:55:54Z",
@@ -11179,7 +11294,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "カウントダウン",
@@ -11218,7 +11333,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "718",
+        "viewCount": "719",
         "likeCount": "163",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -11226,7 +11341,7 @@
     },
     "0yHu6hAZQRQ": {
       "kind": "youtube#video",
-      "etag": "moFpYn-uKD5h_OOJGC2Jvg2GOkA",
+      "etag": "fSZZYCl4wR_8zPEehoAF7OgWH2A",
       "id": "0yHu6hAZQRQ",
       "snippet": {
         "publishedAt": "2023-12-25T15:47:51Z",
@@ -11260,7 +11375,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "クリスマス",
           "christmas",
@@ -11299,7 +11414,7 @@
     },
     "r1HxmRsS19w": {
       "kind": "youtube#video",
-      "etag": "q9_vNIKXvWHqVC9QTHwZAS9UTcU",
+      "etag": "U9ZoF3HWyQmnydK7qyhOD94-Rws",
       "id": "r1HxmRsS19w",
       "snippet": {
         "publishedAt": "2023-12-24T14:47:53Z",
@@ -11333,7 +11448,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "歌枠",
           "カラオケ",
@@ -11368,7 +11483,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "775",
+        "viewCount": "776",
         "likeCount": "150",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -11376,7 +11491,7 @@
     },
     "u92rz4K8fvI": {
       "kind": "youtube#video",
-      "etag": "jEu3OnLs5R2ObU0nCtyRszj3trs",
+      "etag": "H2mte_wedDvr4jce8WfzGDmiL4Q",
       "id": "u92rz4K8fvI",
       "snippet": {
         "publishedAt": "2023-12-18T03:38:45Z",
@@ -11410,7 +11525,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -11504,7 +11619,7 @@
     },
     "QQarNQDB4aY": {
       "kind": "youtube#video",
-      "etag": "81zNxPuZncK_A8wr5735yNsvuWE",
+      "etag": "l4HU5Mc_ce7LOViw4Rd-KqS9zus",
       "id": "QQarNQDB4aY",
       "snippet": {
         "publishedAt": "2023-10-31T15:15:30Z",
@@ -11538,7 +11653,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "ありがとう",
           "ファンクラブ",
@@ -11572,7 +11687,7 @@
     },
     "i3u917hGMvM": {
       "kind": "youtube#video",
-      "etag": "m58XOOVN3MHoyeY7ZJXhl7gUYv0",
+      "etag": "vblHsr0LBaRSrhsYHWBzb6kfDUU",
       "id": "i3u917hGMvM",
       "snippet": {
         "publishedAt": "2023-10-27T01:56:44Z",
@@ -11606,7 +11721,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -11634,7 +11749,7 @@
     },
     "Jrtvj8y3Xyo": {
       "kind": "youtube#video",
-      "etag": "ph4o0pSfxzCDLDeO8gnbTTCD4Gg",
+      "etag": "T8EkEq-uTFTxg2kKWj6hTBNzj-8",
       "id": "Jrtvj8y3Xyo",
       "snippet": {
         "publishedAt": "2023-08-19T03:18:16Z",
@@ -11668,7 +11783,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -11702,7 +11817,7 @@
     },
     "rFynGJ66MOA": {
       "kind": "youtube#video",
-      "etag": "b5SojsPJXF9PBVk3qtUjleNmt40",
+      "etag": "avHgn6c5jzSE_lzsOKwbXxF3fmo",
       "id": "rFynGJ66MOA",
       "snippet": {
         "publishedAt": "2023-08-14T02:39:20Z",
@@ -11761,7 +11876,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1104",
+        "viewCount": "1105",
         "likeCount": "123",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -11769,7 +11884,7 @@
     },
     "YathV3WTbkQ": {
       "kind": "youtube#video",
-      "etag": "iPP1qinwqNDCmXCbiDRHycsULqo",
+      "etag": "kEquEjgXtnG9o-czbljRR8iZUuo",
       "id": "YathV3WTbkQ",
       "snippet": {
         "publishedAt": "2023-07-23T06:04:00Z",
@@ -11803,7 +11918,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "千葉県",
           "ご当地",
@@ -11835,14 +11950,14 @@
       },
       "statistics": {
         "viewCount": "1050",
-        "likeCount": "210",
+        "likeCount": "209",
         "favoriteCount": "0",
         "commentCount": "6"
       }
     },
     "Fad_BSisNus": {
       "kind": "youtube#video",
-      "etag": "wDr6BcQ7wBt0tQsxCKiun1YX4lQ",
+      "etag": "9XzpEI9ebZI8OpKbMoiHnaPzl0o",
       "id": "Fad_BSisNus",
       "snippet": {
         "publishedAt": "2023-07-04T15:45:29Z",
@@ -11876,7 +11991,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "とじょりん",
           "松戸市",
@@ -11908,7 +12023,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2288",
+        "viewCount": "2297",
         "likeCount": "464",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -11916,7 +12031,7 @@
     },
     "8gy2jJsP0Yg": {
       "kind": "youtube#video",
-      "etag": "zjPfbVy4c_jcRYWsS-tfboxgjtE",
+      "etag": "8MXCMgimYIVHibn78JoArspMWR4",
       "id": "8gy2jJsP0Yg",
       "snippet": {
         "publishedAt": "2023-06-22T10:47:40Z",
@@ -11950,7 +12065,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "1",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -11977,7 +12092,7 @@
     },
     "2DAwHJRqa5k": {
       "kind": "youtube#video",
-      "etag": "gPOTzAUSYbOmzK-WDHfhwNH52sM",
+      "etag": "LPrfZMvPNWPym4-CNGILpIpG3r4",
       "id": "2DAwHJRqa5k",
       "snippet": {
         "publishedAt": "2023-06-07T02:07:43Z",
@@ -12011,7 +12126,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "むぅむぅ",
           "ペット",
@@ -12051,7 +12166,7 @@
     },
     "V-OKw_3-wzc": {
       "kind": "youtube#video",
-      "etag": "2Q7y-2prLNt3JKLq0rY1pVdIsTc",
+      "etag": "UqaavxTm7lHV6YLhgC19pFB2iko",
       "id": "V-OKw_3-wzc",
       "snippet": {
         "publishedAt": "2023-05-28T04:21:03Z",
@@ -12111,7 +12226,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1288",
+        "viewCount": "1289",
         "likeCount": "122",
         "favoriteCount": "0",
         "commentCount": "0"
@@ -12119,7 +12234,7 @@
     },
     "gPsm_mPZkE8": {
       "kind": "youtube#video",
-      "etag": "dvl0o8cWr7MJBf_yArfn0ZTr6ZI",
+      "etag": "8nJnPV9D3Ap24KBPSJcJLsA1c7Q",
       "id": "gPsm_mPZkE8",
       "snippet": {
         "publishedAt": "2023-04-30T03:19:47Z",
@@ -12186,7 +12301,7 @@
     },
     "WjICNst2Ltc": {
       "kind": "youtube#video",
-      "etag": "SZlqq_2HRQnooF3docvN8CSXzAc",
+      "etag": "bWOYPm7vqfUZDsPjWfZ9uSCjVnI",
       "id": "WjICNst2Ltc",
       "snippet": {
         "publishedAt": "2023-04-14T14:19:13Z",
@@ -12220,7 +12335,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "戸定梨香",
           "３周年",
@@ -12260,7 +12375,7 @@
     },
     "GgR7sIG3bTI": {
       "kind": "youtube#video",
-      "etag": "bW5FxOcsw1p4va429JYF29Wgfaw",
+      "etag": "jz5zaguVOKB95h44SSHpgL2NOto",
       "id": "GgR7sIG3bTI",
       "snippet": {
         "publishedAt": "2023-02-14T13:53:27Z",
@@ -12294,7 +12409,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "バレンタイン",
           "ラジオ",
@@ -12332,7 +12447,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "443",
+        "viewCount": "445",
         "likeCount": "105",
         "favoriteCount": "0",
         "commentCount": "9"
@@ -12340,7 +12455,7 @@
     },
     "LKYWfNlyUCY": {
       "kind": "youtube#video",
-      "etag": "g0usqbcxwWkpBVqFlFamiBUYX24",
+      "etag": "CeYe4vadkh46miz7Nz9gfWqHDyM",
       "id": "LKYWfNlyUCY",
       "snippet": {
         "publishedAt": "2022-12-31T17:11:10Z",
@@ -12374,7 +12489,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12400,7 +12515,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1074",
+        "viewCount": "1075",
         "likeCount": "188",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -12408,7 +12523,7 @@
     },
     "t3jrCyhUXfU": {
       "kind": "youtube#video",
-      "etag": "sgCUuzc5JUrHY35951TabPjWOj4",
+      "etag": "lHzKXjk1isKKiPymWnFt80epaQ4",
       "id": "t3jrCyhUXfU",
       "snippet": {
         "publishedAt": "2022-12-25T02:30:47Z",
@@ -12442,7 +12557,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "10",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12470,7 +12585,7 @@
     },
     "wqa4x-g0aAU": {
       "kind": "youtube#video",
-      "etag": "2klHk2_qpXKH0uBr63JMawufsvw",
+      "etag": "daPI61x4bDe2V4gMbKAWKnLLh_k",
       "id": "wqa4x-g0aAU",
       "snippet": {
         "publishedAt": "2022-12-12T14:09:45Z",
@@ -12524,7 +12639,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "4553",
+        "viewCount": "4560",
         "likeCount": "258",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -12532,7 +12647,7 @@
     },
     "QdFRHQvSalE": {
       "kind": "youtube#video",
-      "etag": "KJwfWNFwvSw2Np-dGyZtRWVe64k",
+      "etag": "VvSlT0hgPUG5J5yNZLA13OuiB4U",
       "id": "QdFRHQvSalE",
       "snippet": {
         "publishedAt": "2022-07-04T16:12:39Z",
@@ -12566,7 +12681,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12594,7 +12709,7 @@
     },
     "Ec2Q_7chEW8": {
       "kind": "youtube#video",
-      "etag": "ga-kwkZjWi8ZAyRLmxBqdk3bPSQ",
+      "etag": "oQdvjbCOoLTrxM4lVik9R6rTbs0",
       "id": "Ec2Q_7chEW8",
       "snippet": {
         "publishedAt": "2022-06-07T02:03:34Z",
@@ -12628,7 +12743,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12656,7 +12771,7 @@
     },
     "700shh60JwE": {
       "kind": "youtube#video",
-      "etag": "6EMrqZ0oa17UOQeaD6L90IVWeTw",
+      "etag": "iCm7aegWs_fNJWOCFN6xXZcEvHo",
       "id": "700shh60JwE",
       "snippet": {
         "publishedAt": "2022-05-16T15:49:43Z",
@@ -12690,7 +12805,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12718,7 +12833,7 @@
     },
     "PO3KrMbmqkY": {
       "kind": "youtube#video",
-      "etag": "LHUm2wIH-6nnasXUXkApnvRvtFA",
+      "etag": "-wNA1sJ5JgGh-oWETm0fhxPursQ",
       "id": "PO3KrMbmqkY",
       "snippet": {
         "publishedAt": "2022-04-14T13:43:19Z",
@@ -12752,7 +12867,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "Q&Aリサイタル！",
           "ボカロ",
@@ -12792,7 +12907,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5195",
+        "viewCount": "5198",
         "likeCount": "391",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -12800,7 +12915,7 @@
     },
     "GDCew9WE_FM": {
       "kind": "youtube#video",
-      "etag": "nIUZ7Nw4zLCNlWtwRwp-WAaeSQA",
+      "etag": "5enJHh1bfPFStgrOkCddlPSW5cw",
       "id": "GDCew9WE_FM",
       "snippet": {
         "publishedAt": "2021-12-25T13:15:41Z",
@@ -12829,7 +12944,7 @@
             "height": 480
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12857,7 +12972,7 @@
     },
     "rdS84d7Qjj0": {
       "kind": "youtube#video",
-      "etag": "uKrOvPxZ2xjViMXYkIa2ls4bd6I",
+      "etag": "BQyxqOgNdzHlKx-hPWwYtWhdZes",
       "id": "rdS84d7Qjj0",
       "snippet": {
         "publishedAt": "2021-11-18T10:33:38Z",
@@ -12891,7 +13006,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "defaultLanguage": "ja",
@@ -12918,7 +13033,7 @@
     },
     "-eFruL7vZqk": {
       "kind": "youtube#video",
-      "etag": "JloBrTVTDMX__PSocqPhM4Cy4P4",
+      "etag": "KSMYcwWj25DDeGELj_cm3G2tIY0",
       "id": "-eFruL7vZqk",
       "snippet": {
         "publishedAt": "2021-10-24T01:29:13Z",
@@ -12984,7 +13099,7 @@
     },
     "rcvBmDzcw2o": {
       "kind": "youtube#video",
-      "etag": "qMbvLRduvopMeiijUjtR_1qM7oY",
+      "etag": "pumri8zv-LgWYgEBVhYvrGSmpLc",
       "id": "rcvBmDzcw2o",
       "snippet": {
         "publishedAt": "2021-04-14T23:38:28Z",
@@ -13018,7 +13133,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "千葉県",
           "松戸市",
@@ -13065,7 +13180,7 @@
     },
     "e7fopGa2-3U": {
       "kind": "youtube#video",
-      "etag": "Atr1BVkPVfsxtUew18j13u_j--c",
+      "etag": "jVbsonjPOwdjEfM5dIuAo5Sy_AE",
       "id": "e7fopGa2-3U",
       "snippet": {
         "publishedAt": "2021-02-14T23:53:03Z",
@@ -13099,7 +13214,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "３D",
           "お披露目",
@@ -13141,7 +13256,7 @@
     },
     "CL1fsKHRikk": {
       "kind": "youtube#video",
-      "etag": "vMfQt2topCcUE0xmoAPNdtXiYxA",
+      "etag": "TyNsgFm0rscnnuJELeJHMm1ra0s",
       "id": "CL1fsKHRikk",
       "snippet": {
         "publishedAt": "2021-01-09T00:59:18Z",
@@ -13175,7 +13290,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "1000",
           "スパチャ",
@@ -13222,7 +13337,7 @@
     },
     "72bPx0Dp8j4": {
       "kind": "youtube#video",
-      "etag": "p93ezwRX6vdo-1YB_cBLNV_dbt0",
+      "etag": "fwkDOX1INf1cGoQra_xszt3YqJk",
       "id": "72bPx0Dp8j4",
       "snippet": {
         "publishedAt": "2020-12-26T00:04:41Z",
@@ -13256,7 +13371,7 @@
             "height": 720
           }
         },
-        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
         "tags": [
           "重大",
           "発表",
