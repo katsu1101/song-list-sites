@@ -17,6 +17,7 @@ type Props = {
  * @param videos 動画一覧
  * @param handleTextSearch テキスト検索用ハンドル
  * @param handleGenreClick タグ検索用ハンドル
+ * @param labels 多言語化用ラベル
  * @constructor
  */
 export const SessionVideos: React.FC<Props> = ({
