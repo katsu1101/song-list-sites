@@ -1,4 +1,5 @@
 import VideoCard            from "@/components/VideoCard";
+import {Dictionary}         from "@/lib/i18n";
 import {Song, YouTubeVideo} from "@/types";
 import React                from "react";
 
@@ -7,6 +8,7 @@ type Props = {
   videos: Record<string, YouTubeVideo>;
   handleGenreClick: (genre: string) => void;
   handleTextSearch: (q: string) => void;
+  labels: Dictionary;
 }
 
 /**
@@ -19,7 +21,7 @@ type Props = {
  */
 export const SessionVideos: React.FC<Props> = ({
   filteredSongs,
-  videos, handleTextSearch, handleGenreClick
+  videos, handleTextSearch, handleGenreClick, labels
 }) => {
 
   // ✅ 日付ごとにグループ化（videoIdごと）
@@ -37,7 +39,7 @@ export const SessionVideos: React.FC<Props> = ({
   return (
     <div className="mt-24">
       {Object.entries(groupedSongs).length == 0
-        ? <p className="text-center text-gray-500">検索結果がありません</p>
+        ? <p className="text-center text-gray-500">{labels.noSearchResults}</p>
         : Object.entries(groupedSongs).map(([date, videosByDate]) => (
           <section key={date} className="mb-8">
             <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
@@ -48,6 +50,7 @@ export const SessionVideos: React.FC<Props> = ({
                     key={videoId} videoData={videos[videoId]} songs={songs}
                     handleGenreClick={handleGenreClick}
                     handleTextSearch={handleTextSearch}
+                    labels={labels}
                   />
                 );
               })}

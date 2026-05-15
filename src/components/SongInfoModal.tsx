@@ -1,9 +1,9 @@
-import GenreBadge                   from "@/components/GenreBadge";
-import OpEdBadge                    from "@/components/OpEdBadge";
-import {Song}                       from "@/types";
-import React, { useRef, useEffect } from "react";
-import { Search }                   from "lucide-react"; // アイコンをインポート（lucide-reactを使用）
-import { X } from "lucide-react"; // アイコンをインポート
+import GenreBadge                 from "@/components/GenreBadge";
+import OpEdBadge                  from "@/components/OpEdBadge";
+import {Dictionary}               from "@/lib/i18n";
+import {Song}                     from "@/types";
+import {Search, X}                from "lucide-react"; // アイコンをインポート（lucide-reactを使用） // アイコンをインポート
+import React, {useEffect, useRef} from "react";
 
 /**
  * 曲情報モーダル
@@ -12,7 +12,8 @@ const SongInfoModal: React.FC<{
   song: Song;
   onClose: () => void;
   onTextSearch: (q: string) => void;
-}> = ({ song, onClose, onTextSearch }) => {
+  labels: Dictionary;
+}> = ({song, onClose, onTextSearch, labels}) => {
   const infoRef = useRef<HTMLDivElement>(null);
 
   const handleSearch = (q: string) => {
@@ -40,28 +41,31 @@ const SongInfoModal: React.FC<{
         ref={infoRef}
         className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-2xl w-full max-w-lg md:max-w-xl max-h-[90vh] overflow-y-auto transform transition-all duration-300 scale-100"
       >
-        <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b pb-2 flex justify-between items-center">
-          曲の詳細情報
+        <h2
+          className="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b pb-2 flex justify-between items-center">
+          {labels.songDetails}
           <button onClick={onClose} className="text-gray-500 hover:text-red-500">
-            <X size={24} />
+            <X size={24}/>
           </button>
         </h2>
 
         <table className="w-full text-left text-sm">
           <tbody>
           <tr className="border-b border-gray-300 dark:border-gray-600">
-            <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300 w-1/4">アーティスト</td>
+            <td
+              className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300 w-1/4">{labels.artist}</td>
             <td className="py-2 text-gray-900 dark:text-gray-100 font-bold w-3/4">{song.artist}</td>
           </tr>
 
           <tr className="border-b border-gray-300 dark:border-gray-600">
-            <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300 w-1/4">曲名</td>
+            <td
+              className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300 w-1/4">{labels.title}</td>
             <td className="py-2 text-gray-900 dark:text-gray-100 font-bold w-3/4">{song.title}</td>
           </tr>
 
           {song.info?.genre && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">ジャンル</td>
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.genre}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 <GenreBadge
                   genre={song.info.genre}
@@ -73,21 +77,21 @@ const SongInfoModal: React.FC<{
 
           {song.info?.release && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">リリース</td>
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.release}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.release}</td>
             </tr>
           )}
 
           {song.info?.work && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作品名</td>
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.work}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 {song.info.work}
                 <button
                   className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
                   onClick={() => handleSearch(song.info?.work || '')}
                 >
-                  <Search size={16} />
+                  <Search size={16}/>
                 </button>
               </td>
             </tr>
@@ -95,7 +99,7 @@ const SongInfoModal: React.FC<{
 
           {song.info?.opEd && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">OP/ED区分</td>
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.opEd}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 <OpEdBadge
                   opEd={song.info.opEd}
@@ -107,14 +111,15 @@ const SongInfoModal: React.FC<{
 
           {song.info?.lyricist && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作詞</td>
+              <td
+                className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.lyricist}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 {song.info.lyricist}
                 <button
                   className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
                   onClick={() => handleSearch(song.info?.lyricist || '')}
                 >
-                  <Search size={16} />
+                  <Search size={16}/>
                 </button>
               </td>
             </tr>
@@ -122,14 +127,15 @@ const SongInfoModal: React.FC<{
 
           {song.info?.composer && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作曲</td>
+              <td
+                className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.composer}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 {song.info.composer}
                 <button
                   className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
                   onClick={() => handleSearch(song.info?.composer || '')}
                 >
-                  <Search size={16} />
+                  <Search size={16}/>
                 </button>
               </td>
             </tr>
@@ -137,14 +143,15 @@ const SongInfoModal: React.FC<{
 
           {song.info?.arranger && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">編曲</td>
+              <td
+                className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">{labels.arranger}</td>
               <td className="py-2 text-gray-900 dark:text-gray-100">
                 {song.info.arranger}
                 <button
                   className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
                   onClick={() => handleSearch(song.info?.arranger || '')}
                 >
-                  <Search size={16} />
+                  <Search size={16}/>
                 </button>
               </td>
             </tr>
@@ -156,7 +163,7 @@ const SongInfoModal: React.FC<{
           className="mt-4 w-full px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700 focus:outline-none transition-colors"
           onClick={onClose}
         >
-          閉じる
+          {labels.close}
         </button>
       </div>
     </div>

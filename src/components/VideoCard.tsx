@@ -1,11 +1,12 @@
-import GenreBadge                  from "@/components/GenreBadge";
+import GenreBadge                           from "@/components/GenreBadge";
 import OpEdBadge                            from "@/components/OpEdBadge";
-import SongInfoModal from "@/components/SongInfoModal";
-import YTVideoInfoModal from "@/components/YTVideoInfoModal";
-import { Song, YouTubeVideo}          from "@/types";
-import {Info} from "lucide-react";
+import SongInfoModal                        from "@/components/SongInfoModal";
+import YTVideoInfoModal                     from "@/components/YTVideoInfoModal";
+import {Dictionary}                         from "@/lib/i18n";
+import {Song, YouTubeVideo}                 from "@/types";
+import {Info}                               from "lucide-react";
+import Image                                from "next/image";
 import React, {useEffect, useRef, useState} from "react";
-import Image from "next/image";
 
 
 /**
@@ -16,7 +17,8 @@ const VideoCard: React.FC<{
   songs: Song[];
   handleGenreClick: (tag: string) => void;
   handleTextSearch: (q: string) => void;
-}> = ({ videoData, songs, handleGenreClick, handleTextSearch }) => {
+  labels: Dictionary;
+}> = ({videoData, songs, handleGenreClick, handleTextSearch, labels}) => {
 
   const [openInfo, setOpenInfo] = useState<string | null>(null);
   const [openVideoInfo, setOpenVideoInfo] = useState(false);
@@ -75,9 +77,9 @@ const VideoCard: React.FC<{
           {/*  {formatDuration(videoData?.contentDetails.duration)}*/}
           {/*</div>*/}
         </a>
-      {/*</div>*/}
+        {/*</div>*/}
 
-      {/*<div className="flex-grow md:w-2/3">*/}
+        {/*<div className="flex-grow md:w-2/3">*/}
         <div className="flex justify-between items-start mb-2">
           <a
             href={`https://www.youtube.com/watch?v=${videoData?.id}`}
@@ -91,9 +93,9 @@ const VideoCard: React.FC<{
           <button
             onClick={() => setOpenVideoInfo(true)}
             className="ml-2 p-1 text-gray-500 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
-            title="動画情報を表示"
+            title={labels.videoInfo}
           >
-            <Info size={20} />
+            <Info size={20}/>
           </button>
         </div>
 
@@ -108,9 +110,9 @@ const VideoCard: React.FC<{
                 <button
                   className="mr-1 px-1 py-0.5 text-sm text-blue-600 dark:text-blue-400 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none transition-colors"
                   onClick={() => setOpenInfo(openInfo === song.title ? null : song.title)}
-                  title="曲情報を表示"
+                  title={labels.songInfo}
                 >
-                  <Info size={18} />
+                  <Info size={18}/>
                 </button>
                 <a
                   href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
@@ -121,8 +123,8 @@ const VideoCard: React.FC<{
                   {song.title}
                 </a>
 
-                <GenreBadge genre={song.info?.genre} onClick={handleGenreClick} />
-                <OpEdBadge opEd={song.info?.opEd || ""} onClick={handleGenreClick} />
+                <GenreBadge genre={song.info?.genre} onClick={handleGenreClick}/>
+                <OpEdBadge opEd={song.info?.opEd || ""} onClick={handleGenreClick}/>
 
                 {/*{songCountBadge} /!* 歌数バッジをここに配置 *!/*/}
               </span>
@@ -133,6 +135,7 @@ const VideoCard: React.FC<{
                   song={song}
                   onClose={() => setOpenInfo(null)}
                   onTextSearch={handleTextSearch}
+                  labels={labels}
                 />
               )}
             </li>
@@ -145,6 +148,7 @@ const VideoCard: React.FC<{
             video={videoData}
             onClose={() => setOpenVideoInfo(false)}
             onTextSearch={handleTextSearch}
+            labels={labels}
           />
         )}
       </div>

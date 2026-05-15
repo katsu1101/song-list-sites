@@ -4,17 +4,21 @@ import React        from "react"; // アイコンをインポート
 
 type Props = {
   menuOpen: boolean
+  menuTitle: string;
+  relatedLinksLabel: string;
+  locale: "ja" | "en";
+  onLocaleChange: (locale: "ja" | "en") => void;
   onClick?: () => void; // ✅ クリック時にジャンルを渡せる
 };
 
-const Menu: React.FC<Props> = ({menuOpen, onClick}) => {
+const Menu: React.FC<Props> = ({menuOpen, menuTitle, relatedLinksLabel, locale, onLocaleChange, onClick}) => {
 
   return (
     <div className="relative">
       <button
         onClick={onClick}
         className="text-2xl p-2 text-blue-500 dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 rounded-full bg-white dark:bg-gray-800 shadow-md transition-colors"
-        title="メニュー"
+        title={menuTitle}
       >
         ☰
       </button>
@@ -26,7 +30,15 @@ const Menu: React.FC<Props> = ({menuOpen, onClick}) => {
               <X size={20}/>
             </button>
           </div>
-          <h3 className="text-lg font-bold text-gray-900 dark:text-white border-b pb-2 mb-2">関連リンク</h3>
+          <h3 className="text-lg font-bold text-gray-900 dark:text-white border-b pb-2 mb-2">{relatedLinksLabel}</h3>
+          <div className="mb-3">
+            <button onClick={() => onLocaleChange("ja")}
+                    className={`mr-2 px-2 py-1 rounded ${locale === "ja" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}>日本語
+            </button>
+            <button onClick={() => onLocaleChange("en")}
+                    className={`px-2 py-1 rounded ${locale === "en" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}>English
+            </button>
+          </div>
           <ul className="space-y-2 text-sm">
             {siteConfig.menuItems.map((item) => (
               <li key={item.name}>
