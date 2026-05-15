@@ -1,13 +1,14 @@
 "use client";
 
-import {ImageLogo}                    from "@/components/ImageLogo";
-import {ImageX}                       from "@/components/ImageX";
-import Menu                           from "@/components/Menu";
-import {SessionVideos}                from "@/components/SessionVideos";
-import {filterSongs, linkUrl}         from "@/lib/constants";
-import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
-import {siteConfig}                   from "@/site";
-import {Song, SongInfo, YouTubeVideo} from "@/types";
+import {ImageLogo}                          from "@/components/ImageLogo";
+import {ImageX}                             from "@/components/ImageX";
+import Menu                                 from "@/components/Menu";
+import {SessionVideos}                      from "@/components/SessionVideos";
+import {filterSongs, linkUrl}               from "@/lib/constants";
+import {detectLocale, dictionaries, Locale} from "@/lib/i18n";
+import {checkVersionAndUpdateCache}         from "@/lib/versionChecker";
+import {siteConfig}                         from "@/site";
+import {Song, SongInfo, YouTubeVideo}       from "@/types";
 
 import {useSearchParams}     from "next/navigation";
 import Papa                  from "papaparse";
@@ -24,7 +25,9 @@ export default function Home() {
   const [songInfoMap, setSongInfoMap] = useState<Record<string, SongInfo> | null>(null);
   const [isScrolled, setIsScrolled] = useState(false); // スクロールの位置
   const [isClient, setIsClient] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [locale, setLocale] = useState<Locale>("ja");
+  const t = dictionaries[locale];
 
   // ✅ クリック時に検索バーへジャンルをセット
   const handleGenreClick = (tag: string) => {
@@ -113,6 +116,7 @@ export default function Home() {
   }, [songInfoMap]);
 
   useEffect(() => {
+    setLocale(detectLocale());
     setIsClient(true); // クライアント側でのみ `true` にする
     // クライアントサイドでのみ実行
     if (typeof window === "undefined") return;
@@ -142,7 +146,7 @@ export default function Home() {
   }, [menuOpen]);
 
   if (!isClient) {
-    return <div>Loading...</div>; // SSR時に一旦「Loading...」を表示
+    return <div>{t.loading}</div>; // SSR時に一旦「Loading...」を表示
   }
 
   return (
@@ -158,8 +162,25 @@ export default function Home() {
             <h1 className="text-2xl md:text-4xl font-bold whitespace-nowrap">
               {siteConfig.title}{/*戸定梨香ちゃんの歌リスト*/}
             </h1>
-            {/* メニューアイコン */}
-            <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}/>
+            <div className="flex items-center gap-2">
+              <div className="flex items-center">
+                <button
+                  onClick={() => setLocale("ja")}
+                  className={`mr-2 px-2 py-1 rounded text-sm ${locale === "ja" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}
+                >
+                  日本語
+                </button>
+                <button
+                  onClick={() => setLocale("en")}
+                  className={`px-2 py-1 rounded text-sm ${locale === "en" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}
+                >
+                  English
+                </button>
+              </div>
+              {/* メニューアイコン */}
+              <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}
+                    menuTitle={t.menu} relatedLinksLabel={t.relatedLinks}/>
+            </div>
           </div>
 
           <div className="max-w-4xl mx-auto flex items-center w-full z-[998] p-0">
@@ -172,7 +193,7 @@ export default function Home() {
             <div className="flex-1 relative pr-3">
               <input
                 type="text"
-                placeholder="曲名・日付・動画タイトルで検索"
+                placeholder={t.searchPlaceholder}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full p-2 border border-gray-400 rounded-md
@@ -191,8 +212,8 @@ export default function Home() {
             </div>
             <div>
               {/* AddToAny のシェアボタンコンテナ */}
-              <div title="検索結果をXでポスト！">
-                <a  href={linkUrl(searchQuery)} target="_blank">
+              <div title={t.shareToX}>
+                <a href={linkUrl(searchQuery)} target="_blank">
                   <ImageX/>
                 </a>
               </div>
@@ -205,6 +226,7 @@ export default function Home() {
         videos={videos}
         handleTextSearch={handleTextSearch}
         handleGenreClick={handleGenreClick}
+        labels={t}
       />
     </main>
   );

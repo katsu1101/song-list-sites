@@ -4,17 +4,19 @@ import React        from "react"; // アイコンをインポート
 
 type Props = {
   menuOpen: boolean
+  menuTitle: string;
+  relatedLinksLabel: string;
   onClick?: () => void; // ✅ クリック時にジャンルを渡せる
 };
 
-const Menu: React.FC<Props> = ({menuOpen, onClick}) => {
+const Menu: React.FC<Props> = ({menuOpen, menuTitle, relatedLinksLabel, onClick}) => {
 
   return (
     <div className="relative">
       <button
         onClick={onClick}
         className="text-2xl p-2 text-blue-500 dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 rounded-full bg-white dark:bg-gray-800 shadow-md transition-colors"
-        title="メニュー"
+        title={menuTitle}
       >
         ☰
       </button>
@@ -26,7 +28,9 @@ const Menu: React.FC<Props> = ({menuOpen, onClick}) => {
               <X size={20}/>
             </button>
           </div>
-          <h3 className="text-lg font-bold text-gray-900 dark:text-white border-b pb-2 mb-2">関連リンク</h3>
+          <h3 className="text-lg font-bold text-gray-900 dark:text-white border-b pb-2 mb-2">{relatedLinksLabel}</h3>
+          <div className="mb-3">
+          </div>
           <ul className="space-y-2 text-sm">
             {siteConfig.menuItems.map((item) => (
               <li key={item.name}>
