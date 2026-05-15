@@ -1,14 +1,14 @@
 "use client";
 
-import {ImageLogo}                    from "@/components/ImageLogo";
-import {ImageX}                       from "@/components/ImageX";
-import Menu                           from "@/components/Menu";
-import {SessionVideos}                from "@/components/SessionVideos";
-import {filterSongs, linkUrl}         from "@/lib/constants";
+import {ImageLogo}                          from "@/components/ImageLogo";
+import {ImageX}                             from "@/components/ImageX";
+import Menu                                 from "@/components/Menu";
+import {SessionVideos}                      from "@/components/SessionVideos";
+import {filterSongs, linkUrl}               from "@/lib/constants";
 import {detectLocale, dictionaries, Locale} from "@/lib/i18n";
-import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
-import {siteConfig}                   from "@/site";
-import {Song, SongInfo, YouTubeVideo} from "@/types";
+import {checkVersionAndUpdateCache}         from "@/lib/versionChecker";
+import {siteConfig}                         from "@/site";
+import {Song, SongInfo, YouTubeVideo}       from "@/types";
 
 import {useSearchParams}     from "next/navigation";
 import Papa                  from "papaparse";
@@ -162,9 +162,25 @@ export default function Home() {
             <h1 className="text-2xl md:text-4xl font-bold whitespace-nowrap">
               {siteConfig.title}{/*戸定梨香ちゃんの歌リスト*/}
             </h1>
-            {/* メニューアイコン */}
-            <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}
-                  menuTitle={t.menu} relatedLinksLabel={t.relatedLinks} locale={locale} onLocaleChange={setLocale}/>
+            <div className="flex items-center gap-2">
+              <div className="flex items-center">
+                <button
+                  onClick={() => setLocale("ja")}
+                  className={`mr-2 px-2 py-1 rounded text-sm ${locale === "ja" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}
+                >
+                  日本語
+                </button>
+                <button
+                  onClick={() => setLocale("en")}
+                  className={`px-2 py-1 rounded text-sm ${locale === "en" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}
+                >
+                  English
+                </button>
+              </div>
+              {/* メニューアイコン */}
+              <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}
+                    menuTitle={t.menu} relatedLinksLabel={t.relatedLinks}/>
+            </div>
           </div>
 
           <div className="max-w-4xl mx-auto flex items-center w-full z-[998] p-0">
@@ -197,7 +213,7 @@ export default function Home() {
             <div>
               {/* AddToAny のシェアボタンコンテナ */}
               <div title={t.shareToX}>
-                <a  href={linkUrl(searchQuery)} target="_blank">
+                <a href={linkUrl(searchQuery)} target="_blank">
                   <ImageX/>
                 </a>
               </div>
