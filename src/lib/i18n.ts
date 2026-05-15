@@ -1,6 +1,6 @@
 export type Locale = "ja" | "en";
 
-export type Dictionary = {
+export type Messages = {
   loading: string;
   searchPlaceholder: string;
   shareToX: string;
@@ -28,7 +28,7 @@ export type Dictionary = {
   tags: string;
 };
 
-export const dictionaries: Record<Locale, Dictionary> = {
+export const dictionaries: Record<Locale, Messages> = {
   ja: {
     loading: "Loading...",
     searchPlaceholder: "曲名・日付・動画タイトルで検索",

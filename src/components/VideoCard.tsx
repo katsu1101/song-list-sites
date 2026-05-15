@@ -2,7 +2,7 @@ import GenreBadge                           from "@/components/GenreBadge";
 import OpEdBadge                            from "@/components/OpEdBadge";
 import SongInfoModal                        from "@/components/SongInfoModal";
 import YTVideoInfoModal                     from "@/components/YTVideoInfoModal";
-import {Dictionary}                         from "@/lib/i18n";
+import {Messages}                           from "@/lib/i18n";
 import {Song, YouTubeVideo}                 from "@/types";
 import {Info}                               from "lucide-react";
 import Image                                from "next/image";
@@ -17,7 +17,7 @@ const VideoCard: React.FC<{
   songs: Song[];
   handleGenreClick: (tag: string) => void;
   handleTextSearch: (q: string) => void;
-  labels: Dictionary;
+  labels: Messages;
 }> = ({videoData, songs, handleGenreClick, handleTextSearch, labels}) => {
 
   const [openInfo, setOpenInfo] = useState<string | null>(null);
