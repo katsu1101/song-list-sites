@@ -1,9 +1,8 @@
 // src/app/layout.tsx
-import LocaleProvider      from "@/components/LocaleProvider";
 import {siteConfig}        from "@/site";
+import {Metadata}          from "next";
 import {Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
-import {Suspense}          from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +17,7 @@ const geistMono = Geist_Mono({
 const basePath = siteConfig.basePath;
 const site = siteConfig.assetDir;
 
-export const metadata = {
+export const metadata: Metadata = {
   title: siteConfig.title,
   metadataBase: new URL(siteConfig.siteUrl),
   description: siteConfig.description,
@@ -130,9 +129,7 @@ export default function RootLayout({
       ></script>
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-    <Suspense>
-      <LocaleProvider>{children}</LocaleProvider>
-    </Suspense>
+    {children}
     </body>
     </html>
   );
