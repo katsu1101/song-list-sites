@@ -9,10 +9,10 @@ import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
 import {siteConfig}                   from "@/site";
 import {Song, SongInfo, YouTubeVideo} from "@/types";
 
-import {useLocale, useTranslations} from "next-intl";
+import {useLocale, useTranslations}              from "next-intl";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
-import Papa                  from "papaparse";
-import {useEffect, useState} from "react";
+import Papa                                      from "papaparse";
+import {useEffect, useState}                     from "react";
 
 const basePath = siteConfig.basePath;
 
@@ -31,7 +31,7 @@ export default function Home() {
   const pathname = usePathname();
   const tr = useTranslations();
 
-  const switchLocale = (nextLocale: "ja" | "en") => {
+  const switchLocale = (nextLocale: "" | "ja" | "en") => {
     const path = pathname || "/";
     if (path === "/") {
       router.push(`/${nextLocale}`);
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <div className="flex items-center">
                 <button
-                  onClick={() => switchLocale("ja")}
+                  onClick={() => switchLocale("")}
                   className={`mr-2 px-2 py-1 rounded text-sm ${locale === "ja" ? "bg-blue-500 text-white" : "bg-gray-200 dark:bg-gray-700"}`}
                 >
                   日本語
