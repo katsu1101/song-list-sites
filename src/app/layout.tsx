@@ -1,4 +1,5 @@
 // src/app/layout.tsx
+import LocaleProvider      from "@/components/LocaleProvider";
 import {siteConfig}        from "@/site";
 import {Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
@@ -130,7 +131,7 @@ export default function RootLayout({
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
     <Suspense>
-      {children}
+      <LocaleProvider>{children}</LocaleProvider>
     </Suspense>
     </body>
     </html>

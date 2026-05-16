@@ -1,5 +1,5 @@
 import {formatDateYmd}            from "@/lib/dateFormat";
-import {Dictionary}               from "@/lib/i18n";
+import {Messages}                 from "@/lib/i18n";
 import {formatDuration}           from "@/lib/youTube";
 import {YouTubeVideo}             from "@/types";
 import {X}                        from "lucide-react"; // アイコンをインポート
@@ -12,7 +12,7 @@ const YTVideoInfoModal: React.FC<{
   video: YouTubeVideo;
   onClose: () => void;
   onTextSearch: (q: string) => void;
-  labels: Dictionary;
+  labels: Messages;
 }> = ({video, onClose, onTextSearch, labels}) => {
   const infoRef = useRef<HTMLDivElement>(null);
 

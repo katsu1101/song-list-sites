@@ -1,15 +1,16 @@
 "use client";
 
-import {ImageLogo}                          from "@/components/ImageLogo";
-import {ImageX}                             from "@/components/ImageX";
-import Menu                                 from "@/components/Menu";
-import {SessionVideos}                      from "@/components/SessionVideos";
-import {filterSongs, linkUrl}               from "@/lib/constants";
-import {detectLocale, dictionaries, Locale} from "@/lib/i18n";
-import {checkVersionAndUpdateCache}         from "@/lib/versionChecker";
-import {siteConfig}                         from "@/site";
-import {Song, SongInfo, YouTubeVideo}       from "@/types";
+import {ImageLogo}                    from "@/components/ImageLogo";
+import {ImageX}                       from "@/components/ImageX";
+import {useAppLocale}                 from "@/components/LocaleProvider";
+import Menu                           from "@/components/Menu";
+import {SessionVideos}                from "@/components/SessionVideos";
+import {filterSongs, linkUrl}         from "@/lib/constants";
+import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
+import {siteConfig}                   from "@/site";
+import {Song, SongInfo, YouTubeVideo} from "@/types";
 
+import {useTranslations}     from "next-intl";
 import {useSearchParams}     from "next/navigation";
 import Papa                  from "papaparse";
 import {useEffect, useState} from "react";
@@ -26,8 +27,35 @@ export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false); // スクロールの位置
   const [isClient, setIsClient] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [locale, setLocale] = useState<Locale>("ja");
-  const t = dictionaries[locale];
+  const {locale, setLocale} = useAppLocale();
+  const tr = useTranslations();
+  const t = {
+    loading: tr("loading"),
+    searchPlaceholder: tr("searchPlaceholder"),
+    shareToX: tr("shareToX"),
+    menu: tr("menu"),
+    relatedLinks: tr("relatedLinks"),
+    noSearchResults: tr("noSearchResults"),
+    songInfo: tr("songInfo"),
+    videoInfo: tr("videoInfo"),
+    songDetails: tr("songDetails"),
+    videoDetails: tr("videoDetails"),
+    artist: tr("artist"),
+    title: tr("title"),
+    genre: tr("genre"),
+    release: tr("release"),
+    work: tr("work"),
+    opEd: tr("opEd"),
+    lyricist: tr("lyricist"),
+    composer: tr("composer"),
+    arranger: tr("arranger"),
+    close: tr("close"),
+    channel: tr("channel"),
+    publishedAt: tr("publishedAt"),
+    duration: tr("duration"),
+    description: tr("description"),
+    tags: tr("tags"),
+  };
 
   // ✅ クリック時に検索バーへジャンルをセット
   const handleGenreClick = (tag: string) => {
@@ -116,7 +144,6 @@ export default function Home() {
   }, [songInfoMap]);
 
   useEffect(() => {
-    setLocale(detectLocale());
     setIsClient(true); // クライアント側でのみ `true` にする
     // クライアントサイドでのみ実行
     if (typeof window === "undefined") return;

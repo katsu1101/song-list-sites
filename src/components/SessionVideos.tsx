@@ -1,5 +1,5 @@
 import VideoCard            from "@/components/VideoCard";
-import {Dictionary}         from "@/lib/i18n";
+import {Messages}           from "@/lib/i18n";
 import {Song, YouTubeVideo} from "@/types";
 import React                from "react";
 
@@ -8,7 +8,7 @@ type Props = {
   videos: Record<string, YouTubeVideo>;
   handleGenreClick: (genre: string) => void;
   handleTextSearch: (q: string) => void;
-  labels: Dictionary;
+  labels: Messages;
 }
 
 /**
@@ -21,9 +21,9 @@ type Props = {
  * @constructor
  */
 export const SessionVideos: React.FC<Props> = ({
-  filteredSongs,
-  videos, handleTextSearch, handleGenreClick, labels
-}) => {
+                                                 filteredSongs,
+                                                 videos, handleTextSearch, handleGenreClick, labels
+                                               }) => {
 
   // ✅ 日付ごとにグループ化（videoIdごと）
   const groupedSongs: Record<string, Record<string, Song[]>> = {};
