@@ -1,13 +1,13 @@
 "use client";
 
-import {ImageLogo}                    from "@/components/ImageLogo";
-import {ImageX}                       from "@/components/ImageX";
-import Menu                           from "@/components/Menu";
-import {SessionVideos}                from "@/components/SessionVideos";
-import {filterSongs, linkUrl}         from "@/lib/constants";
-import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
-import {siteConfig}                   from "@/site";
-import {Song, SongInfo, YouTubeVideo} from "@/types";
+import {ImageLogo}                         from "@/components/ImageLogo";
+import {ImageX}                            from "@/components/ImageX";
+import Menu                                from "@/components/Menu";
+import {SessionVideos}                     from "@/components/SessionVideos";
+import {filterSongs, linkUrl}              from "@/lib/constants";
+import {checkVersionAndUpdateCache}        from "@/lib/versionChecker";
+import {getSiteConfigByLocale, siteConfig} from "@/site"
+import {Song, SongInfo, YouTubeVideo}      from "@/types";
 
 import {useLocale, useTranslations}              from "next-intl";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
@@ -30,6 +30,7 @@ export default function Home() {
   const router = useRouter();
   const pathname = usePathname();
   const tr = useTranslations();
+  const localizedSiteConfig = getSiteConfigByLocale(locale === "en" ? "en" : "ja");
 
   const switchLocale = (nextLocale: "" | "ja" | "en") => {
     const path = pathname || "/";
@@ -206,7 +207,7 @@ export default function Home() {
             isScrolled ? "opacity-0 h-0" : "opacity-100 h-auto"
           }`}>
             <h1 className="text-2xl md:text-4xl font-bold whitespace-nowrap">
-              {siteConfig.title}{/*戸定梨香ちゃんの歌リスト*/}
+              {localizedSiteConfig.title}{/*戸定梨香ちゃんの歌リスト*/}
             </h1>
             <div className="flex items-center gap-2">
               <div className="flex items-center">
@@ -259,7 +260,7 @@ export default function Home() {
             <div>
               {/* AddToAny のシェアボタンコンテナ */}
               <div title={t.shareToX}>
-                <a href={linkUrl(searchQuery)} target="_blank">
+                <a href={linkUrl(searchQuery, locale === "en" ? "en" : "ja")} target="_blank">
                   <ImageX/>
                 </a>
               </div>

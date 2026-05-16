@@ -23,5 +23,6 @@
   "publishedAt": "投稿日",
   "duration": "動画時間",
   "description": "概要",
-  "tags": "タグ"
+  "tags": "タグ",
+  "metadataDescription": "これは 歌リストアプリです"
 }

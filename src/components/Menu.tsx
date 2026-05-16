@@ -1,6 +1,10 @@
-import {siteConfig} from "@/site";
-import {X}          from "lucide-react";
-import React        from "react"; // アイコンをインポート
+"use client";
+
+import {defaultLocale, isValidLocale} from "@/i18n/routing";
+import {getSiteConfigByLocale}        from "@/site";
+import {X}                            from "lucide-react";
+import {useLocale}                    from "next-intl";
+import React                          from "react"; // アイコンをインポート
 
 type Props = {
   menuOpen: boolean
@@ -10,6 +14,10 @@ type Props = {
 };
 
 const Menu: React.FC<Props> = ({menuOpen, menuTitle, relatedLinksLabel, onClick}) => {
+
+  const locale = useLocale();
+  const resolvedLocale = isValidLocale(locale) ? locale : defaultLocale;
+  const localizedSiteConfig = getSiteConfigByLocale(resolvedLocale);
 
   return (
     <div className="relative">
@@ -32,7 +40,7 @@ const Menu: React.FC<Props> = ({menuOpen, menuTitle, relatedLinksLabel, onClick}
           <div className="mb-3">
           </div>
           <ul className="space-y-2 text-sm">
-            {siteConfig.menuItems.map((item) => (
+            {localizedSiteConfig.menuItems.map((item) => (
               <li key={item.name}>
                 <a
                   href={item.url}

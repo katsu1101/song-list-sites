@@ -23,5 +23,6 @@
   "publishedAt": "Published",
   "duration": "Duration",
   "description": "Description",
-  "tags": "Tags"
+  "tags": "Tags",
+  "metadataDescription": "This is a song list app"
 }

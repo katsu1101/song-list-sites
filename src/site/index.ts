@@ -1,7 +1,8 @@
 // src/site/index.ts
-import type { SiteConfig, SiteId } from "./types";
-import { lincaConfig } from "./linca";
-import { reshraConfig } from "./reshra";
+import type {Locale}                         from "@/i18n/routing";
+import {getLincaConfigByLocale, lincaConfig} from "./linca";
+import {reshraConfig}                        from "./reshra";
+import type {SiteConfig, SiteId}             from "./types";
 
 const parseSiteId = (value: string | undefined): SiteId => {
   return value === "reshra" ? "reshra" : "linca";
@@ -15,3 +16,10 @@ const configs: Record<SiteId, SiteConfig> = {
 };
 
 export const siteConfig: SiteConfig = configs[siteId];
+
+export const getSiteConfigByLocale = (locale: Locale): SiteConfig => {
+  if (siteId === "linca") {
+    return getLincaConfigByLocale(locale);
+  }
+  return siteConfig;
+};

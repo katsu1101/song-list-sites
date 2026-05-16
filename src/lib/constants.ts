@@ -1,5 +1,6 @@
-import {siteConfig}         from "@/site";
-import {Song, YouTubeVideo} from "@/types";
+import type {Locale}           from "@/i18n/routing";
+import {getSiteConfigByLocale} from "@/site";
+import {Song, YouTubeVideo}    from "@/types";
 
 /**
  * X投稿用定数
@@ -19,11 +20,12 @@ const context = {
  * param {string} searchQuery - 生成されるURLに含める検索クエリ。空の場合はデフォルトのURLが返されます。
  * returns {string} - searchQueryとコンテキストデータに基づいて完全に構築され、エンコードされたURL。
  */
-export const linkUrl = (searchQuery: string) => {
+export const linkUrl = (searchQuery: string, locale: Locale = "ja") => {
+  const localizedSiteConfig = getSiteConfigByLocale(locale);
   const normalizedQuery = searchQuery.trim();
 
   // 共有する「URL」はURLとして正しい形だけにする
-  const targetUrl = new URL(siteConfig.siteUrl);
+  const targetUrl = new URL(localizedSiteConfig.siteUrl);
   if (normalizedQuery !== "") {
     targetUrl.searchParams.set("s", normalizedQuery);
   }
@@ -31,8 +33,8 @@ export const linkUrl = (searchQuery: string) => {
   // 共有する「本文」はここだけに寄せる
   const tweetText =
     normalizedQuery !== ""
-      ? `${siteConfig.linkNote}${normalizedQuery}${siteConfig.tagSuffix}`
-      : `${siteConfig.linkNote2}${siteConfig.tagSuffix}`;
+      ? `${localizedSiteConfig.linkNote}${normalizedQuery}${localizedSiteConfig.tagSuffix}`
+      : `${localizedSiteConfig.linkNote2}${localizedSiteConfig.tagSuffix}`;
 
   // AddToAny共有URLを正しく組み立てる（エンコードはURLSearchParamsに任せる）
   const shareUrl = new URL(context.xShareBaseUrl);
