@@ -556,9 +556,9 @@
       "artist": "堀絢子",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=470s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=469s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 470,
+      "timestamp": 469,
       "source": 2
     },
     {
@@ -567,9 +567,9 @@
       "artist": "光GENJI",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=832s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=831s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 832,
+      "timestamp": 831,
       "source": 2
     },
     {
@@ -578,9 +578,9 @@
       "artist": "陰陽座",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=1443s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=1442s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 1443,
+      "timestamp": 1442,
       "source": 2
     },
     {
@@ -589,9 +589,9 @@
       "artist": "鈴木結女",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=1885s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=1884s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 1885,
+      "timestamp": 1884,
       "source": 2
     },
     {
@@ -600,9 +600,9 @@
       "artist": "鈴木結女",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=2228s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=2227s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 2228,
+      "timestamp": 2227,
       "source": 2
     },
     {
@@ -611,9 +611,9 @@
       "artist": "トゥー・チー・チェン",
       "work": "",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=2781s",
+      "url": "https://www.youtube.com/watch?v=upIxt7xtdFY&t=2780s",
       "videoId": "upIxt7xtdFY",
-      "timestamp": 2781,
+      "timestamp": 2780,
       "source": 2
     },
     {
@@ -5317,7 +5317,7 @@
   "videos": {
     "dnSX757pr2c": {
       "kind": "youtube#video",
-      "etag": "58PZAalPJOYYxzOqF9O6xikypXQ",
+      "etag": "hGTI7nGe-L3WIDH16EpXZFyjtnQ",
       "id": "dnSX757pr2c",
       "snippet": {
         "publishedAt": "2026-03-30T11:00:06Z",
@@ -5371,7 +5371,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1178",
+        "viewCount": "1211",
         "likeCount": "103",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -5379,7 +5379,7 @@
     },
     "arR0sX8muTU": {
       "kind": "youtube#video",
-      "etag": "pOWpZ_sXnB8Iv55GVCjO_GN2Jvw",
+      "etag": "8MTz6e0GBe9dKrWLT7X8u_mJDSE",
       "id": "arR0sX8muTU",
       "snippet": {
         "publishedAt": "2025-11-01T12:00:06Z",
@@ -5433,7 +5433,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "18525",
+        "viewCount": "18558",
         "likeCount": "226",
         "favoriteCount": "0",
         "commentCount": "26"
@@ -5441,7 +5441,7 @@
     },
     "S4pC89svKic": {
       "kind": "youtube#video",
-      "etag": "2eYpUCKIEd5d6CfHoMmc8i7n-ME",
+      "etag": "gX8-RMpvjreFNsyiVzLuRNw7Ljw",
       "id": "S4pC89svKic",
       "snippet": {
         "publishedAt": "2025-09-14T02:00:35Z",
@@ -5525,7 +5525,7 @@
     },
     "g2WQIfTREfM": {
       "kind": "youtube#video",
-      "etag": "Iqle9KRmsGyl5lOpQMNmZ5O9iq4",
+      "etag": "Jl0QebLetoSru9XuDOV8a5XHexE",
       "id": "g2WQIfTREfM",
       "snippet": {
         "publishedAt": "2025-03-18T11:30:07Z",
@@ -5589,7 +5589,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1677",
+        "viewCount": "1679",
         "likeCount": "249",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -5597,7 +5597,7 @@
     },
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "YmMiopA7aUbS35XN_JvPo0UDwHA",
+      "etag": "Mq-RmO2QR06R-PFWrHePWqA2QCo",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -5651,7 +5651,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2614",
+        "viewCount": "2618",
         "likeCount": "224",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -5659,7 +5659,7 @@
     },
     "lQd7OfNER5E": {
       "kind": "youtube#video",
-      "etag": "PNFROwaxKylMZ88tHRwu5Buukuo",
+      "etag": "VNNNvxB28zo5jIsfSE_2t5C-L3M",
       "id": "lQd7OfNER5E",
       "snippet": {
         "publishedAt": "2024-07-04T12:00:07Z",
@@ -5733,7 +5733,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2641",
+        "viewCount": "2647",
         "likeCount": "307",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -5741,7 +5741,7 @@
     },
     "5nHXLuFuVv4": {
       "kind": "youtube#video",
-      "etag": "-KdhptOGDuFQKDHBGDoSugcyIBw",
+      "etag": "xu2BF8iJcGivj-JNoYfLnYszmUk",
       "id": "5nHXLuFuVv4",
       "snippet": {
         "publishedAt": "2024-04-14T11:45:07Z",
@@ -5820,7 +5820,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3486",
+        "viewCount": "3488",
         "likeCount": "278",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -5828,7 +5828,7 @@
     },
     "XtUs6qTZzqg": {
       "kind": "youtube#video",
-      "etag": "5mwOZWB_-3tbK5dXb9FmtYRwIa0",
+      "etag": "D73HqX1bLqY0QnLoIDnG7es_JjY",
       "id": "XtUs6qTZzqg",
       "snippet": {
         "publishedAt": "2024-04-14T11:30:07Z",
@@ -5898,7 +5898,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2077",
+        "viewCount": "2079",
         "likeCount": "250",
         "favoriteCount": "0",
         "commentCount": "9"
@@ -5967,7 +5967,7 @@
     },
     "1DLndvFhPsY": {
       "kind": "youtube#video",
-      "etag": "mSYgLV1Ih6StqYc59_g3PB7i16Q",
+      "etag": "tInE8cqP4b4hjmBTJtLjpQ-Gwsk",
       "id": "1DLndvFhPsY",
       "snippet": {
         "publishedAt": "2023-04-29T15:30:09Z",
@@ -6041,7 +6041,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3596",
+        "viewCount": "3600",
         "likeCount": "254",
         "favoriteCount": "0",
         "commentCount": "21"
@@ -6049,7 +6049,7 @@
     },
     "oqLbaRa190A": {
       "kind": "youtube#video",
-      "etag": "p88kI1yGz23CYsRZCi39vl2zt9o",
+      "etag": "-VQrr5SHqNcyEpLnZVgNcLveANE",
       "id": "oqLbaRa190A",
       "snippet": {
         "publishedAt": "2023-04-22T07:45:35Z",
@@ -6112,7 +6112,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1321",
+        "viewCount": "1322",
         "likeCount": "81",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -6120,7 +6120,7 @@
     },
     "LI2WwrPNHFU": {
       "kind": "youtube#video",
-      "etag": "hdZ2J0g19hm9a4Vg-gIVK2tVmuk",
+      "etag": "6PS-0BfNWKcSR3hH_irCZoZlHyE",
       "id": "LI2WwrPNHFU",
       "snippet": {
         "publishedAt": "2023-04-15T03:05:07Z",
@@ -6183,7 +6183,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8103",
+        "viewCount": "8125",
         "likeCount": "425",
         "favoriteCount": "0",
         "commentCount": "26"
@@ -6191,7 +6191,7 @@
     },
     "U8N6UH53Dds": {
       "kind": "youtube#video",
-      "etag": "D9aY7KkeiI7MpZfRDkkFxtgojcs",
+      "etag": "s4DWfclh9pH20ak2GfVuG1aaMN0",
       "id": "U8N6UH53Dds",
       "snippet": {
         "publishedAt": "2023-04-14T10:00:09Z",
@@ -6256,7 +6256,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2752",
+        "viewCount": "2754",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "24"
@@ -6264,7 +6264,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "T-umelA2mgH6BUqyV8UDC_9FblQ",
+      "etag": "p4M7LsB8cpNQxLS_7zrSKj24S_o",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -6319,15 +6319,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "47714",
-        "likeCount": "490",
+        "viewCount": "47913",
+        "likeCount": "491",
         "favoriteCount": "0",
         "commentCount": "41"
       }
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "PO54KihEu7B1rWJsX2wqydt4ccE",
+      "etag": "Y3qmYu4CZFrR6zap5APBbgDDc0A",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -6374,8 +6374,7 @@
         "localized": {
           "title": "ガラスのくつ / covered by 戸定 梨香",
           "description": "「今ごぼれ落ちて消えた…」\n\n本家様：ガラスのくつ / いとうかなこ\nhttps://www.youtube.com/watch?v=t7Re0Nj2FX8\n\nMix：chammy様\n@chammy_20p\n\nIllust：GAMING様\n\nMovie : こなもん様"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT5M19S",
@@ -6387,7 +6386,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7226",
+        "viewCount": "7236",
         "likeCount": "363",
         "favoriteCount": "0",
         "commentCount": "27"
@@ -6395,7 +6394,7 @@
     },
     "fgZLWMUz6eM": {
       "kind": "youtube#video",
-      "etag": "7XyxtwezXrjmZJKIuwV6DxDQJFc",
+      "etag": "blEwS9BItUqYqcTxj5QXaMA0IeE",
       "id": "fgZLWMUz6eM",
       "snippet": {
         "publishedAt": "2022-09-14T17:51:36Z",
@@ -6444,7 +6443,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1341",
+        "viewCount": "1342",
         "likeCount": "186",
         "favoriteCount": "0",
         "commentCount": "13"
@@ -6521,7 +6520,7 @@
     },
     "tvqdUG5OE2I": {
       "kind": "youtube#video",
-      "etag": "YwUa5TXBVbhCut8bSGAyDQUFwS4",
+      "etag": "fs4sJKYG062VxTDyc11zUbLc998",
       "id": "tvqdUG5OE2I",
       "snippet": {
         "publishedAt": "2022-09-07T12:00:48Z",
@@ -6575,7 +6574,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7292",
+        "viewCount": "7295",
         "likeCount": "409",
         "favoriteCount": "0",
         "commentCount": "30"
@@ -6583,7 +6582,7 @@
     },
     "XV_4Iu50XFI": {
       "kind": "youtube#video",
-      "etag": "CO103W0bSElLKsPEtT7gJiyKYCw",
+      "etag": "kcK4iGuI5VvHF7PdG4TEU-90yTM",
       "id": "XV_4Iu50XFI",
       "snippet": {
         "publishedAt": "2022-07-24T11:00:13Z",
@@ -6637,7 +6636,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2578",
+        "viewCount": "2581",
         "likeCount": "209",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -6645,7 +6644,7 @@
     },
     "9ElTZFM3txw": {
       "kind": "youtube#video",
-      "etag": "WuIpDuBlKQ4m0IkKU-KDu-O-OVU",
+      "etag": "JRCzQ2MukeoE261pRMvv2i1QNqA",
       "id": "9ElTZFM3txw",
       "snippet": {
         "publishedAt": "2022-07-04T11:45:14Z",
@@ -6699,7 +6698,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "9928",
+        "viewCount": "9929",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -6707,7 +6706,7 @@
     },
     "56JL0PpekUo": {
       "kind": "youtube#video",
-      "etag": "FH0QlgIDlOxxTEyruNGVtYMSBw4",
+      "etag": "aJ90ewNFwZ3pDdrwLC4cXCDag7U",
       "id": "56JL0PpekUo",
       "snippet": {
         "publishedAt": "2022-06-24T11:00:14Z",
@@ -6761,7 +6760,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5592",
+        "viewCount": "5593",
         "likeCount": "216",
         "favoriteCount": "0",
         "commentCount": "21"
@@ -6769,7 +6768,7 @@
     },
     "b0mVX1XFD_g": {
       "kind": "youtube#video",
-      "etag": "MDgzflS5uPFJhjGO37BT9e3jghc",
+      "etag": "9GDUo5V0AK58FyBGO9hyVmEiULI",
       "id": "b0mVX1XFD_g",
       "snippet": {
         "publishedAt": "2022-06-15T11:30:12Z",
@@ -6810,8 +6809,7 @@
         "localized": {
           "title": "【Vtuber5人】RAISE A SUILEN ﹣ 「EXPOSE 'Burn out!!!'」【歌ってみた】",
           "description": "「Get your gun！ Let's shoot！ Bang！ Bang！」\n\nアニメ｢BanG Dream! 3rd Season 挿入歌｣\nFIRE BIRD / Roselia｣\n\n本家様\nhttps://youtu.be/iYBt-rlYu1A\n\nVocal\nMiTaMa\nhttps://twitter.com/igano_mitama\nNanoha。\nhttps://twitter.com/Nano_song708\n戸定梨香\nhttps://twitter.com/Tojyou_Linca\nマリカ・マツリカ\nhttps://twitter.com/MarikaMa2rika\nはやかわりんね\nhttps://twitter.com/hayakawarin_ne\n\n【CREDIT】\ninst \nKeiT’a’  https://twitter.com/KeiTaXMusic\nMix\nヨシダユウスケ\nillust\nshia aoi https://twitter.com/shia1027\nMovie\n梨木つむぎ https://twitter.com/tsumugi_nashiki\n\n#raiseasuilen  #バンドリ #vtuber #vsinger  #うたってみた"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT4M59S",
@@ -6823,7 +6821,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1778",
+        "viewCount": "1781",
         "likeCount": "91",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -6892,7 +6890,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "ob7s4G4DPYBmHvCXHgND3nZmy2s",
+      "etag": "O1qJ7RBa_oKSInB_YyMb2uDNQjw",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -6946,14 +6944,14 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "273815",
+        "viewCount": "274066",
         "favoriteCount": "0",
         "commentCount": "372"
       }
     },
     "bkQ_UtHdX2U": {
       "kind": "youtube#video",
-      "etag": "D2zONaqeR_2mlE5C4k9LoJNoduU",
+      "etag": "RH0beSyYH-y8H6uL7IT5LPjnaYE",
       "id": "bkQ_UtHdX2U",
       "snippet": {
         "publishedAt": "2022-03-18T12:00:50Z",
@@ -7007,7 +7005,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2251",
+        "viewCount": "2252",
         "likeCount": "172",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -7015,7 +7013,7 @@
     },
     "tW6lIBpI-94": {
       "kind": "youtube#video",
-      "etag": "V-Gq0Kcezye4P8xolojCf9Lepkg",
+      "etag": "3B0kTnn-tDjXKlEBY94RSxNb9j0",
       "id": "tW6lIBpI-94",
       "snippet": {
         "publishedAt": "2022-03-14T11:30:15Z",
@@ -7076,7 +7074,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1934",
+        "viewCount": "1935",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -7220,7 +7218,7 @@
     },
     "ql3Z-T7frgw": {
       "kind": "youtube#video",
-      "etag": "xn_ooydWmpEL1ucgBwRNarzJ4E0",
+      "etag": "52CpLybTdQ8bTKCQJa-FPG3HGbo",
       "id": "ql3Z-T7frgw",
       "snippet": {
         "publishedAt": "2022-01-04T14:24:42Z",
@@ -7293,7 +7291,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3237",
+        "viewCount": "3239",
         "likeCount": "378",
         "favoriteCount": "0",
         "commentCount": "36"
@@ -7301,7 +7299,7 @@
     },
     "w9xYUVXxsYM": {
       "kind": "youtube#video",
-      "etag": "79nXjurYd046pwGrQwjxPBdX5go",
+      "etag": "vKMXD_gizbzguecirFj2Q_SWRm0",
       "id": "w9xYUVXxsYM",
       "snippet": {
         "publishedAt": "2021-12-17T11:00:13Z",
@@ -7361,7 +7359,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "22199",
+        "viewCount": "22202",
         "likeCount": "751",
         "favoriteCount": "0",
         "commentCount": "56"
@@ -7369,7 +7367,7 @@
     },
     "i7Blu0Sc_a4": {
       "kind": "youtube#video",
-      "etag": "zsSfL11BTRIt2xsHA7wwuLIonf8",
+      "etag": "yfgwIL5wRG6hUY5tCvkVp4s1ZoM",
       "id": "i7Blu0Sc_a4",
       "snippet": {
         "publishedAt": "2021-04-16T20:03:17Z",
@@ -7458,7 +7456,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3127",
+        "viewCount": "3128",
         "likeCount": "242",
         "favoriteCount": "0",
         "commentCount": "15"
@@ -7466,7 +7464,7 @@
     },
     "7Qa2D8oubMY": {
       "kind": "youtube#video",
-      "etag": "I6mf6HaWgFuUMWyLeYJpzthY28Y",
+      "etag": "bykhrBcPBF_Zgp2FO3uLVriAwq0",
       "id": "7Qa2D8oubMY",
       "snippet": {
         "publishedAt": "2021-04-15T15:41:14Z",
@@ -7544,7 +7542,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7217",
+        "viewCount": "7220",
         "likeCount": "383",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -7552,7 +7550,7 @@
     },
     "XPYQJo2v_r0": {
       "kind": "youtube#video",
-      "etag": "ew7o0lFh9blQrQ5RCG6ObYCsskI",
+      "etag": "MuBVYYxt-xy8DZN3bYrfpBBJHS8",
       "id": "XPYQJo2v_r0",
       "snippet": {
         "publishedAt": "2021-02-15T22:31:17Z",
@@ -7633,7 +7631,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8881",
+        "viewCount": "8883",
         "likeCount": "374",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -7641,7 +7639,7 @@
     },
     "I91fiV7iXAU": {
       "kind": "youtube#video",
-      "etag": "6kpauNycZNMWIlds6u6vsrmyMZA",
+      "etag": "Jv7eX2h9FceDsnFqQRCxVzqrPVk",
       "id": "I91fiV7iXAU",
       "snippet": {
         "publishedAt": "2020-12-31T15:00:11Z",
@@ -7708,7 +7706,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3008",
+        "viewCount": "3009",
         "likeCount": "138",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7716,7 +7714,7 @@
     },
     "c421y_seuJ0": {
       "kind": "youtube#video",
-      "etag": "DbnmlyyZK3ESKwQG5zciSm1pMUc",
+      "etag": "YYjOvg3z9JCc5hjcY0EBu7OtsBs",
       "id": "c421y_seuJ0",
       "snippet": {
         "publishedAt": "2020-11-06T20:23:53Z",
@@ -7777,8 +7775,7 @@
         "localized": {
           "title": "【歌ってみた】暗殺プリンセス / covered by 戸定 梨香",
           "description": "「さようならプリンス」\n\nMUSIC\n暗殺プリンセス /Mitchie M\nhttps://www.youtube.com/watch?v=xgO-uGH7tho\n\nMIX\n7th Loudcity\n\nIllustration\n白狼\nhttp://www.eonet.ne.jp/~fwkh4588/pairan2.htm\n\nMovie\nyama_ko\nhttp://www.yama-ko.net/\n\nniconico\nhttps://www.nicovideo.jp/watch/sm37781990\n\n#暗殺プリンセス #MitchieM #歌ってみた\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\n配信タグ：＃松戸のとじょりん\nファンアート：#とじょりんアート\nファンネーム：#戸定邸宅民\n推しマーク：🐨\n推しカラー：赤\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\n🐨戸定梨香🐨\nφTwitter\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\nφSHOWROOM\nhttps://www.showroom-live.com/tojo_linca\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\n🎀ファンクラブ🎀\nVASEでは、ファンクラブ（ファンティア）がございます。\n０円～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n応援のお気持ちは、私が１番好きなこと、\n歌ってみたに全て使わせていただきたいです。\nどうぞよろしくお願いいたします。\n\n戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n❥梨香お薦めマグカップ\nhttps://booth.pm/ja/items/2475110\n❥わくわく豪華セット\nhttps://booth.pm/ja/items/2254957\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nVASE\nhttps://www.vase.tokyo/\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT3M27S",
@@ -7790,7 +7787,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6622",
+        "viewCount": "6626",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -7870,7 +7867,7 @@
     },
     "7SCdNaOGoSM": {
       "kind": "youtube#video",
-      "etag": "MoFVnBa-W5bh9TFB7k5pRKfDKDI",
+      "etag": "RqUS_dKORECgi7rQplc420jWkv0",
       "id": "7SCdNaOGoSM",
       "snippet": {
         "publishedAt": "2020-10-20T19:31:48Z",
@@ -7924,8 +7921,7 @@
         "localized": {
           "title": "【歌ってみた】青 / covered by 戸定 梨香",
           "description": "「このまま一人だけの世界へ バイバイ」\n\nMUSIC\n青/164 feat.MAYU\nhttps://www.youtube.com/watch?v=3CIVK0XuuFE\n\nMIX\n7th Loudcity\n\nIllustration\n鳥越タクミ\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\n🐨戸定梨香🐨\nφTwitter\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?view_as=subscriber\nφSHOWROOM\nhttps://www.showroom-live.com/tojo_linca\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\n🎀ファンクラブ🎀\nVASEでは、ファンティアをやっています。\n０円～の７コースが揃っています。\n応援がとてもとても励みになります。\n歌ってみたに全て使わせていただきます。\nどうぞよろしくお願いします。\n\n戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー \n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nVASE\nhttps://www.vase.tokyo/\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\n#青 #歌ってみた #203soundworks"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT4M18S",
@@ -7937,7 +7933,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5119",
+        "viewCount": "5135",
         "likeCount": "175",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -7945,7 +7941,7 @@
     },
     "UGeQtPbp6bc": {
       "kind": "youtube#video",
-      "etag": "3xfZHviWoae9g2NUjWbuXpHJlWk",
+      "etag": "QbEBHHZpp95zOAZ9qRWxWp6s6DU",
       "id": "UGeQtPbp6bc",
       "snippet": {
         "publishedAt": "2020-09-30T12:00:19Z",
@@ -8008,7 +8004,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3143",
+        "viewCount": "3162",
         "likeCount": "150",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -8016,7 +8012,7 @@
     },
     "x41mLZYsUkA": {
       "kind": "youtube#video",
-      "etag": "yJmWau5-Psxl3wtu-gYOX0zYj5E",
+      "etag": "omLxN3gh5p2L9iIFSdB7j5k0HTk",
       "id": "x41mLZYsUkA",
       "snippet": {
         "publishedAt": "2020-09-22T01:00:01Z",
@@ -8095,7 +8091,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6857",
+        "viewCount": "6863",
         "likeCount": "261",
         "favoriteCount": "0",
         "commentCount": "14"
@@ -8103,7 +8099,7 @@
     },
     "ON2eStO7YXc": {
       "kind": "youtube#video",
-      "etag": "qQz6VEwvlc1aMoUWFbarEfx_wx4",
+      "etag": "lsaYZsUNmkEjyYDCbQFllGSCbkI",
       "id": "ON2eStO7YXc",
       "snippet": {
         "publishedAt": "2020-05-29T22:01:52Z",
@@ -8179,7 +8175,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8450",
+        "viewCount": "8453",
         "likeCount": "333",
         "favoriteCount": "0",
         "commentCount": "23"
@@ -8277,7 +8273,7 @@
     },
     "U9zhM2xgH78": {
       "kind": "youtube#video",
-      "etag": "Kj5D7sSW65gpRHmRl60ZdnuimEA",
+      "etag": "eUNyyP7J8NjSLYGFswDvg0o4SDQ",
       "id": "U9zhM2xgH78",
       "snippet": {
         "publishedAt": "2020-04-24T21:19:41Z",
@@ -8353,7 +8349,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1783",
+        "viewCount": "1784",
         "likeCount": "80",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -8361,36 +8357,36 @@
     },
     "upIxt7xtdFY": {
       "kind": "youtube#video",
-      "etag": "cUt8VC-d7AUrqEJI3axxA2dQwyQ",
+      "etag": "h0ljvq0ZJEWeIMzYL47ztV1g7Q0",
       "id": "upIxt7xtdFY",
       "snippet": {
-        "publishedAt": "2026-05-14T01:38:50Z",
+        "publishedAt": "2026-05-15T04:20:17Z",
         "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
         "title": "にんにんにんにん忍者の歌縛り2222秒【#活動2222日】【#歌枠】【#karaoke 】",
         "description": "祝！活動2222日にちなんで「にんにんにんにん忍者の歌縛り」です🎤\n2222秒（37分）でどこまで歌えるか🎶\nリクエストいただいた忍者の歌です🐻🌟\n\n#戸定梨香活動2222日\nハッシュタグをつけてお祝いや感想をポストしてね(/ω＼)🌠\n\n🐨🎀￤最新情報\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n📅5月からスタートするカレンダー\nhttps://ase-store.com/items/69dce70df27b522734bf477d\n\n🎂5月14日は、戸定梨香活動2222日です❣❣\n忍者にまつわる歌を2222秒間披露しますにんにん\n#戸定梨香活動2222日\n\n🎶戸定梨香の今までの歌がぜ～んぶ聴けます🎶\nご提供：かつきさん＆きっくーさん🐨🎀\nhttps://katsu1101.github.io/song-list-linca-tojou/\n\n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 ASE（VASE）\nhttps://www.vase.tokyo/\n\nASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/upIxt7xtdFY/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -8426,24 +8422,24 @@
         "defaultAudioLanguage": "ja"
       },
       "contentDetails": {
-        "duration": "PT1H4M36S",
+        "duration": "PT1H4M42S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": false,
         "contentRating": {},
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "153",
-        "likeCount": "73",
+        "viewCount": "294",
+        "likeCount": "83",
         "favoriteCount": "0",
-        "commentCount": "0"
+        "commentCount": "2"
       }
     },
     "Yoj1GiL5N0k": {
       "kind": "youtube#video",
-      "etag": "N_g1g4LAjNmg9zRFQXm7cNat3AE",
+      "etag": "i7lACP4-UEiiTKHSK-Pd42I4xAg",
       "id": "Yoj1GiL5N0k",
       "snippet": {
         "publishedAt": "2026-05-09T01:07:25Z",
@@ -8506,15 +8502,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "308",
-        "likeCount": "61",
+        "viewCount": "370",
+        "likeCount": "62",
         "favoriteCount": "0",
-        "commentCount": "0"
+        "commentCount": "1"
       }
     },
     "pveRmCOSAYI": {
       "kind": "youtube#video",
-      "etag": "DjvJUVHtsaf9q3pRZCglC3zXz7Q",
+      "etag": "FvcmgiSBQrs4auuuaKNWNHvvVEc",
       "id": "pveRmCOSAYI",
       "snippet": {
         "publishedAt": "2026-04-22T13:30:06Z",
@@ -8583,15 +8579,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "313",
-        "likeCount": "62",
+        "viewCount": "322",
+        "likeCount": "63",
         "favoriteCount": "0",
         "commentCount": "6"
       }
     },
     "YvryxRx8Mdg": {
       "kind": "youtube#video",
-      "etag": "8sD8X2tOIvXqzW8ZInWEPHNutOk",
+      "etag": "DvfE-CEDCWsPoY7IGk_DzcexhL0",
       "id": "YvryxRx8Mdg",
       "snippet": {
         "publishedAt": "2026-04-16T13:00:06Z",
@@ -8682,15 +8678,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "559",
-        "likeCount": "106",
+        "viewCount": "588",
+        "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "8"
       }
     },
     "mCuwZ6xmsC4": {
       "kind": "youtube#video",
-      "etag": "BaBblQPC2LyBoUfsqYrKaIU0D8Q",
+      "etag": "QDPp4jMAf1ZY7NW3NNFpXMZl9m4",
       "id": "mCuwZ6xmsC4",
       "snippet": {
         "publishedAt": "2026-04-15T02:26:30Z",
@@ -8749,7 +8745,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "688",
+        "viewCount": "691",
         "likeCount": "143",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -8829,7 +8825,7 @@
     },
     "rRZ2UbyetRQ": {
       "kind": "youtube#video",
-      "etag": "TqUytCjN3a-4_6P7Fq43YYYNg7c",
+      "etag": "L1IbHT29niF8iw44x9sJrCk2Dtk",
       "id": "rRZ2UbyetRQ",
       "snippet": {
         "publishedAt": "2026-03-12T12:00:06Z",
@@ -8899,7 +8895,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1469",
+        "viewCount": "1477",
         "likeCount": "89",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -8979,7 +8975,7 @@
     },
     "OwQ38Lz8jo8": {
       "kind": "youtube#video",
-      "etag": "D2exaZQn-RwKAZYpbGcCseApr44",
+      "etag": "yIdExL20VISExlt0aO8fhHQ3Z80",
       "id": "OwQ38Lz8jo8",
       "snippet": {
         "publishedAt": "2025-12-24T14:25:57Z",
@@ -9033,7 +9029,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "463",
+        "viewCount": "464",
         "likeCount": "104",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -9041,7 +9037,7 @@
     },
     "HVGO4cru-AY": {
       "kind": "youtube#video",
-      "etag": "SRBKb9kbs4yvAA9WAuRxFZS7aT0",
+      "etag": "eQs67ncZZCAdeFzj6HbAruNN14M",
       "id": "HVGO4cru-AY",
       "snippet": {
         "publishedAt": "2025-10-21T12:30:06Z",
@@ -9106,7 +9102,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "968",
+        "viewCount": "970",
         "likeCount": "115",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -9114,7 +9110,7 @@
     },
     "qwqVkM9vl9Y": {
       "kind": "youtube#video",
-      "etag": "0fjAWresnEEz-YZFV6CMda2Pq50",
+      "etag": "0Oyi_dy9Ceo0o1joTiFbge8Nw4I",
       "id": "qwqVkM9vl9Y",
       "snippet": {
         "publishedAt": "2025-10-17T14:31:38Z",
@@ -9196,7 +9192,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "602",
+        "viewCount": "603",
         "likeCount": "72",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -9266,7 +9262,7 @@
     },
     "B1LAFHGKWP4": {
       "kind": "youtube#video",
-      "etag": "43K3Tanyb0urlDnU4rejfWMSmuM",
+      "etag": "8sCGy-3tIDuVUuZBs6oSK5wcT4M",
       "id": "B1LAFHGKWP4",
       "snippet": {
         "publishedAt": "2025-08-10T02:32:34Z",
@@ -9353,7 +9349,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "355",
+        "viewCount": "356",
         "likeCount": "61",
         "favoriteCount": "0",
         "commentCount": "0"
@@ -9597,7 +9593,7 @@
     },
     "Vx1pdB1FFYc": {
       "kind": "youtube#video",
-      "etag": "BoUOdq_UNOT22I63ykUQL-LbQ8k",
+      "etag": "N6UeFNJVDX4eKvfpNIqF2lnU-BI",
       "id": "Vx1pdB1FFYc",
       "snippet": {
         "publishedAt": "2025-06-07T03:08:20Z",
@@ -9672,7 +9668,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "405",
+        "viewCount": "406",
         "likeCount": "123",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -9680,7 +9676,7 @@
     },
     "X6KvHpuzOa4": {
       "kind": "youtube#video",
-      "etag": "MlOnwMFPXucaaoTCxJRbGvIumMI",
+      "etag": "iXMby5RZ6CnUa9sO-2i9nl7VSHo",
       "id": "X6KvHpuzOa4",
       "snippet": {
         "publishedAt": "2025-04-27T07:27:58Z",
@@ -9721,8 +9717,7 @@
         "localized": {
           "title": "【戸定梨香5周年記念】3Dライブ高画質バージョン🐨🎀",
           "description": "戸定梨香5周年記念でお送りした3Dライブ高画質バージョンです🐨🎀\nいっぱいお祝いをしてくれて、本当にどうもありがとうなの❣❣"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT51M34S",
@@ -9741,7 +9736,7 @@
     },
     "Ov0uQA-ux0c": {
       "kind": "youtube#video",
-      "etag": "6RtfGmTExpTAwbwOvwJ_zdsePT8",
+      "etag": "sEwOjNNw3vjo_hx7pqONyDqo1K0",
       "id": "Ov0uQA-ux0c",
       "snippet": {
         "publishedAt": "2025-04-15T01:52:44Z",
@@ -9814,8 +9809,8 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "13850",
-        "likeCount": "332",
+        "viewCount": "13967",
+        "likeCount": "333",
         "favoriteCount": "0",
         "commentCount": "15"
       }
@@ -9883,7 +9878,7 @@
     },
     "qa0PSEJS10M": {
       "kind": "youtube#video",
-      "etag": "JJaaHDl43Js80nWcC861n9VD8DY",
+      "etag": "J99uTs78X_r0PYr3JtktWTGm6g0",
       "id": "qa0PSEJS10M",
       "snippet": {
         "publishedAt": "2025-02-23T12:39:47Z",
@@ -9948,7 +9943,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "894",
+        "viewCount": "895",
         "likeCount": "200",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -10028,7 +10023,7 @@
     },
     "BE9vzRfX7Q4": {
       "kind": "youtube#video",
-      "etag": "O7hUfL82Sdx3ZFvoptQsB6pZSnc",
+      "etag": "MROogks5HVIYEA2Gzrcn48sT5ik",
       "id": "BE9vzRfX7Q4",
       "snippet": {
         "publishedAt": "2024-12-24T15:12:45Z",
@@ -10085,8 +10080,7 @@
         "localized": {
           "title": "【#歌枠】イブにしっとり冬の楽曲縛り🎅🎄🌟【#メリクリ】【#karaoke】【戸定梨香】",
           "description": "メリークリスマス🎅🎄💕\n24日のイブは、とじょりんサンタさんが歌を歌います(n*´ω`*n)🌟\nお気軽にコメントしてほしいです❣❣\n\n🐨🎀￤最新情報\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nめいどりーみんコラボグッズが限定発売中❣❣\n🎅アクスタ\nhttps://vase.booth.pm/items/6387888\n\n12月29日は、VASE一大イベント🎶\nVASE FESが開催されるよ❣❣チケット好評発売中❣❣\n\n🎫〈1部〉 VASE music Festival ~ 紅白歌合戦2024~\nhttps://t.livepocket.jp/e/324mn\n🎫〈2部〉 VASE music Festival ~ バンドじゃないと！~\nhttps://t.livepocket.jp/e/5dpk2\n\n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\n戸定梨香生誕お祝いグッズ2024🐻🌟\nhttps://vase.booth.pm/items/5883177\n\nむぅむぅ生誕グッズ2024🦕💕\nhttps://vase.booth.pm/items/5802078\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://vase.booth.pm/items/5500777\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nVASE　https://fp.famima.com/vtuber/vase-59tnz\n\nローソンプリント\nVASE　https://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT2H16M24S",
@@ -10404,7 +10398,7 @@
     },
     "hsgO2LN9CFQ": {
       "kind": "youtube#video",
-      "etag": "9O26t48CUnE2KDxJ5QHb2Dfkvso",
+      "etag": "xle5IzI1UTM_BRwCR_5eTa6hrho",
       "id": "hsgO2LN9CFQ",
       "snippet": {
         "publishedAt": "2024-07-27T15:24:50Z",
@@ -10487,7 +10481,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1781",
+        "viewCount": "1782",
         "likeCount": "140",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -10858,7 +10852,7 @@
     },
     "C1h1ml2QteI": {
       "kind": "youtube#video",
-      "etag": "DO4pfcnUZrjo7xQ95ZH0FqdYAa4",
+      "etag": "eRmKOVm4DdJtJobvrwX4OZKXzMA",
       "id": "C1h1ml2QteI",
       "snippet": {
         "publishedAt": "2024-06-07T02:16:28Z",
@@ -10927,7 +10921,7 @@
         "defaultAudioLanguage": "ja"
       },
       "contentDetails": {
-        "duration": "PT1H39M29S",
+        "duration": "PT1H39M30S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
@@ -10936,7 +10930,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "541",
+        "viewCount": "543",
         "likeCount": "157",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -11105,7 +11099,7 @@
     },
     "OcZKdH4I0C8": {
       "kind": "youtube#video",
-      "etag": "Nu1UdyL-aVCA8YUPVlzmppydv5Y",
+      "etag": "Y4AQJ_SVuEtqmjPk957lCyXZNPM",
       "id": "OcZKdH4I0C8",
       "snippet": {
         "publishedAt": "2024-04-29T13:32:24Z",
@@ -11178,7 +11172,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1029",
+        "viewCount": "1030",
         "likeCount": "213",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -11186,7 +11180,7 @@
     },
     "iEThgKK2HO4": {
       "kind": "youtube#video",
-      "etag": "oR5CaNRyCcIx2_iIV2c7KiGyLIc",
+      "etag": "RmDIPngGva80p4h3zY89M7wsPus",
       "id": "iEThgKK2HO4",
       "snippet": {
         "publishedAt": "2024-04-14T15:47:22Z",
@@ -11259,7 +11253,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1227",
+        "viewCount": "1229",
         "likeCount": "249",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -11976,7 +11970,7 @@
     },
     "rFynGJ66MOA": {
       "kind": "youtube#video",
-      "etag": "3L0s7bC2Rbjzxf9ZTr-Y1fuXPTU",
+      "etag": "tmZ86nvIdjyxf8iFN_b0d1PYdug",
       "id": "rFynGJ66MOA",
       "snippet": {
         "publishedAt": "2023-08-14T02:39:20Z",
@@ -12035,7 +12029,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1105",
+        "viewCount": "1106",
         "likeCount": "123",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -12251,7 +12245,7 @@
     },
     "2DAwHJRqa5k": {
       "kind": "youtube#video",
-      "etag": "LPrfZMvPNWPym4-CNGILpIpG3r4",
+      "etag": "EEy_fwNUHyNjgPceeofTjjXB_WI",
       "id": "2DAwHJRqa5k",
       "snippet": {
         "publishedAt": "2023-06-07T02:07:43Z",
@@ -12317,7 +12311,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "818",
+        "viewCount": "819",
         "likeCount": "165",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -12868,7 +12862,7 @@
     },
     "Ec2Q_7chEW8": {
       "kind": "youtube#video",
-      "etag": "oQdvjbCOoLTrxM4lVik9R6rTbs0",
+      "etag": "2iYy2fLg7NYz4FVucrCgNJaguTI",
       "id": "Ec2Q_7chEW8",
       "snippet": {
         "publishedAt": "2022-06-07T02:03:34Z",
@@ -12922,7 +12916,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1368",
+        "viewCount": "1369",
         "likeCount": "198",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -12930,7 +12924,7 @@
     },
     "700shh60JwE": {
       "kind": "youtube#video",
-      "etag": "iCm7aegWs_fNJWOCFN6xXZcEvHo",
+      "etag": "4ItwpAsBUtPuK3iWbbElRH9DRdk",
       "id": "700shh60JwE",
       "snippet": {
         "publishedAt": "2022-05-16T15:49:43Z",
@@ -12984,7 +12978,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2516",
+        "viewCount": "2517",
         "likeCount": "335",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -12992,7 +12986,7 @@
     },
     "PO3KrMbmqkY": {
       "kind": "youtube#video",
-      "etag": "ACd0MJvrV-YUE5k-KKHvOH5IbJ8",
+      "etag": "VNrpA8-O04gtb173m3NfxLbNDWE",
       "id": "PO3KrMbmqkY",
       "snippet": {
         "publishedAt": "2022-04-14T13:43:19Z",
@@ -13066,7 +13060,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5200",
+        "viewCount": "5202",
         "likeCount": "391",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -13074,7 +13068,7 @@
     },
     "GDCew9WE_FM": {
       "kind": "youtube#video",
-      "etag": "2_ZbEC2AZ9V1RUslxszckjk5mUw",
+      "etag": "vTeH5ng59VRnyHiqzvEHMqZRD-M",
       "id": "GDCew9WE_FM",
       "snippet": {
         "publishedAt": "2021-12-25T13:15:41Z",
@@ -13110,8 +13104,7 @@
         "localized": {
           "title": "【警察制服姿3D公開】計画から約1年後！いよいよ公開です！応援ありがとう！🐨🎀",
           "description": "皆さんの応援のお陰で、3D警察制服姿を公開させていただきます(´;ω;｀)🌟\nどうもありがとうございます！！\n\n本日、ラストのストレッチゴールの発表をさせていただきます🐨🎀\n一緒に夢のクリスマスを過ごそうね💕\n\n🐯クラウドファンディングページ\nVTuber戸定梨香「松戸から全国へ！夢と名産品をお届けしたい！」\nhttps://camp-fire.jp/projects/view/503187\n英語バージョン（English）\nhttps://grapee.jp/en/188054\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n100人達成ありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀梨香のファンクラブ🎀\nVASEでは、ファンクラブ（ファンティア）がございます。\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信タグ：＃松戸のとじょりん\nファンアート：#とじょりんアート\nファンネーム：#戸定邸宅民\nグッズお迎え：#とじょりんグッズ\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香🐨\nφTwitter\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n🎀🐨全国のローソンプリント🐨🎀\n❥L判300円　2L判500円\n水着・通常の2ver.ブロマイド\n店内にあるマルチコピー機「ローソンプリント」から印刷してね💕\n\n＜商品番号＞\nアイドルステージL\nhttps://lawson-print.com/products/describe/1037030045\nアイドルステージ2L\nhttps://lawson-print.com/products/describe/1037030048\n水着L\nhttps://lawson-print.com/products/describe/1037030006\n水着2L\nhttps://lawson-print.com/products/describe/1037030025\n通常L\nhttps://lawson-print.com/products/describe/1037030019\n通常2L\nhttps://lawson-print.com/products/describe/1037030038\n\n🎀🐨VASEオフィシャルグッズ🐨🎀\n❥むぅむぅ×ばけごろうアクキーセット\nhttps://vase.booth.pm/items/3300202\n❥マグカップ\nhttps://vase.booth.pm/items/3337279\n❥タペストリー\n・横・https://vase.booth.pm/items/3390434\n・縦・https://vase.booth.pm/items/2658100\n❥初の水着になれた等身大タペストリー\nhttps://vase.booth.pm/items/3088239\n❥１周年お祝い記念セット\nhttps://vase.booth.pm/items/2843523\n❥梨香＆むぅむぅマグカップ\nhttps://vase.booth.pm/items/3337279\n❥わくわく豪華セット\nhttps://booth.pm/ja/items/2254957\n❥梨香とV2トーク（マンツーマントークなの♪）\nhttps://vase.booth.pm/items/2191758"
-        },
-        "defaultAudioLanguage": "ja"
+        }
       },
       "contentDetails": {
         "duration": "PT40M25S",
@@ -13123,7 +13116,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7517",
+        "viewCount": "7518",
         "likeCount": "1271",
         "favoriteCount": "0",
         "commentCount": "25"
