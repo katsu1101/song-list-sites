@@ -8,16 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-          run_install: false
+      - uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -29,7 +30,7 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /song-list-linca-tojou
           SITE_ID: linca
 
-      # 出力先が out/ でも build/ でも吸収して out_linca/ に統一する（設定変更最小）
+      # 出力先が out/ でも build/ でも吸収
       - name: Normalize output dir -> out_linca and write marker
         shell: bash
         run: |
