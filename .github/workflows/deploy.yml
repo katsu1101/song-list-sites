@@ -21,7 +21,9 @@ jobs:
           version: 11
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile --ignore-scripts=false
+        run: pnpm install --frozen-lockfile
+        env:
+          CI: false
 
       - name: Build (LINCA)
         run: pnpm run build:linca
