@@ -15,8 +15,10 @@ jobs:
           node-version: 20
           cache: pnpm
 
-      - name: Enable corepack
-        run: corepack enable
+      - name: Enable corepack and pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
