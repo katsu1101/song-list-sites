@@ -24,8 +24,8 @@ export const lincaConfig: SiteConfig = {
     {name: "VASE 公式サイト", url: "https://www.vase.tokyo/"},
 
     {name: "LINEスタンプ", url: "https://store.line.me/stickershop/product/20411879/ja"},
-    {name: "ローソンプリント", url: "https://lawson-print.com/products/categories/vase"},
-    {name: "ファミマプリント", url: "https://famima-print.family.co.jp/vtuber/vase-59tnz"},
+    {name: "ローソンプリント", url: "https://lawson-print.com/products/categories/artstone-entertainment"},
+    {name: "ファミマプリント", url: "https://famima-print.family.co.jp/vtuber/tojoulinca"},
 
     {name: "きっくーのメモ帳（データ提供元）", url: "https://kicku-tw.blogspot.com/"},
     {name: "𝕏（かつき）", url: "https://x.com/katsu1101"},
