@@ -551,6 +551,127 @@
       "source": 1
     },
     {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "YES!サマーラブ♡",
+      "artist": "ハピネス(野口衣織(=LOVE))・シケ(櫻井もも(≠ME))・ミサキ(小澤愛実(≒JOY))",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=400s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 400,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "きゅん・きゅん・まっくす",
+      "artist": "一ノ瀬志希、乙倉悠貴、椎名法子、前川みく、棟方愛",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=690s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 690,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "16歳のアガペー",
+      "artist": "Wake Up, Girls!",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=945s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 945,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "BORN ON DREAM! ～HANABI☆NIGHT～",
+      "artist": "閃光☆HANABI団",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=1345s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 1345,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "シークレット・ドリーム",
+      "artist": "みつき(CV.平塚紗依)",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=1560s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 1560,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "secret base ～君がくれたもの～",
+      "artist": "ZONE",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=1765s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 1765,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "怪獣の花唄",
+      "artist": "Vaundy",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=2125s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 2125,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "燦々デイズ",
+      "artist": "スピラ・スピカ",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=2355s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 2355,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "スキちゃん",
+      "artist": "スマイレージ",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=2915s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 2915,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hhidgFiYKtc&t=3205s",
+      "videoId": "hhidgFiYKtc",
+      "timestamp": 3205,
+      "source": 2
+    },
+    {
+      "date": "2026/07/04 [3Dライブ]",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 2
+    },
+    {
       "date": "2026/05/14",
       "title": "忍者ハットリくん",
       "artist": "堀絢子",
@@ -5317,7 +5438,7 @@
   "videos": {
     "bcUGoF8GlKI": {
       "kind": "youtube#video",
-      "etag": "Yw4g5H-9Z1IewkbQ5DAokodf1cQ",
+      "etag": "fwSAb6urTUSkd3xSv8VVfuCp7pQ",
       "id": "bcUGoF8GlKI",
       "snippet": {
         "publishedAt": "2026-07-04T12:00:06Z",
@@ -5377,10 +5498,10 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "53",
-        "likeCount": "44",
+        "viewCount": "120",
+        "likeCount": "68",
         "favoriteCount": "0",
-        "commentCount": "1"
+        "commentCount": "5"
       }
     },
     "dnSX757pr2c": {
@@ -5592,7 +5713,7 @@
     },
     "g2WQIfTREfM": {
       "kind": "youtube#video",
-      "etag": "cScCn9_pulVRiEzk0Nk61W37PMo",
+      "etag": "5OjEsQWpc2E697pY0_7Kyka4BP8",
       "id": "g2WQIfTREfM",
       "snippet": {
         "publishedAt": "2025-03-18T11:30:07Z",
@@ -5655,7 +5776,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1707",
+        "viewCount": "1708",
         "likeCount": "251",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -6323,7 +6444,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "N_-DVcytphi8mI9aCNBfAVdHw18",
+      "etag": "IvcHGS4z7AsaJPE8YFpi3iu8xQo",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -6377,7 +6498,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "49095",
+        "viewCount": "49101",
         "likeCount": "495",
         "favoriteCount": "0",
         "commentCount": "41"
@@ -6637,7 +6758,7 @@
     },
     "XV_4Iu50XFI": {
       "kind": "youtube#video",
-      "etag": "k_TIz9qAxTpEJDUxkgzI9A2p8cM",
+      "etag": "nWTpFj9id1zlua1Li_ELuKyThR0",
       "id": "XV_4Iu50XFI",
       "snippet": {
         "publishedAt": "2022-07-24T11:00:13Z",
@@ -6690,7 +6811,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2599",
+        "viewCount": "2600",
         "likeCount": "209",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -6941,7 +7062,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "kEkkPeoI1trwm-_7xztEMDB5T08",
+      "etag": "k2B_SIMuJMtd-TJEBuX3UTjXp8k",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -6995,7 +7116,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "275485",
+        "viewCount": "275488",
         "favoriteCount": "0",
         "commentCount": "372"
       }
@@ -7508,7 +7629,7 @@
     },
     "7Qa2D8oubMY": {
       "kind": "youtube#video",
-      "etag": "WcHKKYO-BphrFTA6fAHNC6few3E",
+      "etag": "SdIIbeT_s_TLQ4Txj1cMubUXBPo",
       "id": "7Qa2D8oubMY",
       "snippet": {
         "publishedAt": "2021-04-15T15:41:14Z",
@@ -7585,7 +7706,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7245",
+        "viewCount": "7246",
         "likeCount": "384",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -8390,6 +8511,82 @@
         "commentCount": "8"
       }
     },
+    "hhidgFiYKtc": {
+      "kind": "youtube#video",
+      "etag": "S4WCUb4KZIIKbl0soTD3sLraSlM",
+      "id": "hhidgFiYKtc",
+      "snippet": {
+        "publishedAt": "2026-07-04T00:21:01Z",
+        "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
+        "title": "＃戸定梨香生誕祭2026 【歌って踊る3Dライブ】ありがとう🎂🎂🎂",
+        "description": "【ゲスト出演】\n🥜なっつぐるめちゃん\nX：https://x.com/nut_gurume\nYouTube：https://www.youtube.com/@UCMiwJFLKP2rw1aLIAmqj9bQ \n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 ASE（VASE）\nhttps://www.vase.tokyo/\n\nASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hhidgFiYKtc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hhidgFiYKtc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hhidgFiYKtc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hhidgFiYKtc/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hhidgFiYKtc/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "戸定梨香【ASE】千葉県ご当地VTuber",
+        "tags": [
+          "戸定梨香",
+          "生誕",
+          "3Dライブ",
+          "アイドル",
+          "とじょりん",
+          "とじょみん",
+          "ご当地",
+          "千葉県",
+          "松戸市",
+          "idol",
+          "japan",
+          "VTunber"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ja",
+        "localized": {
+          "title": "＃戸定梨香生誕祭2026 【歌って踊る3Dライブ】ありがとう🎂🎂🎂",
+          "description": "【ゲスト出演】\n🥜なっつぐるめちゃん\nX：https://x.com/nut_gurume\nYouTube：https://www.youtube.com/@UCMiwJFLKP2rw1aLIAmqj9bQ \n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 ASE（VASE）\nhttps://www.vase.tokyo/\n\nASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖"
+        },
+        "defaultAudioLanguage": "ja"
+      },
+      "contentDetails": {
+        "duration": "PT1H7M",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "363",
+        "likeCount": "140",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
     "upIxt7xtdFY": {
       "kind": "youtube#video",
       "etag": "TxBC3yYd4iL6KsMsLtg7QHVvAsI",
@@ -8622,7 +8819,7 @@
     },
     "YvryxRx8Mdg": {
       "kind": "youtube#video",
-      "etag": "CI0kw_XG_EPXJJBpenBsPUv3awk",
+      "etag": "_BKA_UeRpUurQc8tV6xyVIxYVCY",
       "id": "YvryxRx8Mdg",
       "snippet": {
         "publishedAt": "2026-04-16T13:00:06Z",
@@ -8713,7 +8910,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "705",
+        "viewCount": "708",
         "likeCount": "114",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -8860,7 +9057,7 @@
     },
     "rRZ2UbyetRQ": {
       "kind": "youtube#video",
-      "etag": "GTIiOJ8_ZgfPLZyeATJKqSAZruk",
+      "etag": "YQupbfdH5hQcwqlIfcnwGjkkMRg",
       "id": "rRZ2UbyetRQ",
       "snippet": {
         "publishedAt": "2026-03-12T12:00:06Z",
@@ -8930,7 +9127,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1494",
+        "viewCount": "1495",
         "likeCount": "90",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -9767,7 +9964,7 @@
     },
     "Ov0uQA-ux0c": {
       "kind": "youtube#video",
-      "etag": "W2xdvhpiw2L_7y-Ur_Y4QXGz3jU",
+      "etag": "0-bzIz8A_LKj7VERePYEjttRZCA",
       "id": "Ov0uQA-ux0c",
       "snippet": {
         "publishedAt": "2025-04-15T01:52:44Z",
@@ -9839,7 +10036,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "14662",
+        "viewCount": "14669",
         "likeCount": "334",
         "favoriteCount": "0",
         "commentCount": "15"
