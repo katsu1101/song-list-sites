@@ -3,7 +3,7 @@
     "module": "esnext", // ✅ 'esnext' に変更 (または 'es2020' も可)
     "target": "esnext", // ✅ 'esnext' を指定
     "jsx": "react-jsx", // ✅ Next.js に適した設定
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "outDir": "dist", // ✅ コンパイル後の出力先
     "lib": [
       "dom",
