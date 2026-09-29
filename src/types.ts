@@ -46,6 +46,7 @@ export type SongInfo = {
   opEd?: string;       // OP/ED区分
   Length?: string;      // 曲の長さ
   YouTubeMusic?: string; // YouTube MusicのURL
+  AppleMusic?: string;    // Apple MusicのURL
 };
 
 /**
