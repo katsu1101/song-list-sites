@@ -149,6 +149,22 @@ const SongInfoModal: React.FC<{
               </td>
             </tr>
           )}
+
+          {song.info?.YouTubeMusic && (
+            <tr className="border-b border-gray-300 dark:border-gray-600">
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">YouTube Music</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                <a
+                  href={song.info.YouTubeMusic}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
+                >
+                  {song.info.YouTubeMusic}
+                </a>
+              </td>
+            </tr>
+          )}
           </tbody>
         </table>
 

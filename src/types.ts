@@ -44,6 +44,8 @@ export type SongInfo = {
   arranger?: string;   // 編曲
   work?: string;       // 作品名
   opEd?: string;       // OP/ED区分
+  Length?: string;      // 曲の長さ
+  YouTubeMusic?: string; // YouTube MusicのURL
 };
 
 /**

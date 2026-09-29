@@ -124,6 +124,16 @@ const VideoCard: React.FC<{
                 <GenreBadge genre={song.info?.genre} onClick={handleGenreClick} />
                 <OpEdBadge opEd={song.info?.opEd || ""} onClick={handleGenreClick} />
 
+                {song.info?.YouTubeMusic && (
+                  <a
+                    href={song.info.YouTubeMusic}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
+                  >
+                    ♪
+                  </a>
+                )}
                 {/*{songCountBadge} /!* 歌数バッジをここに配置 *!/*/}
               </span>
 
