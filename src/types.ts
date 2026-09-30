@@ -50,6 +50,7 @@ export type SongInfo = {
   Spotify?: string;       // SpotifyのURL
   LineMusic?: string;     // Line MusicのURL
   AmazonMusic?: string;   // Amazon MusicのURL
+  Mora?: string;          // MoraのURL
 };
 
 /**

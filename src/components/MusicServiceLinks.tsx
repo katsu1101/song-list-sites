@@ -62,6 +62,17 @@ const MusicServiceLinks = ({ isSingingVideo, songInfo, videoID }: { isSingingVid
              alt="Amazon Music" width="48"/>
       </a>
     )}
+    {songInfo.Mora && (
+      <a
+        href={songInfo.Mora}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-2 text-purple-500 hover:text-purple-700 dark:hover:text-purple-300"
+      >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Mora_%E3%83%A2%E3%83%BC%E3%83%A9.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+             alt="Mora" width="48"/>
+      </a>
+    )}
 </>
 }
 
