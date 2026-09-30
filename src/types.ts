@@ -47,6 +47,9 @@ export type SongInfo = {
   Length?: string;      // 曲の長さ
   YouTubeMusic?: string; // YouTube MusicのURL
   AppleMusic?: string;    // Apple MusicのURL
+  Spotify?: string;       // SpotifyのURL
+  LineMusic?: string;     // Line MusicのURL
+  AmazonMusic?: string;   // Amazon MusicのURL
 };
 
 /**

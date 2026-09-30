@@ -1,4 +1,5 @@
 import GenreBadge                  from "@/components/GenreBadge";
+import MusicServiceLinks           from "@/components/MusicServiceLinks";
 import OpEdBadge                            from "@/components/OpEdBadge";
 import SongInfoModal from "@/components/SongInfoModal";
 import YTVideoInfoModal from "@/components/YTVideoInfoModal";
@@ -126,28 +127,11 @@ const VideoCard: React.FC<{
 
                 {/*{songCountBadge} /!* 歌数バッジをここに配置 *!/*/}
 
-                {(isSingingVideo || song.info?.YouTubeMusic) && (
-                  <a
-                    href={isSingingVideo
-                      ? `https://music.youtube.com/watch?v=${videoData?.id}`
-                      : song.info?.YouTubeMusic}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-4 text-red-500 hover:text-red-700 dark:hover:text-red-300"
-                  >
-                    ▶
-                  </a>
-                )}
-                {song.info?.AppleMusic && (
-                  <a
-                    href={song.info.AppleMusic}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-4 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
-                  >
-                    🍎
-                  </a>
-                )}
+                <MusicServiceLinks
+                  isSingingVideo={isSingingVideo}
+                  songInfo={song.info}
+                  videoID={videoData?.id}
+                />
               </span>
 
               {/* 歌の詳細情報（モーダル風） */}
