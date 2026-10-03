@@ -1,5 +1,6 @@
 import GenreBadge                  from "@/components/GenreBadge";
-import MusicServiceLinks           from "@/components/MusicServiceLinks";
+import {MusicServiceLinks}         from "@/components/MusicServiceLinks";
+
 import OpEdBadge                            from "@/components/OpEdBadge";
 import SongInfoModal from "@/components/SongInfoModal";
 import YTVideoInfoModal from "@/components/YTVideoInfoModal";

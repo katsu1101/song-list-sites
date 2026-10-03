@@ -1,79 +1,53 @@
-import {SongInfo} from "@/types";
-import React      from "react";
+import {SongInfo, STREAMING_SERVICES, StreamingServiceKey} from "@/types";
 
-const MusicServiceLinks = ({ isSingingVideo, songInfo, videoID }: { isSingingVideo:boolean, songInfo?: SongInfo, videoID?: string }) => {
+export const MusicServiceLinks = ({
+                                    isSingingVideo,
+                                    songInfo,
+                                    videoID,
+                                  }: {
+  isSingingVideo: boolean;
+  songInfo?: SongInfo;
+  videoID?: string;
+}) => {
   if (!songInfo) return null;
-  return <>
-    {(isSingingVideo || songInfo.YouTubeMusic) && (
-      <a
-        href={isSingingVideo
-          ? `https://music.youtube.com/watch?v=${videoID}`
-          : songInfo.YouTubeMusic}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-4 text-red-500 hover:text-red-700 dark:hover:text-red-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/YouTube_Music_icon_2024.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="YouTube Music" width="24"/>
-      </a>
-    )}
 
-    {songInfo.AppleMusic && (
-      <a
-        href={songInfo.AppleMusic}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-4 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Apple_Music_icon_iOS_26.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="Apple Music" width="24"/>
-      </a>
-    )}
-    {songInfo.Spotify && (
-      <a
-        href={songInfo.Spotify}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-4 text-green-500 hover:text-green-700 dark:hover:text-green-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="Spotify" width="24"/>
-      </a>
-    )}
-    {songInfo.LineMusic && (
-      <a
-        href={songInfo.LineMusic}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-4 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LINE_APP_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="Line Music" width="24"/>
-      </a>
-    )}
-    {songInfo.AmazonMusic && (
-      <a
-        href={songInfo.AmazonMusic}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-2 text-orange-500 hover:text-orange-700 dark:hover:text-orange-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Amazonmusic.logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="Amazon Music" width="48"/>
-      </a>
-    )}
-    {songInfo.Mora && (
-      <a
-        href={songInfo.Mora}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="ml-2 text-purple-500 hover:text-purple-700 dark:hover:text-purple-300"
-      >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Mora_%E3%83%A2%E3%83%BC%E3%83%A9.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-             alt="Mora" width="48"/>
-      </a>
-    )}
-</>
-}
+  // マスタのエントリ一覧を取得
+  const services = Object.entries(STREAMING_SERVICES) as [
+    StreamingServiceKey,
+    (typeof STREAMING_SERVICES)[StreamingServiceKey]
+  ][];
 
-export default MusicServiceLinks;
+  return (
+    <div className="flex items-center">
+      {services.map(([key, service]) => {
+        // 1. 各サービスごとの URL 決定ロジック
+        let url = songInfo.streaming?.[key];
+
+        // YouTubeMusic の場合の特殊ルール処理
+        if (key === "YouTubeMusic" && isSingingVideo && videoID) {
+          url = `https://music.youtube.com/watch?v=${videoID}`;
+        }
+
+        // URLが存在しない場合は非表示（レンダリングしない）
+        if (!url || service.icon === "") return null;
+
+        return (
+          <a
+            key={key}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-3 hover:opacity-80 transition-opacity"
+            title={service.title}
+          >
+            <img
+              src={service.icon}
+              alt={service.title}
+              className="h-5 ml-1 object-contain"
+            />
+          </a>
+        );
+      })}
+    </div>
+  );
+};

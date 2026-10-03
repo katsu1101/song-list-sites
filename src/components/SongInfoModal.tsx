@@ -1,7 +1,7 @@
 import GenreBadge                   from "@/components/GenreBadge";
-import OpEdBadge                    from "@/components/OpEdBadge";
-import {Song}                       from "@/types";
-import React, { useRef, useEffect } from "react";
+import OpEdBadge                                       from "@/components/OpEdBadge";
+import {Song, STREAMING_SERVICES, StreamingServiceKey} from "@/types";
+import React, { useRef, useEffect }                    from "react";
 import { Search }                   from "lucide-react"; // アイコンをインポート（lucide-reactを使用）
 import { X } from "lucide-react"; // アイコンをインポート
 
@@ -33,6 +33,12 @@ const SongInfoModal: React.FC<{
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [onClose]);
+
+  // マスタのエントリ一覧を取得
+  const services = Object.entries(STREAMING_SERVICES) as [
+    StreamingServiceKey,
+    (typeof STREAMING_SERVICES)[StreamingServiceKey]
+  ][];
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 p-4">
@@ -149,39 +155,39 @@ const SongInfoModal: React.FC<{
               </td>
             </tr>
           )}
+          {song.info?.streaming && (
+            <tr className="border-b border-gray-300 dark:border-gray-600">
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">配信サービス</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100 flex flex-wrap gap-x-4 gap-y-1">
 
-          {song.info?.YouTubeMusic && (
-            <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">YouTube Music</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">
-                <a
-                  href={song.info.YouTubeMusic}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
-                >
-                  {song.info.YouTubeMusic}
-                </a>
+                {services.map(([key, service]) => {
+                  // URLが存在しない場合は非表示（レンダリングしない）
+                  const url = song.info?.streaming?.[key];
+                  if (!url) return null;
+
+                  return (
+                    <a
+                      key={key}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mr-4 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300 flex items-center"
+                    >
+                      <img
+                        hidden={service.icon === ""}
+                        src={service.icon}
+                        alt={service.title}
+                        className="h-5 ml-2 mr-1 object-contain"
+                      />
+                      {service.title}
+                    </a>
+                  );
+                })}
               </td>
             </tr>
           )}
-          {song.info?.AppleMusic && (
-            <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">Apple Music</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">
-                <a
-                  href={song.info.AppleMusic}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-300"
-                >
-                  {song.info.AppleMusic}
-                </a>
-              </td>
-            </tr>
-          )}
-          </tbody>
-        </table>
+        </tbody>
+      </table>
 
         <button
           className="mt-4 w-full px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700 focus:outline-none transition-colors"

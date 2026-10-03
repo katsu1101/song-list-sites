@@ -31,6 +31,85 @@ export type Genre =
   | "ガンダム"
   | "市民の歌";
 
+export type Streaming = {
+  title: string;        // 曲名
+  YouTubeMusic?: string; // YouTube MusicのURL
+  AppleMusic?: string;   // Apple MusicのURL
+  Spotify?: string;      // SpotifyのURL
+  LineMusic?: string;    // Line MusicのURL
+  AmazonMusic?: string;  // Amazon MusicのURL
+  Mora?: string;         // MoraのURL
+  YouTube?: string;      // YouTubeのURL
+  musicjp?: string;      // music.jpのURL
+  mysound?: string;      // mysoundのURL
+  OTOTOY?: string;       // OTOTOYのURL
+  orimyu?: string;       // オリミュウストアのURL
+  KKBOX?: string;        // KKBOXのURL
+  uta573?: string;       // 着信★うた♪のURL
+};
+
+export interface StreamingServiceDetail {
+  title: string;
+  icon: string;
+}
+
+export const STREAMING_SERVICES = {
+  YouTubeMusic: {
+    title: "YouTube Music",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/d/d8/YouTubeMusic_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  AppleMusic: {
+    title: "Apple Music",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  Spotify: {
+    title: "Spotify",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  LineMusic: {
+    title: "Line Music",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/9/92/LINE_APP_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  AmazonMusic: {
+    title: "Amazon Music",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Stacked_Amazon_Music_CharcoalOnCyan_Circle_RGB.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  Mora: {
+    title: "Mora",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Mora_%E3%83%A2%E3%83%BC%E3%83%A9.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  YouTube: {
+    title: "YouTube",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/6/62/YouTube_social_white_square_%282024%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  musicjp: {
+    title: "music.jp",
+    icon: ""
+  },
+  mysound: {
+    title: "mysound",
+    icon: ""
+  },
+  OTOTOY: {
+    title: "OTOTOY",
+    icon: ""
+  },
+  orimyu: {
+    title: "オリミュウストア",
+    icon: ""
+  },
+  KKBOX: {
+    title: "KKBOX",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/c/ca/KKBOX_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  uta573: {
+    title: "着信★うた♪",
+    icon: ""
+  }
+} as const;
+
+export type StreamingServiceKey = keyof typeof STREAMING_SERVICES;
+
 /**
  * 曲情報
  */
@@ -45,12 +124,7 @@ export type SongInfo = {
   work?: string;       // 作品名
   opEd?: string;       // OP/ED区分
   Length?: string;      // 曲の長さ
-  YouTubeMusic?: string; // YouTube MusicのURL
-  AppleMusic?: string;    // Apple MusicのURL
-  Spotify?: string;       // SpotifyのURL
-  LineMusic?: string;     // Line MusicのURL
-  AmazonMusic?: string;   // Amazon MusicのURL
-  Mora?: string;          // MoraのURL
+  streaming?: Partial<Record<StreamingServiceKey, string>>; // ストリーミングサービス情報
 };
 
 /**

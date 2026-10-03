@@ -1,13 +1,13 @@
 "use client";
 
-import {ImageLogo}                    from "@/components/ImageLogo";
-import {ImageX}                       from "@/components/ImageX";
-import Menu                           from "@/components/Menu";
-import {SessionVideos}                from "@/components/SessionVideos";
-import {filterSongs, linkUrl}         from "@/lib/constants";
-import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
-import {siteConfig}                   from "@/site";
-import {Song, SongInfo, YouTubeVideo} from "@/types";
+import {ImageLogo}                                                             from "@/components/ImageLogo";
+import {ImageX}                                                                from "@/components/ImageX";
+import Menu                                                                    from "@/components/Menu";
+import {SessionVideos}                                                         from "@/components/SessionVideos";
+import {filterSongs, linkUrl}                                                  from "@/lib/constants";
+import {checkVersionAndUpdateCache}                                            from "@/lib/versionChecker";
+import {siteConfig}                                                            from "@/site";
+import {Song, SongInfo, STREAMING_SERVICES, StreamingServiceKey, YouTubeVideo} from "@/types";
 
 import {useSearchParams}     from "next/navigation";
 import Papa                  from "papaparse";
@@ -56,31 +56,78 @@ export default function Home() {
     const checkVersion = async () => {
       await checkVersionAndUpdateCache();
     };
-    checkVersion();
+    checkVersion()
+      .then(_ => console.log("Version check completed"))
+      .catch(e => console.error("Version check failed:", e));
   }, []);
 
   useEffect(() => {
     const fetchSongInfo = async () => {
       try {
-        const res = await fetch(`${basePath}/songinfo.csv`);
-        const csvText = await res.text();
-        const {data}: { data: SongInfo[] } = Papa.parse(csvText, {
+        // 1. 2つのCSVを同時に安全に取得する
+        const [songInfoRes, streamingRes] = await Promise.all([
+          fetch(`${basePath}/songinfo.csv`),
+          fetch(`${basePath}/streaming_list.csv`),
+        ]);
+
+        const [songInfoCsv, streamingCsv] = await Promise.all([
+          songInfoRes.text(),
+          streamingRes.text(),
+        ]);
+
+        // 2. CSVをパース
+        const {data: songData} = Papa.parse<SongInfo>(songInfoCsv, {
           header: true,
           skipEmptyLines: true,
         });
 
-        const songInfoObj: Record<string, SongInfo> = {};
-        data.forEach((info) => {
-          songInfoObj[info.title] = info;
+        const {data: streamingData} = Papa.parse<Record<string, string>>(streamingCsv, {
+          header: true,
+          skipEmptyLines: true,
         });
 
+        // 3. 基本となる songInfoObj を作成
+        const songInfoObj: Record<string, SongInfo> = {};
+        songData.forEach((info) => {
+          if (info.title) {
+            songInfoObj[info.title] = {
+              ...info,
+              streaming: {}, // 初期化
+            };
+          }
+        });
+
+        // 4. streaming_list.csv のデータをマスタキーと照合しながら統合
+        streamingData.forEach((row) => {
+          const title = row.title;
+          if (!title || !songInfoObj[title]) return;
+
+          const streamingMap: Partial<Record<StreamingServiceKey, string>> = {};
+
+          // マスタ（STREAMING_SERVICES）に存在するキーのみを取り出して整理
+          Object.keys(STREAMING_SERVICES).forEach((key) => {
+            const serviceKey = key as StreamingServiceKey;
+            const url = row[serviceKey];
+            // 空文字や空白を除外して格納
+            if (url && url.trim() !== "") {
+              streamingMap[serviceKey] = url.trim();
+            }
+          });
+
+          // 整理したストリーミングURL情報を格納
+          songInfoObj[title].streaming = streamingMap;
+        });
+
+        // 5. データの統合完了後に State 更新
         setSongInfoMap(songInfoObj);
+        console.log("All song data successfully loaded");
+
       } catch (error) {
-        console.error("Failed to load songinfo.csv:", error);
+        console.error("Failed to load song info or streaming list:", error);
       }
     };
 
-    fetchSongInfo();
+    fetchSongInfo().then(() => console.log("Song info fetch completed")).catch(e => console.error("Song info fetch failed:", e));
   }, []);
 
   useEffect(() => {
@@ -109,7 +156,8 @@ export default function Home() {
       }
     };
 
-    fetchSongs();
+    fetchSongs().catch(e => console.error("Failed to fetch songs:", e));
+
   }, [songInfoMap]);
 
   useEffect(() => {
@@ -192,7 +240,7 @@ export default function Home() {
             <div>
               {/* AddToAny のシェアボタンコンテナ */}
               <div title="検索結果をXでポスト！">
-                <a  href={linkUrl(searchQuery)} target="_blank">
+                <a href={linkUrl(searchQuery)} target="_blank">
                   <ImageX/>
                 </a>
               </div>
