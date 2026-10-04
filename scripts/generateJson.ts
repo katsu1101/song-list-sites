@@ -8,6 +8,8 @@ const SONG_LIST_URL1 = "https://kicku-tw.blogspot.com/2025/03/2.html"
 // const SONG_LIST_URL2 = "https://kicku-tw.blogspot.com/2023/06/youtube02.html#more"
 const SONG_LIST_URL2 = "https://kicku-tw.blogspot.com/2025/03/blog-post.html"
 
+const SONG_LIST_URL3 = "https://kicku-tw.blogspot.com/2026/10/youtube-music.html"
+
 const LINK_LIST_URL = "https://kicku-tw.blogspot.com/p/blog-page_27.html"
 
 const site = "linca";
@@ -23,12 +25,13 @@ updateDataVersion();
 
 async function generateJson() {
 
-  const [data1, data2] = await Promise.all([
+  const [data1, data2, data3] = await Promise.all([
     scrapeSongList(SONG_LIST_URL1, 1),
-    scrapeSongList(SONG_LIST_URL2, 2)
+    scrapeSongList(SONG_LIST_URL2, 2),
+    scrapeSongList(SONG_LIST_URL3, 2)
   ]);
 
-  const songs = [...data1, ...data2]
+  const songs = [...data1, ...data3, ...data2]
 
   // ✅ videoId のユニークな一覧を取得
   const videoIds = [...new Set(songs.map(song => song.videoId))];
