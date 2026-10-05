@@ -1,16 +1,9 @@
-import * as fs                                       from "fs";
-import path                                          from "path";
-import {fetchVideos, scrapeLinkList, scrapeSongList} from "./lib/scraper";
+import * as fs                                                               from "fs";
+import path                                                                            from "path";
+import {fetchCsv, fetchVideos,  scrapeSongList} from "./lib/scraper";
+import { loadEnvConfig }                                                               from "@next/env";
 
-
-// const SONG_LIST_URL1 = "https://kicku-tw.blogspot.com/2023/06/youtube01.html#more"
-const SONG_LIST_URL1 = "https://kicku-tw.blogspot.com/2025/03/2.html"
-// const SONG_LIST_URL2 = "https://kicku-tw.blogspot.com/2023/06/youtube02.html#more"
-const SONG_LIST_URL2 = "https://kicku-tw.blogspot.com/2025/03/blog-post.html"
-
-const SONG_LIST_URL3 = "https://kicku-tw.blogspot.com/2026/10/youtube-music.html"
-
-const LINK_LIST_URL = "https://kicku-tw.blogspot.com/p/blog-page_27.html"
+loadEnvConfig(process.cwd());
 
 const site = "linca";
 const dataVersionPath = path.join(process.cwd(), `public/${site}`, "data-version.json");
@@ -25,32 +18,29 @@ updateDataVersion();
 
 async function generateJson() {
 
+  // 歌リストデータをwebページから読み込む
   const [data1, data2, data3] = await Promise.all([
-    scrapeSongList(SONG_LIST_URL1, 1),
-    scrapeSongList(SONG_LIST_URL2, 2),
-    scrapeSongList(SONG_LIST_URL3, 2)
+    scrapeSongList(process.env.SONG_LIST_URL1 ?? "", 1),
+    scrapeSongList(process.env.SONG_LIST_URL2 ?? "", 2),
+    scrapeSongList(process.env.SONG_LIST_URL3 ?? "", 3)
   ]);
-
   const songs = [...data1, ...data3, ...data2]
 
-  // ✅ videoId のユニークな一覧を取得
+  // YouTubeの動画情報を取得
   const videoIds = [...new Set(songs.map(song => song.videoId))];
-
   const videos = await fetchVideos(videoIds)
-
   const data = {songs: songs, videos: videos};
-
-  // ✅ `public/songs.json` に保存
-  const filePath = path.join(process.cwd(), `public/${site}`, "songs.json");
+  const filePath = path.join(process.cwd(), "public", site, "songs.json");
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 
-  // Link List
-  const linkList = await scrapeLinkList(LINK_LIST_URL)
+  // 歌情報CSVを取得して保存
+  const songList =
+    await fetchCsv(process.env.SONG_LIST_SHEET_ID ?? "", process.env.SONG_LIST_GID ?? "0")
+  fs.writeFileSync(path.join(process.cwd(), "public", "songinfo.csv"), songList);
 
-  // const res = await fetch();
-  // const csvText = await res.text();
-  const filePath2 = path.join(process.cwd(), `public/${site}`, "linkList.json");
-  fs.writeFileSync(filePath2, JSON.stringify(linkList, null, 2));
+  const streamingList =
+    await fetchCsv(process.env.SONG_LIST_SHEET_ID ?? "", process.env.STREAMING_LIST_GID ?? "0")
+  fs.writeFileSync(path.join(process.cwd(), "public", "streaming_list.csv"), streamingList);
 
   console.log("✅ songs.json has been generated!");
 }

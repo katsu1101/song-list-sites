@@ -259,3 +259,15 @@ export function scrapeSongListFromText(text: string, source: number): Song[] {
 
   return songs;
 }
+
+
+// 単一のシートからCSVを取得して保存する関数
+export async function fetchCsv(sheetId: string, gid: string) {
+  const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv&gid=${gid}`;
+
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`(GID: ${gid}) の取得に失敗しました: ${res.status}`);
+  }
+  return await res.text();
+}

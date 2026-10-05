@@ -105,6 +105,10 @@ export const STREAMING_SERVICES = {
   uta573: {
     title: "着信★うた♪",
     icon: ""
+  },
+  AWA: {
+    title: "AWA",
+    icon: ""
   }
 } as const;
 

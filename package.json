@@ -5,21 +5,19 @@
   "scripts": {
     "dev:linca": "cross-env NEXT_PUBLIC_SITE_ID=linca next dev --webpack",
     "dev:reshra": "cross-env NEXT_PUBLIC_SITE_ID=reshra next dev --webpack",
-
     "generate:json": "pnpm exec ts-node -P tsconfig.scripts.json scripts/generateJson.ts",
-
     "build:linca": "cross-env NODE_ENV=production SITE_ID=linca NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou next build --webpack",
     "build:reshra": "cross-env NODE_ENV=production SITE_ID=reshra NEXT_PUBLIC_BASE_PATH=/song-list-reshra-hanamaki next build --webpack",
-
     "test": "jest"
   },
   "dependencies": {
+    "@next/env": "^16.3.8",
     "@next/third-parties": "^16.1.1",
     "@nuxtjs/tailwindcss": "^6.13.1",
-    "axios": "1.15.0",
+    "axios": "1.20.0",
     "dotenv": "^16.4.7",
     "lucide-react": "^0.477.0",
-    "next": "16.2.3",
+    "next": "16.4.0-canary.39",
     "next-pwa": "^5.6.0",
     "next-seo": "^6.6.0",
     "papaparse": "^5.5.2",
@@ -41,7 +39,7 @@
     "gh-pages": "^6.3.0",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
-    "postcss": "8.5.10",
+    "postcss": "8.5.23",
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",

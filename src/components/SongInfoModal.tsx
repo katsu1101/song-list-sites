@@ -173,12 +173,13 @@ const SongInfoModal: React.FC<{
                       rel="noopener noreferrer"
                       className="mr-4 text-blue-500 hover:text-blue-700 dark:hover:text-blue-300 flex items-center"
                     >
-                      <img
-                        hidden={service.icon === ""}
-                        src={service.icon}
-                        alt={service.title}
-                        className="h-5 ml-2 mr-1 object-contain"
-                      />
+                      {service.icon !== "" && (
+                        <img
+                          src={service.icon}
+                          alt={service.title}
+                          className="h-5 ml-2 mr-1 object-contain"
+                        />
+                      )}
                       {service.title}
                     </a>
                   );
